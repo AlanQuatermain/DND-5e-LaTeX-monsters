@@ -171,7 +171,7 @@ The `wotc` option adds the following to the content of `wotcbase`:
 | -------- | -------- |
 | `erftlw` | Eberron: Rising from the Last War |
 | `egtw` | Explorer's Guide to Wildemount |
-| `gtr` | Guildmaster's Guide to Ravnica |
+| `ggtr` | Guildmaster's Guide to Ravnica |
 | `moot` | Mythic Oddyseys of Theros |
 
 #### M:TG Crossover Settings
