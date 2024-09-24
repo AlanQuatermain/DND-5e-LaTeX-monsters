@@ -1,0 +1,3357 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Monster Manual
+
+\NewDocumentCommand { \DndAarakocra } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Aarakocra #2} ~ }
+    { \textbf{aarakocra #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 12 )
+}
+
+\NewDocumentCommand { \DndAboleth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Aboleth #2} ~ }
+    { \textbf{aboleth #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 13 )
+}
+
+\NewDocumentCommand { \DndAbominableYeti } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Abominable~yeti #2} ~ }
+    { \textbf{abominable~yeti #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 306 )
+}
+
+\NewDocumentCommand { \DndAcererak } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Acererak #2} ~ }
+    { \textbf{acererak #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 48 )
+}
+
+\NewDocumentCommand { \DndAcolyte } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Acolyte #2} ~ }
+    { \textbf{acolyte #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 342 )
+}
+
+\NewDocumentCommand { \DndAdultBlackDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adult~black~dragon #2} ~ }
+    { \textbf{adult~black~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 88 )
+}
+
+\NewDocumentCommand { \DndAdultBlueDracolich } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adult~blue~dracolich #2} ~ }
+    { \textbf{adult~blue~dracolich #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 84 )
+}
+
+\NewDocumentCommand { \DndAdultBlueDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adult~blue~dragon #2} ~ }
+    { \textbf{adult~blue~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 91 )
+}
+
+\NewDocumentCommand { \DndAdultBrassDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adult~brass~dragon #2} ~ }
+    { \textbf{adult~brass~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 105 )
+}
+
+\NewDocumentCommand { \DndAdultBronzeDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adult~bronze~dragon #2} ~ }
+    { \textbf{adult~bronze~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 108 )
+}
+
+\NewDocumentCommand { \DndAdultCopperDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adult~copper~dragon #2} ~ }
+    { \textbf{adult~copper~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 111 )
+}
+
+\NewDocumentCommand { \DndAdultGoldDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adult~gold~dragon #2} ~ }
+    { \textbf{adult~gold~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 114 )
+}
+
+\NewDocumentCommand { \DndAdultGreenDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adult~green~dragon #2} ~ }
+    { \textbf{adult~green~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 94 )
+}
+
+\NewDocumentCommand { \DndAdultRedDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adult~red~dragon #2} ~ }
+    { \textbf{adult~red~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 98 )
+}
+
+\NewDocumentCommand { \DndAdultSilverDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adult~silver~dragon #2} ~ }
+    { \textbf{adult~silver~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 117 )
+}
+
+\NewDocumentCommand { \DndAdultWhiteDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adult~white~dragon #2} ~ }
+    { \textbf{adult~white~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 101 )
+}
+
+\NewDocumentCommand { \DndAirElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Air~elemental #2} ~ }
+    { \textbf{air~elemental #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 124 )
+}
+
+\NewDocumentCommand { \DndAllosaurus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Allosaurus #2} ~ }
+    { \textbf{allosaurus #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 79 )
+}
+
+\NewDocumentCommand { \DndAncientBlackDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ancient~black~dragon #2} ~ }
+    { \textbf{ancient~black~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 87 )
+}
+
+\NewDocumentCommand { \DndAncientBlueDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ancient~blue~dragon #2} ~ }
+    { \textbf{ancient~blue~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 90 )
+}
+
+\NewDocumentCommand { \DndAncientBrassDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ancient~brass~dragon #2} ~ }
+    { \textbf{ancient~brass~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 104 )
+}
+
+\NewDocumentCommand { \DndAncientBronzeDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ancient~bronze~dragon #2} ~ }
+    { \textbf{ancient~bronze~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 107 )
+}
+
+\NewDocumentCommand { \DndAncientCopperDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ancient~copper~dragon #2} ~ }
+    { \textbf{ancient~copper~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 110 )
+}
+
+\NewDocumentCommand { \DndAncientGoldDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ancient~gold~dragon #2} ~ }
+    { \textbf{ancient~gold~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 113 )
+}
+
+\NewDocumentCommand { \DndAncientGreenDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ancient~green~dragon #2} ~ }
+    { \textbf{ancient~green~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 93 )
+}
+
+\NewDocumentCommand { \DndAncientRedDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ancient~red~dragon #2} ~ }
+    { \textbf{ancient~red~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 97 )
+}
+
+\NewDocumentCommand { \DndAncientSilverDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ancient~silver~dragon #2} ~ }
+    { \textbf{ancient~silver~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 116 )
+}
+
+\NewDocumentCommand { \DndAncientWhiteDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ancient~white~dragon #2} ~ }
+    { \textbf{ancient~white~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 100 )
+}
+
+\NewDocumentCommand { \DndAndrosphinx } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Androsphinx #2} ~ }
+    { \textbf{androsphinx #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 281 )
+}
+
+\NewDocumentCommand { \DndAnimatedArmor } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Animated~armor #2} ~ }
+    { \textbf{animated~armor #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 19 )
+}
+
+\NewDocumentCommand { \DndAnkheg } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ankheg #2} ~ }
+    { \textbf{ankheg #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 21 )
+}
+
+\NewDocumentCommand { \DndAnkylosaurus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ankylosaurus #2} ~ }
+    { \textbf{ankylosaurus #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 79 )
+}
+
+\NewDocumentCommand { \DndApe } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ape #2} ~ }
+    { \textbf{ape #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 317 )
+}
+
+\NewDocumentCommand { \DndArcanaloth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Arcanaloth #2} ~ }
+    { \textbf{arcanaloth #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 313 )
+}
+
+\NewDocumentCommand { \DndArchmage } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Archmage #2} ~ }
+    { \textbf{archmage #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 342 )
+}
+
+\NewDocumentCommand { \DndAssassin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Assassin #2} ~ }
+    { \textbf{assassin #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 343 )
+}
+
+\NewDocumentCommand { \DndAwakenedShrub } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Awakened~shrub #2} ~ }
+    { \textbf{awakened~shrub #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 317 )
+}
+
+\NewDocumentCommand { \DndAwakenedTree } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Awakened~tree #2} ~ }
+    { \textbf{awakened~tree #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 317 )
+}
+
+\NewDocumentCommand { \DndAxeBeak } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Axe~beak #2} ~ }
+    { \textbf{axe~beak #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 317 )
+}
+
+\NewDocumentCommand { \DndAzer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Azer #2} ~ }
+    { \textbf{azer #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 22 )
+}
+
+\NewDocumentCommand { \DndBaboon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Baboon #2} ~ }
+    { \textbf{baboon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 318 )
+}
+
+\NewDocumentCommand { \DndBadger } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Badger #2} ~ }
+    { \textbf{badger #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 318 )
+}
+
+\NewDocumentCommand { \DndBalor } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Balor #2} ~ }
+    { \textbf{balor #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 55 )
+}
+
+\NewDocumentCommand { \DndBandit } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bandit #2} ~ }
+    { \textbf{bandit #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 343 )
+}
+
+\NewDocumentCommand { \DndBanditCaptain } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bandit~captain #2} ~ }
+    { \textbf{bandit~captain #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 244 )
+}
+
+\NewDocumentCommand { \DndBanshee } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Banshee #2} ~ }
+    { \textbf{banshee #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 23 )
+}
+
+\NewDocumentCommand { \DndBarbedDevil } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Barbed~devil #2} ~ }
+    { \textbf{barbed~devil #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 70 )
+}
+
+\NewDocumentCommand { \DndBarlgura } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Barlgura #2} ~ }
+    { \textbf{barlgura #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 56 )
+}
+
+\NewDocumentCommand { \DndBasilisk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Basilisk #2} ~ }
+    { \textbf{basilisk #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 24 )
+}
+
+\NewDocumentCommand { \DndBeardedDevil } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bearded~devil #2} ~ }
+    { \textbf{bearded~devil #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 70 )
+}
+
+\NewDocumentCommand { \DndBehir } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Behir #2} ~ }
+    { \textbf{behir #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 25 )
+}
+
+\NewDocumentCommand { \DndBeholder } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Beholder #2} ~ }
+    { \textbf{beholder #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 28 )
+}
+
+\NewDocumentCommand { \DndBeholderZombie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Beholder~zombie #2} ~ }
+    { \textbf{beholder~zombie #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 316 )
+}
+
+\NewDocumentCommand { \DndBerserker } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Berserker #2} ~ }
+    { \textbf{berserker #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 344 )
+}
+
+\NewDocumentCommand { \DndBlackDragonWyrmling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Black~dragon~wrymling #2} ~ }
+    { \textbf{black~dragon~wrymling #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 88 )
+}
+
+\NewDocumentCommand { \DndBlackPudding } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Black~pudding #2} ~ }
+    { \textbf{black~pudding #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 241 )
+}
+
+\NewDocumentCommand { \DndBlinkDog } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Blink~dog #2} ~ }
+    { \textbf{blink~dog #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 318 )
+}
+
+\NewDocumentCommand { \DndBloodHawk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Blood~hawk #2} ~ }
+    { \textbf{blood~hawk #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 319 )
+}
+
+\NewDocumentCommand { \DndBlueDragonWyrmling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Blue~dragon~wyrmling #2} ~ }
+    { \textbf{blue~dragon~wyrmling #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 91 )
+}
+
+\NewDocumentCommand { \DndBlueFaerieDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Blue~faerie~dragon #2} ~ }
+    { \textbf{blue~faerie~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 133 )
+}
+
+\NewDocumentCommand { \DndBlueSlaad } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Blue~slaad #2} ~ }
+    { \textbf{blue~slaad #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 276 )
+}
+
+\NewDocumentCommand { \DndBoneDevil } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bone~devil #2} ~ }
+    { \textbf{bone~devil #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 71 )
+}
+
+\NewDocumentCommand { \DndBoneNaga } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bone~naga #2} ~ }
+    { \textbf{bone~naga #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 233 )
+}
+
+\NewDocumentCommand { \DndBrassDragonWyrmling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Brass~dragon~wyrmling #2} ~ }
+    { \textbf{brass~dragon~wyrmling #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 106 )
+}
+
+\NewDocumentCommand { \DndBronzeDragonWyrmling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bronze~dragon~wyrmling #2} ~ }
+    { \textbf{bronze~dragon~wyrmling #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 109 )
+}
+
+\NewDocumentCommand { \DndBugbear } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bugbear #2} ~ }
+    { \textbf{bugbear #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 33 )
+}
+
+\NewDocumentCommand { \DndBugbearChief } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bugbear~chief #2} ~ }
+    { \textbf{bugbear~chief #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 33 )
+}
+
+\NewDocumentCommand { \DndBulette } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bulette #2} ~ }
+    { \textbf{bulette #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 34 )
+}
+
+\NewDocumentCommand { \DndBullywug } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bullywug #2} ~ }
+    { \textbf{bullywug #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 35 )
+}
+
+\NewDocumentCommand { \DndCambion } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cambion #2} ~ }
+    { \textbf{cambion #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 36 )
+}
+
+\NewDocumentCommand { \DndCamel } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Camel #2} ~ }
+    { \textbf{camel #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 320 )
+}
+
+\NewDocumentCommand { \DndCarrionCrawler } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Carrion~crawler #2} ~ }
+    { \textbf{carrion~crawler #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 37 )
+}
+
+\NewDocumentCommand { \DndCaveBear } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cave~bear #2} ~ }
+    { \textbf{cave~bear #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 334 )
+}
+
+\NewDocumentCommand { \DndCentaur } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Centaur #2} ~ }
+    { \textbf{centaur #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 38 )
+}
+
+\NewDocumentCommand { \DndChainDevil } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Chain~devil #2} ~ }
+    { \textbf{chain~devil #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 72 )
+}
+
+\NewDocumentCommand { \DndChasme } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Chasme #2} ~ }
+    { \textbf{chasme #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 57 )
+}
+
+\NewDocumentCommand { \DndChimera } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Chimera #2} ~ }
+    { \textbf{chimera #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 39 )
+}
+
+\NewDocumentCommand { \DndChuul } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Chuul #2} ~ }
+    { \textbf{chuul #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 40 )
+}
+
+\NewDocumentCommand { \DndClayGolem } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Clay~golem #2} ~ }
+    { \textbf{clay~golem #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 168 )
+}
+
+\NewDocumentCommand { \DndCloaker } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cloaker #2} ~ }
+    { \textbf{cloaker #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 41 )
+}
+
+\NewDocumentCommand { \DndCloudGiant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cloud~giant #2} ~ }
+    { \textbf{cloud~giant #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 154 )
+}
+
+\NewDocumentCommand { \DndCockatrice } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cockatrice #2} ~ }
+    { \textbf{cockatrice #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 42 )
+}
+
+\NewDocumentCommand { \DndCommoner } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Commoner #2} ~ }
+    { \textbf{commoner #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 345 )
+}
+
+\NewDocumentCommand { \DndCopperDragonWyrmling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Copper~dragon~wyrmling #2} ~ }
+    { \textbf{copper~dragon~wyrmling #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 112 )
+}
+
+\NewDocumentCommand { \DndCouatl } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Couatl #2} ~ }
+    { \textbf{couatl #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 43 )
+}
+
+\NewDocumentCommand { \DndCougar } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cougar #2} ~ }
+    { \textbf{cougar #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 333 )
+}
+
+\NewDocumentCommand { \DndCrab } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Crab #2} ~ }
+    { \textbf{crab #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 320 )
+}
+
+\NewDocumentCommand { \DndCrawlingClaw } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Crawling~claw #2} ~ }
+    { \textbf{crawling~claw #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 44 )
+}
+
+\NewDocumentCommand { \DndCultFanatic } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cult~fanatic #2} ~ }
+    { \textbf{cult~fanatic #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 345 )
+}
+
+\NewDocumentCommand { \DndCultist } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cultist #2} ~ }
+    { \textbf{cultist #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 345 )
+}
+
+\NewDocumentCommand { \DndCyclops } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cyclops #2} ~ }
+    { \textbf{cyclops #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 45 )
+}
+
+\NewDocumentCommand { \DndDao } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dao #2} ~ }
+    { \textbf{dao #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 143 )
+}
+
+\NewDocumentCommand { \DndDarkmantle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Darkmantle #2} ~ }
+    { \textbf{darkmantle #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 46 )
+}
+
+\NewDocumentCommand { \DndDeathDog } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Death~dog #2} ~ }
+    { \textbf{death~dog #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 321 )
+}
+
+\NewDocumentCommand { \DndDeathKnight } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Death~knight #2} ~ }
+    { \textbf{death~knight #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 47 )
+}
+
+\NewDocumentCommand { \DndDeathSlaad } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Death~slaad #2} ~ }
+    { \textbf{death~slaad #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 278 )
+}
+
+\NewDocumentCommand { \DndDeathTyrant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Death~tyrant #2} ~ }
+    { \textbf{death~tyrant #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 29 )
+}
+
+\NewDocumentCommand { \DndDeepGnomeSvirfneblin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Deep~gnome~(svirfneblin) #2} ~ }
+    { \textbf{deep~gnome~(svirfneblin) #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 164 )
+}
+
+\NewDocumentCommand { \DndDeer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Deer #2} ~ }
+    { \textbf{deer #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 321 )
+}
+
+\NewDocumentCommand { \DndDemilich } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Demilich #2} ~ }
+    { \textbf{demilich #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 48 )
+}
+
+\NewDocumentCommand { \DndDeva } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Deva #2} ~ }
+    { \textbf{deva #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 16 )
+}
+
+\NewDocumentCommand { \DndDisplacerBeast } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Displacer~beast #2} ~ }
+    { \textbf{displacer~beast #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 81 )
+}
+
+\NewDocumentCommand { \DndDjinni } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Djinni #2} ~ }
+    { \textbf{djinni #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 144 )
+}
+
+\NewDocumentCommand { \DndDoppleganger } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Doppleganger #2} ~ }
+    { \textbf{doppleganger #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 82 )
+}
+
+\NewDocumentCommand { \DndDraftHorse } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Draft~horse #2} ~ }
+    { \textbf{draft~horse #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 321 )
+}
+
+\NewDocumentCommand { \DndDragonTurtle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dragon~turtle #2} ~ }
+    { \textbf{dragon~turtle #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 119 )
+}
+
+\NewDocumentCommand { \DndDretch } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dretch #2} ~ }
+    { \textbf{dretch #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 57 )
+}
+
+\NewDocumentCommand { \DndDrider } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Drider #2} ~ }
+    { \textbf{drider #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 120 )
+}
+
+\NewDocumentCommand { \DndDrow } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Drow #2} ~ }
+    { \textbf{drow #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 128 )
+}
+
+\NewDocumentCommand { \DndDrowEliteWarrior } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Drow~elite~warrior #2} ~ }
+    { \textbf{drow~elite~warrior #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 128 )
+}
+
+\NewDocumentCommand { \DndDrowMage } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Drow~mage #2} ~ }
+    { \textbf{drow~mage #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 129 )
+}
+
+\NewDocumentCommand { \DndDrowPriestessOfLolth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Drow~priestess~of~lolth #2} ~ }
+    { \textbf{drow~priestess~of~lolth #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 129 )
+}
+
+\NewDocumentCommand { \DndDruid } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Druid #2} ~ }
+    { \textbf{druid #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 346 )
+}
+
+\NewDocumentCommand { \DndDryad } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dryad #2} ~ }
+    { \textbf{dryad #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 121 )
+}
+
+\NewDocumentCommand { \DndDuergar } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Duergar #2} ~ }
+    { \textbf{duergar #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 122 )
+}
+
+\NewDocumentCommand { \DndDuodrone } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Duodrone #2} ~ }
+    { \textbf{duodrone #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 225 )
+}
+
+\NewDocumentCommand { \DndDustMephit } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dust~mephit #2} ~ }
+    { \textbf{dust~mephit #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 215 )
+}
+
+\NewDocumentCommand { \DndEagle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Eagle #2} ~ }
+    { \textbf{eagle #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 322 )
+}
+
+\NewDocumentCommand { \DndEarthElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Earth~elemental #2} ~ }
+    { \textbf{earth~elemental #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 124 )
+}
+
+\NewDocumentCommand { \DndEfreeti } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Efreeti #2} ~ }
+    { \textbf{efreeti #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 145 )
+}
+
+\NewDocumentCommand { \DndElephant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Elephant #2} ~ }
+    { \textbf{elephant #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 322 )
+}
+
+\NewDocumentCommand { \DndElk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Elk #2} ~ }
+    { \textbf{elk #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 322 )
+}
+
+\NewDocumentCommand { \DndEmpyrean } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Empyrean #2} ~ }
+    { \textbf{empyrean #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 130 )
+}
+
+\NewDocumentCommand { \DndErinyes } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Erinyes #2} ~ }
+    { \textbf{erinyes #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 73 )
+}
+
+\NewDocumentCommand { \DndEttercap } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ettercap #2} ~ }
+    { \textbf{ettercap #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 131 )
+}
+
+\NewDocumentCommand { \DndEttin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ettin #2} ~ }
+    { \textbf{ettin #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 132 )
+}
+
+\NewDocumentCommand { \DndFireElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fire~elemental #2} ~ }
+    { \textbf{fire~elemental #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 125 )
+}
+
+\NewDocumentCommand { \DndFireGiant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fire~giant #2} ~ }
+    { \textbf{fire~giant #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 154 )
+}
+
+\NewDocumentCommand { \DndFireSnake } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fire~snake #2} ~ }
+    { \textbf{fire~snake #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 265 )
+}
+
+\NewDocumentCommand { \DndFlameskull } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Flameskull #2} ~ }
+    { \textbf{flameskull #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 134 )
+}
+
+\NewDocumentCommand { \DndFleshGolem } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Flesh~golem #2} ~ }
+    { \textbf{flesh~golem #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 169 )
+}
+
+\NewDocumentCommand { \DndFlumph } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Flumph #2} ~ }
+    { \textbf{flumph #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 135 )
+}
+
+\NewDocumentCommand { \DndFlyingSnake } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Flying~snake #2} ~ }
+    { \textbf{flying~snake #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 322 )
+}
+
+\NewDocumentCommand { \DndFlyingSword } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Flying~sword #2} ~ }
+    { \textbf{flying~sword #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 20 )
+}
+
+\NewDocumentCommand { \DndFomorian } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fomorian #2} ~ }
+    { \textbf{fomorian #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 136 )
+}
+
+\NewDocumentCommand { \DndFrostGiant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Frost~giant #2} ~ }
+    { \textbf{frost~giant #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 155 )
+}
+
+\NewDocumentCommand { \DndGalebDuhr } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Galeb~duhr #2} ~ }
+    { \textbf{galeb~duhr #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 139 )
+}
+
+\NewDocumentCommand { \DndGargoyle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gargoyle #2} ~ }
+    { \textbf{gargoyle #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 140 )
+}
+
+\NewDocumentCommand { \DndGasSpore } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gas~spore #2} ~ }
+    { \textbf{gas~spore #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 138 )
+}
+
+\NewDocumentCommand { \DndGelatinousCube } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gelatinous~cube #2} ~ }
+    { \textbf{gelatinous~cube #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 242 )
+}
+
+\NewDocumentCommand { \DndGhast } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ghast #2} ~ }
+    { \textbf{ghast #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 148 )
+}
+
+\NewDocumentCommand { \DndGhost } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ghost #2} ~ }
+    { \textbf{ghost #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 147 )
+}
+
+\NewDocumentCommand { \DndGhoul } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ghoul #2} ~ }
+    { \textbf{ghoul #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 148 )
+}
+
+\NewDocumentCommand { \DndGiantApe } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~ape #2} ~ }
+    { \textbf{giant~ape #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 323 )
+}
+
+\NewDocumentCommand { \DndGiantBadger } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~badger #2} ~ }
+    { \textbf{giant~badger #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 323 )
+}
+
+\NewDocumentCommand { \DndGiantBat } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~bat #2} ~ }
+    { \textbf{giant~bat #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 323 )
+}
+
+\NewDocumentCommand { \DndGiantBoar } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~boar #2} ~ }
+    { \textbf{giant~boar #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 323 )
+}
+
+\NewDocumentCommand { \DndGiantCentipede } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~centipede #2} ~ }
+    { \textbf{giant~centipede #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 323 )
+}
+
+\NewDocumentCommand { \DndGiantConstrictorSnake } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~constrictor~snake #2} ~ }
+    { \textbf{giant~constrictor~snake #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 324 )
+}
+
+\NewDocumentCommand { \DndGiantCrab } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~crab #2} ~ }
+    { \textbf{giant~crab #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 324 )
+}
+
+\NewDocumentCommand { \DndGiantCrocodile } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~crocodile #2} ~ }
+    { \textbf{giant~crocodile #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 324 )
+}
+
+\NewDocumentCommand { \DndGiantElk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~elk #2} ~ }
+    { \textbf{giant~elk #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 325 )
+}
+
+\NewDocumentCommand { \DndGiantFireBeetle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~fire~beetle #2} ~ }
+    { \textbf{giant~fire~beetle #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 325 )
+}
+
+\NewDocumentCommand { \DndGiantFrog } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~frog #2} ~ }
+    { \textbf{giant~frog #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 325 )
+}
+
+\NewDocumentCommand { \DndGiantGoat } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~goat #2} ~ }
+    { \textbf{giant~goat #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 326 )
+}
+
+\NewDocumentCommand { \DndGiantHyena } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~hyena #2} ~ }
+    { \textbf{giant~hyena #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 326 )
+}
+
+\NewDocumentCommand { \DndGiantLizard } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~lizard #2} ~ }
+    { \textbf{giant~lizard #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 326 )
+}
+
+\NewDocumentCommand { \DndGiantOctopus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~octopus #2} ~ }
+    { \textbf{giant~octopus #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 326 )
+}
+
+\NewDocumentCommand { \DndGiantOwl } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~owl #2} ~ }
+    { \textbf{giant~owl #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 327 )
+}
+
+\NewDocumentCommand { \DndGiantPoisonousSnake } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~poisonous~snake #2} ~ }
+    { \textbf{giant~poisonous~snake #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 327 )
+}
+
+\NewDocumentCommand { \DndGiantRat } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~rat #2} ~ }
+    { \textbf{giant~rat #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 327 )
+}
+
+\NewDocumentCommand { \DndGiantScorpion } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~scorpion #2} ~ }
+    { \textbf{giant~scorpion #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 327 )
+}
+
+\NewDocumentCommand { \DndGiantSeaHorse } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~sea~horse #2} ~ }
+    { \textbf{giant~sea~horse #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 328 )
+}
+
+\NewDocumentCommand { \DndGiantShark } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~shark #2} ~ }
+    { \textbf{giant~shark #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 328 )
+}
+
+\NewDocumentCommand { \DndGiantToad } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~toad #2} ~ }
+    { \textbf{giant~toad #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 329 )
+}
+
+\NewDocumentCommand { \DndGiantVulture } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~vulture #2} ~ }
+    { \textbf{giant~vulture #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 329 )
+}
+
+\NewDocumentCommand { \DndGiantWasp } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~wasp #2} ~ }
+    { \textbf{giant~wasp #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 329 )
+}
+
+\NewDocumentCommand { \DndGiantWeasel } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~weasel #2} ~ }
+    { \textbf{giant~weasel #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 329 )
+}
+
+\NewDocumentCommand { \DndGiantWolfSpider } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~wolf~spider #2} ~ }
+    { \textbf{giant~wolf~spider #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 330 )
+}
+
+\NewDocumentCommand { \DndGibberingMouther } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gibbering~mouther #2} ~ }
+    { \textbf{gibbering~mouther #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 157 )
+}
+
+\NewDocumentCommand { \DndGithyankiKnight } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Githyanki~knight #2} ~ }
+    { \textbf{githyanki~knight #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 160 )
+}
+
+\NewDocumentCommand { \DndGithyankiWarrior } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Githyanki~warrior #2} ~ }
+    { \textbf{githyanki~warrior #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 160 )
+}
+
+\NewDocumentCommand { \DndGithzeraiMonk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Githzerai~monk #2} ~ }
+    { \textbf{githzerai~monk #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 161 )
+}
+
+\NewDocumentCommand { \DndGithzeraiZerth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Githzerai~zerth #2} ~ }
+    { \textbf{githzerai~zerth #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 161 )
+}
+
+\NewDocumentCommand { \DndGlabrezu } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Glabrezu #2} ~ }
+    { \textbf{glabrezu #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 58 )
+}
+
+\NewDocumentCommand { \DndGladiator } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gladiator #2} ~ }
+    { \textbf{gladiator #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 346 )
+}
+
+\NewDocumentCommand { \DndGnoll } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gnoll #2} ~ }
+    { \textbf{gnoll #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 163 )
+}
+
+\NewDocumentCommand { \DndGnollFangOfYeenoghu } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gnoll~fang~of~yeenoghu #2} ~ }
+    { \textbf{gnoll~fang~of~yeenoghu #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 163 )
+}
+
+\NewDocumentCommand { \DndGnollPackLord } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gnoll~pack~lord #2} ~ }
+    { \textbf{gnoll~pack~lord #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 163 )
+}
+
+\NewDocumentCommand { \DndGoat } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Goat #2} ~ }
+    { \textbf{goat #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 330 )
+}
+
+\NewDocumentCommand { \DndGoblin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Goblin #2} ~ }
+    { \textbf{goblin #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 166 )
+}
+
+\NewDocumentCommand { \DndGoblinBoss } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Goblin~boss #2} ~ }
+    { \textbf{goblin~boss #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 166 )
+}
+
+\NewDocumentCommand { \DndGoldDragonWyrmling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gold~dragon~wyrmling #2} ~ }
+    { \textbf{gold~dragon~wyrmling #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 115 )
+}
+
+\NewDocumentCommand { \DndGorgon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gorgon #2} ~ }
+    { \textbf{gorgon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 171 )
+}
+
+\NewDocumentCommand { \DndGoristro } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Goristro #2} ~ }
+    { \textbf{goristro #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 59 )
+}
+
+\NewDocumentCommand { \DndGrayOoze } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gray~ooze #2} ~ }
+    { \textbf{gray~ooze #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 243 )
+}
+
+\NewDocumentCommand { \DndGraySlaad } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gray~slaad #2} ~ }
+    { \textbf{gray~slaad #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 277 )
+}
+
+\NewDocumentCommand { \DndGreenDragonWyrmling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Green~dragon~wyrmling #2} ~ }
+    { \textbf{green~dragon~wyrmling #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 95 )
+}
+
+\NewDocumentCommand { \DndGreenFaerieDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Green~faerie~dragon #2} ~ }
+    { \textbf{green~faerie~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 133 )
+}
+
+\NewDocumentCommand { \DndGreenHag } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Green~hag #2} ~ }
+    { \textbf{green~hag #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 177 )
+}
+
+\NewDocumentCommand { \DndGreenSlaad } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Green~slaad #2} ~ }
+    { \textbf{green~slaad #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 277 )
+}
+
+\NewDocumentCommand { \DndGrell } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Grell #2} ~ }
+    { \textbf{grell #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 172 )
+}
+
+\NewDocumentCommand { \DndGrick } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Grick #2} ~ }
+    { \textbf{grick #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 173 )
+}
+
+\NewDocumentCommand { \DndGrickAlpha } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Grick~alpha #2} ~ }
+    { \textbf{grick~alpha #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 173 )
+}
+
+\NewDocumentCommand { \DndGriffon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Griffon #2} ~ }
+    { \textbf{griffon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 174 )
+}
+
+\NewDocumentCommand { \DndGrimlock } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Grimlock #2} ~ }
+    { \textbf{grimlock #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 175 )
+}
+
+\NewDocumentCommand { \DndGuard } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Guard #2} ~ }
+    { \textbf{guard #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 347 )
+}
+
+\NewDocumentCommand { \DndGuardianNaga } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Guardian~naga #2} ~ }
+    { \textbf{guardian~naga #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 234 )
+}
+
+\NewDocumentCommand { \DndGynosphinx } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gynosphinx #2} ~ }
+    { \textbf{gynosphinx #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 282 )
+}
+
+\NewDocumentCommand { \DndHalfOgreOgrillon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Half-ogre #2~(ogrillon #2)} ~ }
+    { \textbf{half-ogre #2~(ogrillon #2)} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 238 )
+}
+
+\NewDocumentCommand { \DndHalfOgre } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Half-ogre #2} ~ }
+    { \textbf{half-ogre #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 238 )
+}
+
+\NewDocumentCommand { \DndOgrillon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ogrillon #2} ~ }
+    { \textbf{ogrillon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 238 )
+}
+
+\NewDocumentCommand { \DndHalfRedDragonVeteran } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Half-red~dragon~veteran #2} ~ }
+    { \textbf{half-red~dragon~veteran #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 180 )
+}
+
+\NewDocumentCommand { \DndHarpy } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Harpy #2} ~ }
+    { \textbf{harpy #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 181 )
+}
+
+\NewDocumentCommand { \DndHellHound } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hell~hound #2} ~ }
+    { \textbf{hell~hound #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 182 )
+}
+
+\NewDocumentCommand { \DndHelmedHorror } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Helmed~horror #2} ~ }
+    { \textbf{helmed~horror #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 183 )
+}
+
+\NewDocumentCommand { \DndHezrou } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hezrou #2} ~ }
+    { \textbf{hezrou #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 60 )
+}
+
+\NewDocumentCommand { \DndHillGiant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hill~giant #2} ~ }
+    { \textbf{hill~giant #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 155 )
+}
+
+\NewDocumentCommand { \DndHippogriff } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hippogriff #2} ~ }
+    { \textbf{hippogriff #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 184 )
+}
+
+\NewDocumentCommand { \DndHobgoblin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hobgoblin #2} ~ }
+    { \textbf{hobgoblin #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 186 )
+}
+
+\NewDocumentCommand { \DndHobgoblinCaptain } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hobgoblin~captain #2} ~ }
+    { \textbf{hobgoblin~captain #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 186 )
+}
+
+\NewDocumentCommand { \DndHobgoblinWarlord } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hobgoblin~warlord #2} ~ }
+    { \textbf{hobgoblin~warlord #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 187 )
+}
+
+\NewDocumentCommand { \DndHomunculus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Homunculus #2} ~ }
+    { \textbf{homunculus #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 188 )
+}
+
+\NewDocumentCommand { \DndHookHorror } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hook~horror #2} ~ }
+    { \textbf{hook~horror #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 189 )
+}
+
+\NewDocumentCommand { \DndHornedDevil } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Horned~devil #2} ~ }
+    { \textbf{horned~devil #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 74 )
+}
+
+\NewDocumentCommand { \DndHunterShark } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hunter~shark #2} ~ }
+    { \textbf{hunter~shark #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 330 )
+}
+
+\NewDocumentCommand { \DndHydra } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hydra #2} ~ }
+    { \textbf{hydra #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 190 )
+}
+
+\NewDocumentCommand { \DndHyena } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hyena #2} ~ }
+    { \textbf{hyena #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 331 )
+}
+
+\NewDocumentCommand { \DndIceDevil } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ice~devil #2} ~ }
+    { \textbf{ice~devil #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 75 )
+}
+
+\NewDocumentCommand { \DndIceMephit } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ice~mephit #2} ~ }
+    { \textbf{ice~mephit #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 215 )
+}
+
+\NewDocumentCommand { \DndIndigoFaerieDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Indigo~faerie~dragon #2} ~ }
+    { \textbf{indigo~faerie~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 133 )
+}
+
+\NewDocumentCommand { \DndIntellectDevourer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Intellect~devourer #2} ~ }
+    { \textbf{intellect~devourer #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 191 )
+}
+
+\NewDocumentCommand { \DndInvisibleStalker } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Invisible~stalker #2} ~ }
+    { \textbf{invisible~stalker #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 192 )
+}
+
+\NewDocumentCommand { \DndIronGolem } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Iron~golem #2} ~ }
+    { \textbf{iron~golem #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 170 )
+}
+
+\NewDocumentCommand { \DndJackal } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Jackal #2} ~ }
+    { \textbf{jackal #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 331 )
+}
+
+\NewDocumentCommand { \DndJackalwere } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Jackalwere #2} ~ }
+    { \textbf{jackalwere #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 193 )
+}
+
+\NewDocumentCommand { \DndKenku } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kenku #2} ~ }
+    { \textbf{kenku #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 194 )
+}
+
+\NewDocumentCommand { \DndKillerWhale } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Killer~whale #2} ~ }
+    { \textbf{killer~whale #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 331 )
+}
+
+\NewDocumentCommand { \DndKnight } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Knight #2} ~ }
+    { \textbf{knight #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 347 )
+}
+
+\NewDocumentCommand { \DndKobold } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kobold #2} ~ }
+    { \textbf{kobold #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 195 )
+}
+
+\NewDocumentCommand { \DndKraken } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kraken #2} ~ }
+    { \textbf{kraken #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 197 )
+}
+
+\NewDocumentCommand { \DndKuoToa } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kuo-toa #2} ~ }
+    { \textbf{kuo-toa #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 199 )
+}
+
+\NewDocumentCommand { \DndKuoToaArchpriest } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kuo-toa~archpriest #2} ~ }
+    { \textbf{kuo-toa~archpriest #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 200 )
+}
+
+\NewDocumentCommand { \DndKuoToaMonitor } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kuo-toa~monitor #2} ~ }
+    { \textbf{kuo-toa~monitor #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 198 )
+}
+
+\NewDocumentCommand { \DndKuoToaWhip } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kuo-toa~whip #2} ~ }
+    { \textbf{kuo-toa~whip #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 200 )
+}
+
+\NewDocumentCommand { \DndLamia } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lamia #2} ~ }
+    { \textbf{lamia #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 201 )
+}
+
+\NewDocumentCommand { \DndLemure } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lemure #2} ~ }
+    { \textbf{lemure #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 76 )
+}
+
+\NewDocumentCommand { \DndLeopard } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Leopard #2} ~ }
+    { \textbf{leopard #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 333 )
+}
+
+\NewDocumentCommand { \DndLich } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lich #2} ~ }
+    { \textbf{lich #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 202 )
+}
+
+\NewDocumentCommand { \DndLizard } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lizard #2} ~ }
+    { \textbf{lizard #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 332 )
+}
+
+\NewDocumentCommand { \DndLizardKingQueen } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lizard~king/queen #2} ~ }
+    { \textbf{lizard~king/queen #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 203 )
+}
+
+\NewDocumentCommand { \DndLizardfolk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lizardfolk #2} ~ }
+    { \textbf{lizardfolk #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 204 )
+}
+
+\NewDocumentCommand { \DndLizardfolkShaman } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lizardfolk~shaman #2} ~ }
+    { \textbf{lizardfolk~shaman #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 203 )
+}
+
+\NewDocumentCommand { \DndMage } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mage #2} ~ }
+    { \textbf{mage #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 347 )
+}
+
+\NewDocumentCommand { \DndMagmaMephit } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Magma~mephit #2} ~ }
+    { \textbf{magma~mephit #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 216 )
+}
+
+\NewDocumentCommand { \DndMagmin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Magmin #2} ~ }
+    { \textbf{magmin #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 212 )
+}
+
+\NewDocumentCommand { \DndMammoth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mammoth #2} ~ }
+    { \textbf{mammoth #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 332 )
+}
+
+\NewDocumentCommand { \DndManes } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Manes #2} ~ }
+    { \textbf{manes #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 60 )
+}
+
+\NewDocumentCommand { \DndManticore } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Manticore #2} ~ }
+    { \textbf{manticore #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 213 )
+}
+
+\NewDocumentCommand { \DndMarid } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Marid #2} ~ }
+    { \textbf{marid #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 146 )
+}
+
+\NewDocumentCommand { \DndMarilith } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Marilith #2} ~ }
+    { \textbf{marilith #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 61 )
+}
+
+\NewDocumentCommand { \DndMedusa } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Medusa #2} ~ }
+    { \textbf{medusa #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 214 )
+}
+
+\NewDocumentCommand { \DndMerfolk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Merfolk #2} ~ }
+    { \textbf{merfolk #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 218 )
+}
+
+\NewDocumentCommand { \DndMerrow } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Merrow #2} ~ }
+    { \textbf{merrow #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 219 )
+}
+
+\NewDocumentCommand { \DndMezzoloth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mezzoloth #2} ~ }
+    { \textbf{mezzoloth #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 313 )
+}
+
+\NewDocumentCommand { \DndMimic } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mimic #2} ~ }
+    { \textbf{mimic #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 220 )
+}
+
+\NewDocumentCommand { \DndMindFlayerIllithid } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mind~flayer~(illithid) #2} ~ }
+    { \textbf{mind~flayer~(illithid) #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 222 )
+}
+
+\NewDocumentCommand { \DndMindFlayerArcanist } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mind~flayer~arcanist #2} ~ }
+    { \textbf{mind~flayer~arcanist #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 222 )
+}
+
+\NewDocumentCommand { \DndMinotaur } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Minotaur #2} ~ }
+    { \textbf{minotaur #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 223 )
+}
+
+\NewDocumentCommand { \DndMinotaurSkeleton } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Minotaur~skeleton #2} ~ }
+    { \textbf{minotaur~skeleton #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 273 )
+}
+
+\NewDocumentCommand { \DndMonodrone } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Monodrone #2} ~ }
+    { \textbf{monodrone #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 224 )
+}
+
+\NewDocumentCommand { \DndMudMephit } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mud~mephit #2} ~ }
+    { \textbf{mud~mephit #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 216 )
+}
+
+\NewDocumentCommand { \DndMummy } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mummy #2} ~ }
+    { \textbf{mummy #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 228 )
+}
+
+\NewDocumentCommand { \DndMummies } { s }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mummies} ~ }
+    { \textbf{mummies} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 228 )
+}
+
+\NewDocumentCommand { \DndMummyLord } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mummy~lord #2} ~ }
+    { \textbf{mummy~lord #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 229 )
+}
+
+\NewDocumentCommand { \DndMyconidAdult } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Myconid~adult #2} ~ }
+    { \textbf{myconid~adult #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 232 )
+}
+
+\NewDocumentCommand { \DndMyconidSovereign } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Myconid~sovereign #2} ~ }
+    { \textbf{myconid~sovereign #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 232 )
+}
+
+\NewDocumentCommand { \DndMyconidSprout } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Myconid~sprout #2} ~ }
+    { \textbf{myconid~sprout #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 230 )
+}
+
+\NewDocumentCommand { \DndNalfeshnee } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Nalfeshnee #2} ~ }
+    { \textbf{nalfeshnee #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 62 )
+}
+
+\NewDocumentCommand { \DndNeedleBlight } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Needle~blight #2} ~ }
+    { \textbf{needle~blight #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 32 )
+}
+
+\NewDocumentCommand { \DndNightHag } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Night~hag #2} ~ }
+    { \textbf{night~hag #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 178 )
+}
+
+\NewDocumentCommand { \DndNightmare } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Nightmare #2} ~ }
+    { \textbf{nightmare #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 235 )
+}
+
+\NewDocumentCommand { \DndNoble } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Noble #2} ~ }
+    { \textbf{noble #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 348 )
+}
+
+\NewDocumentCommand { \DndNothic } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Nothic #2} ~ }
+    { \textbf{nothic #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 236 )
+}
+
+\NewDocumentCommand { \DndNycaloth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Nycaloth #2} ~ }
+    { \textbf{nycaloth #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 314 )
+}
+
+\NewDocumentCommand { \DndOchreJelly } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ochre~jelly #2} ~ }
+    { \textbf{ochre~jelly #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 243 )
+}
+
+\NewDocumentCommand { \DndOctopus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Octopus #2} ~ }
+    { \textbf{octopus #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 333 )
+}
+
+\NewDocumentCommand { \DndOgre } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ogre #2} ~ }
+    { \textbf{ogre #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 237 )
+}
+
+\NewDocumentCommand { \DndOgreZombie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ogre~zombie #2} ~ }
+    { \textbf{ogre~zombie #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 316 )
+}
+
+\NewDocumentCommand { \DndOni } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Oni #2} ~ }
+    { \textbf{oni #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 239 )
+}
+
+\NewDocumentCommand { \DndOrangeFaerieDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Orange~faerie~dragon #2} ~ }
+    { \textbf{orange~faerie~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 133 )
+}
+
+\NewDocumentCommand { \DndOrc } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Orc #2} ~ }
+    { \textbf{orc #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 246 )
+}
+
+\NewDocumentCommand { \DndOrcEyeOfGruumsh } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Orc~eye~of~gruumsh #2} ~ }
+    { \textbf{orc~eye~of~gruumsh #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 247 )
+}
+
+\NewDocumentCommand { \DndOrcWarChief } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Orc~war~chief #2} ~ }
+    { \textbf{orc~war~chief #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 246 )
+}
+
+\NewDocumentCommand { \DndOrog } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Orog #2} ~ }
+    { \textbf{orog #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 247 )
+}
+
+\NewDocumentCommand { \DndOtyugh } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Otyugh #2} ~ }
+    { \textbf{otyugh #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 248 )
+}
+
+\NewDocumentCommand { \DndOwlbear } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Owlbear #2} ~ }
+    { \textbf{owlbear #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 249 )
+}
+
+\NewDocumentCommand { \DndPegasus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Pegasus #2} ~ }
+    { \textbf{pegasus #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 250 )
+}
+
+\NewDocumentCommand { \DndPegasi } { s }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Pegasi} ~ }
+    { \textbf{pegasi} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 250 )
+}
+
+\NewDocumentCommand { \DndPentadrone } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Pentadrone #2} ~ }
+    { \textbf{pentadrone #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 226 )
+}
+
+\NewDocumentCommand { \DndPeryton } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Peryton #2} ~ }
+    { \textbf{peryton #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 251 )
+}
+
+\NewDocumentCommand { \DndPhaseSpider } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Phase~spider #2} ~ }
+    { \textbf{phase~spider #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 334 )
+}
+
+\NewDocumentCommand { \DndPiercer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Piercer #2} ~ }
+    { \textbf{piercer #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 252 )
+}
+
+\NewDocumentCommand { \DndPitFiend } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Pit~fiend #2} ~ }
+    { \textbf{pit~fiend #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 77 )
+}
+
+\NewDocumentCommand { \DndPixie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Pixie #2} ~ }
+    { \textbf{pixie #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 253 )
+}
+
+\NewDocumentCommand { \DndPlanetar } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Planetar #2} ~ }
+    { \textbf{planetar #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 17 )
+}
+
+\NewDocumentCommand { \DndPlesiosaurus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Plesiosaurus #2} ~ }
+    { \textbf{plesiosaurus #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 80 )
+}
+
+\NewDocumentCommand { \DndPolarBear } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Polar~bear #2} ~ }
+    { \textbf{polar~bear #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 334 )
+}
+
+\NewDocumentCommand { \DndPoltergeist } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Poltergeist #2} ~ }
+    { \textbf{poltergeist #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 279 )
+}
+
+\NewDocumentCommand { \DndPony } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Pony #2} ~ }
+    { \textbf{pony #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 335 )
+}
+
+\NewDocumentCommand { \DndPriest } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Priest #2} ~ }
+    { \textbf{priest #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 348 )
+}
+
+\NewDocumentCommand { \DndPsychicGrayOoze } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Psychic~gray~ooze #2} ~ }
+    { \textbf{psychic~gray~ooze #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 243 )
+}
+
+\NewDocumentCommand { \DndPteranodon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Pteranodon #2} ~ }
+    { \textbf{pteranodon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 80 )
+}
+
+\NewDocumentCommand { \DndPurpleWorm } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Purple~worm #2} ~ }
+    { \textbf{purple~worm #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 255 )
+}
+
+\NewDocumentCommand { \DndQuadrone } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Quadrone #2} ~ }
+    { \textbf{quadrone #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 226 )
+}
+
+\NewDocumentCommand { \DndQuaggoth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Quaggoth #2} ~ }
+    { \textbf{quaggoth #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 256 )
+}
+
+\NewDocumentCommand { \DndQuaggothSporeServant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Quaggoth~spore~servant #2} ~ }
+    { \textbf{quaggoth~spore~servant #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 230 )
+}
+
+\NewDocumentCommand { \DndQuaggothThonot } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Quaggoth~thonot #2} ~ }
+    { \textbf{quaggoth~thonot #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 256 )
+}
+
+\NewDocumentCommand { \DndQuipper } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Quipper #2} ~ }
+    { \textbf{quipper #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 335 )
+}
+
+\NewDocumentCommand { \DndRakshasa } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Rakshasa #2} ~ }
+    { \textbf{rakshasa #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 257 )
+}
+
+\NewDocumentCommand { \DndRedDragonWyrmling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Red~dragon~wyrmling #2} ~ }
+    { \textbf{red~dragon~wyrmling #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 98 )
+}
+
+\NewDocumentCommand { \DndRedFaerieDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Red~faerie~dragon #2} ~ }
+    { \textbf{red~faerie~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 133 )
+}
+
+\NewDocumentCommand { \DndRedSlaad } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Red~slaad #2} ~ }
+    { \textbf{red~slaad #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 276 )
+}
+
+\NewDocumentCommand { \DndRemorhaz } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Remorhaz #2} ~ }
+    { \textbf{remorhaz #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 258 )
+}
+
+\NewDocumentCommand { \DndRevenant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Revenant #2} ~ }
+    { \textbf{revenant #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 259 )
+}
+
+\NewDocumentCommand { \DndRhinoceros } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Rhinoceros #2} ~ }
+    { \textbf{rhinoceros #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 336 )
+}
+
+\NewDocumentCommand { \DndRoc } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Roc #2} ~ }
+    { \textbf{roc #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 260 )
+}
+
+\NewDocumentCommand { \DndRoper } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Roper #2} ~ }
+    { \textbf{roper #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 261 )
+}
+
+\NewDocumentCommand { \DndRugOfSmothering } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Rug~of~smothering #2} ~ }
+    { \textbf{rug~of~smothering #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 20 )
+}
+
+\NewDocumentCommand { \DndRustMonster } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Rust~monster #2} ~ }
+    { \textbf{rust~monster #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 262 )
+}
+
+\NewDocumentCommand { \DndSaberToothedTiger } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Saber-toothed~tiger #2} ~ }
+    { \textbf{saber-toothed~tiger #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 336 )
+}
+
+\NewDocumentCommand { \DndSahuagin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sahuagin #2} ~ }
+    { \textbf{sahuagin #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 263 )
+}
+
+\NewDocumentCommand { \DndSahuaginBaron } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sahuagin~baron #2} ~ }
+    { \textbf{sahuagin~baron #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 264 )
+}
+
+\NewDocumentCommand { \DndSahuaginPriestess } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sahuagin~priestess #2} ~ }
+    { \textbf{sahuagin~priestess #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 264 )
+}
+
+\NewDocumentCommand { \DndSalamander } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Salamander #2} ~ }
+    { \textbf{salamander #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 266 )
+}
+
+\NewDocumentCommand { \DndSatyr } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Satyr #2} ~ }
+    { \textbf{satyr #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 267 )
+}
+
+\NewDocumentCommand { \DndScarecrow } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Scarecrow #2} ~ }
+    { \textbf{scarecrow #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 268 )
+}
+
+\NewDocumentCommand { \DndScorpion } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Scorpion #2} ~ }
+    { \textbf{scorpion #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 337 )
+}
+
+\NewDocumentCommand { \DndScout } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Scout #2} ~ }
+    { \textbf{scout #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 349 )
+}
+
+\NewDocumentCommand { \DndSeaHag } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sea~hag #2} ~ }
+    { \textbf{sea~hag #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 179 )
+}
+
+\NewDocumentCommand { \DndSeaHorse } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sea~horse #2} ~ }
+    { \textbf{sea~horse #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 337 )
+}
+
+\NewDocumentCommand { \DndShadow } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Shadow #2} ~ }
+    { \textbf{shadow #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 269 )
+}
+
+\NewDocumentCommand { \DndShadowDemon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Shadow~demon #2} ~ }
+    { \textbf{shadow~demon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 64 )
+}
+
+\NewDocumentCommand { \DndShamblingMound } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Shambling~mound #2} ~ }
+    { \textbf{shambling~mound #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 270 )
+}
+
+\NewDocumentCommand { \DndShieldGuardian } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Shield~guardian #2} ~ }
+    { \textbf{shield~guardian #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 271 )
+}
+
+\NewDocumentCommand { \DndShrieker } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Shrieker #2} ~ }
+    { \textbf{shrieker #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 138 )
+}
+
+\NewDocumentCommand { \DndSilverDragonWyrmling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Silver~dragon~wyrmling #2} ~ }
+    { \textbf{silver~dragon~wyrmling #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 118 )
+}
+
+\NewDocumentCommand { \DndSlaadTadpole } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Slaad~tadpole #2} ~ }
+    { \textbf{slaad~tadpole #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 276 )
+}
+
+\NewDocumentCommand { \DndSmokeMephit } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Smoke~mephit #2} ~ }
+    { \textbf{smoke~mephit #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 217 )
+}
+
+\NewDocumentCommand { \DndSolar } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Solar #2} ~ }
+    { \textbf{solar #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 18 )
+}
+
+\NewDocumentCommand { \DndSpectator } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Spectator #2} ~ }
+    { \textbf{spectator #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 30 )
+}
+
+\NewDocumentCommand { \DndSpecter } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Specter #2} ~ }
+    { \textbf{specter #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 279 )
+}
+
+\NewDocumentCommand { \DndSpider } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Spider #2} ~ }
+    { \textbf{spider #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 337 )
+}
+
+\NewDocumentCommand { \DndSpinedDevil } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Spined~devil #2} ~ }
+    { \textbf{spined~devil #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 78 )
+}
+
+\NewDocumentCommand { \DndSpiritNaga } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Spirit~naga #2} ~ }
+    { \textbf{spirit~naga #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 234 )
+}
+
+\NewDocumentCommand { \DndSpy } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Spy #2} ~ }
+    { \textbf{spy #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 349 )
+}
+
+\NewDocumentCommand { \DndSteamMephit } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Steam~mephit #2} ~ }
+    { \textbf{steam~mephit #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 217 )
+}
+
+\NewDocumentCommand { \DndStirge } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Stirge #2} ~ }
+    { \textbf{stirge #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 284 )
+}
+
+\NewDocumentCommand { \DndStoneGiant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Stone~giant #2} ~ }
+    { \textbf{stone~giant #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 156 )
+}
+
+\NewDocumentCommand { \DndStoneGolem } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Stone~golem #2} ~ }
+    { \textbf{stone~golem #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 170 )
+}
+
+\NewDocumentCommand { \DndStormGiant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Storm~giant #2} ~ }
+    { \textbf{storm~giant #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 156 )
+}
+
+\NewDocumentCommand { \DndSuccubusIncubus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Succubus/incubus #2} ~ }
+    { \textbf{succubus/incubus #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 285 )
+}
+
+\NewDocumentCommand { \DndSwarmOfBats } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Swarm~of~bats #2} ~ }
+    { \textbf{swarm~of~bats #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 337 )
+}
+
+\NewDocumentCommand { \DndSwarmOfInsects } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Swarm~of~insects #2} ~ }
+    { \textbf{swarm~of~insects #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 338 )
+}
+
+\NewDocumentCommand { \DndSwarmOfPoisonousSnakes } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Swarm~of~poisonous~snakes #2} ~ }
+    { \textbf{swarm~of~poisonous~snakes #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 338 )
+}
+
+\NewDocumentCommand { \DndSwarmOfQuippers } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Swarm~of~quippers #2} ~ }
+    { \textbf{swarm~of~quippers #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 338 )
+}
+
+\NewDocumentCommand { \DndSwarmOfRats } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Swarm~of~rats #2} ~ }
+    { \textbf{swarm~of~rats #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 339 )
+}
+
+\NewDocumentCommand { \DndSwarmOfRavens } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Swarm~of~ravens #2} ~ }
+    { \textbf{swarm~of~ravens #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 339 )
+}
+
+\NewDocumentCommand { \DndTarrasque } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Tarrasque #2} ~ }
+    { \textbf{tarrasque #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 286 )
+}
+
+\NewDocumentCommand { \DndThriKreen } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Thri-kreen #2} ~ }
+    { \textbf{thri-kreen #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 288 )
+}
+
+\NewDocumentCommand { \DndThug } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Thug #2} ~ }
+    { \textbf{thug #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 350 )
+}
+
+\NewDocumentCommand { \DndTreant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Treant #2} ~ }
+    { \textbf{treant #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 289 )
+}
+
+\NewDocumentCommand { \DndTribalWarrior } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Tribal~warrior #2} ~ }
+    { \textbf{tribal~warrior #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 350 )
+}
+
+\NewDocumentCommand { \DndTriceratops } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Triceratops #2} ~ }
+    { \textbf{triceratops #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 80 )
+}
+
+\NewDocumentCommand { \DndTridrone } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Tridrone #2} ~ }
+    { \textbf{tridrone #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 225 )
+}
+
+\NewDocumentCommand { \DndTroglodyte } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Troglodyte #2} ~ }
+    { \textbf{troglodyte #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 390 )
+}
+
+\NewDocumentCommand { \DndTroll } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Troll #2} ~ }
+    { \textbf{troll #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 291 )
+}
+
+\NewDocumentCommand { \DndTwigBlight } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Twig~blight #2} ~ }
+    { \textbf{twig~blight #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 32 )
+}
+
+\NewDocumentCommand { \DndTyrannosaurusRex } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Tyrannosaurus~rex #2} ~ }
+    { \textbf{tyrannosaurus~rex #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 80 )
+}
+
+\NewDocumentCommand { \DndUltroloth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ultroloth #2} ~ }
+    { \textbf{ultroloth #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 314 )
+}
+
+\NewDocumentCommand { \DndUmberHulk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Umber~hulk #2} ~ }
+    { \textbf{umber~hulk #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 292 )
+}
+
+\NewDocumentCommand { \DndUnicorn } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Unicorn #2} ~ }
+    { \textbf{unicorn #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 294 )
+}
+
+\NewDocumentCommand { \DndVampire } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Vampire #2} ~ }
+    { \textbf{vampire #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 297 )
+}
+
+\NewDocumentCommand { \DndVampireSpawn } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Vampire~spawn #2} ~ }
+    { \textbf{vampire~spawn #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 298 )
+}
+
+\NewDocumentCommand { \DndVampireSpellcaster } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Vampire~spellcaster #2} ~ }
+    { \textbf{vampire~spellcaster #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 297 )
+}
+
+\NewDocumentCommand { \DndVampireWarrior } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Vampire~warrior #2} ~ }
+    { \textbf{vampire~warrior #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 297 )
+}
+
+\NewDocumentCommand { \DndVeteran } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Veteran #2} ~ }
+    { \textbf{veteran #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 350 )
+}
+
+\NewDocumentCommand { \DndVineBlight } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Vine~blight #2} ~ }
+    { \textbf{vine~blight #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 32 )
+}
+
+\NewDocumentCommand { \DndVioletFaerieDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Violet~faerie~dragon #2} ~ }
+    { \textbf{violet~faerie~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 133 )
+}
+
+\NewDocumentCommand { \DndVioletFungus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Violet~fungus #2} ~ }
+    { \textbf{violet~fungus #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 138 )
+}
+
+\NewDocumentCommand { \DndVrock } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Vrock #2} ~ }
+    { \textbf{vrock #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 64 )
+}
+
+\NewDocumentCommand { \DndVulture } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Vulture #2} ~ }
+    { \textbf{vulture #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 339 )
+}
+
+\NewDocumentCommand { \DndWarhorseSkeleton } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Warhorse~skeleton #2} ~ }
+    { \textbf{warhorse~skeleton #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 273 )
+}
+
+\NewDocumentCommand { \DndWaterElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Water~elemental #2} ~ }
+    { \textbf{water~elemental #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 125 )
+}
+
+\NewDocumentCommand { \DndWaterWeird } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Water~weird #2} ~ }
+    { \textbf{water~weird #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 299 )
+}
+
+\NewDocumentCommand { \DndWeasel } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Weasel #2} ~ }
+    { \textbf{weasel #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 340 )
+}
+
+\NewDocumentCommand { \DndWerebear } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Werebear #2} ~ }
+    { \textbf{werebear #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 208 )
+}
+
+\NewDocumentCommand { \DndWereboar } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wereboar #2} ~ }
+    { \textbf{wereboar #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 209 )
+}
+
+\NewDocumentCommand { \DndWererat } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wererat #2} ~ }
+    { \textbf{wererat #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 209 )
+}
+
+\NewDocumentCommand { \DndWeretiger } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Weretiger #2} ~ }
+    { \textbf{weretiger #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 210 )
+}
+
+\NewDocumentCommand { \DndWerewolf } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Werewolf #2} ~ }
+    { \textbf{werewolf #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 211 )
+}
+
+\NewDocumentCommand { \DndWhiteDragonWyrmling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{White~dragon~wyrmling #2} ~ }
+    { \textbf{white~dragon~wyrmling #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 102 )
+}
+
+\NewDocumentCommand { \DndWight } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wight #2} ~ }
+    { \textbf{wight #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 300 )
+}
+
+\NewDocumentCommand { \DndWillOWisp } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Will-o'-wisp #2} ~ }
+    { \textbf{will-o'-wisp #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 301 )
+}
+
+\NewDocumentCommand { \DndWingedKoboldUrd } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Winged~kobold~(urd) #2} ~ }
+    { \textbf{winged~kobold~(urd) #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 195 )
+}
+
+\NewDocumentCommand { \DndWinterWolf } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Winter~wolf #2} ~ }
+    { \textbf{winter~wolf #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 340 )
+}
+
+\NewDocumentCommand { \DndWinterWolves } { s }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Winter~wolves} ~ }
+    { \textbf{winter~wolves} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 340 )
+}
+
+\NewDocumentCommand { \DndWorg } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Worg #2} ~ }
+    { \textbf{worg #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 341 )
+}
+
+\NewDocumentCommand { \DndWraith } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wraith #2} ~ }
+    { \textbf{wraith #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 302 )
+}
+
+\NewDocumentCommand { \DndWyvern } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wyvern #2} ~ }
+    { \textbf{wyvern #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 303 )
+}
+
+\NewDocumentCommand { \DndXorn } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Xorn #2} ~ }
+    { \textbf{xorn #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 304 )
+}
+
+\NewDocumentCommand { \DndYellowFaerieDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Yellow~faerie~dragon #2} ~ }
+    { \textbf{yellow~faerie~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 133 )
+}
+
+\NewDocumentCommand { \DndYeti } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Yeti #2} ~ }
+    { \textbf{yeti #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 305 )
+}
+
+\NewDocumentCommand { \DndYochlol } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Yochlol #2} ~ }
+    { \textbf{yochlol #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 65 )
+}
+
+\NewDocumentCommand { \DndYoungBlackDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~black~dragon #2} ~ }
+    { \textbf{young~black~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 88 )
+}
+
+\NewDocumentCommand { \DndYoungBlueDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~blue~dragon #2} ~ }
+    { \textbf{young~blue~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 91 )
+}
+
+\NewDocumentCommand { \DndYoungBrassDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~brass~dragon #2} ~ }
+    { \textbf{young~brass~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 105 )
+}
+
+\NewDocumentCommand { \DndYoungBronzeDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~bronze~dragon #2} ~ }
+    { \textbf{young~bronze~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 108 )
+}
+
+\NewDocumentCommand { \DndYoungCopperDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~copper~dragon #2} ~ }
+    { \textbf{young~copper~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 111 )
+}
+
+\NewDocumentCommand { \DndYoungGoldDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~gold~dragon #2} ~ }
+    { \textbf{young~gold~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 115 )
+}
+
+\NewDocumentCommand { \DndYoungGreenDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~green~dragon #2} ~ }
+    { \textbf{young~green~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 94 )
+}
+
+\NewDocumentCommand { \DndYoungRedDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~red~dragon #2} ~ }
+    { \textbf{young~red~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 98 )
+}
+
+\NewDocumentCommand { \DndYoungRedShadowDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~red~shadow~dragon #2} ~ }
+    { \textbf{young~red~shadow~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 85 )
+}
+
+\NewDocumentCommand { \DndYoungRemorhaz } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~remorhaz #2} ~ }
+    { \textbf{young~remorhaz #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 258 )
+}
+
+\NewDocumentCommand { \DndYoungSilverDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~silver~dragon #2} ~ }
+    { \textbf{young~silver~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 118 )
+}
+
+\NewDocumentCommand { \DndYoungWhiteDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~white~dragon #2} ~ }
+    { \textbf{young~white~dragon #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 101 )
+}
+
+\NewDocumentCommand { \DndYuanTiAbomination } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Yuan-ti~abomination #2} ~ }
+    { \textbf{yuan-ti~abomination #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 308 )
+}
+
+\NewDocumentCommand { \DndYuanTiMalison } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Yuan-ti~malison #2} ~ }
+    { \textbf{yuan-ti~malison #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 309 )
+}
+
+\NewDocumentCommand { \DndYuanTiPureblood } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Yuan-ti~pureblood #2} ~ }
+    { \textbf{yuan-ti~pureblood #2} ~ }
+  ( \textit{MM} , ~ p. \nobreakspace 310 )
+}
+

@@ -1,0 +1,2957 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Tome of Horrors
+
+\NewDocumentCommand { \DndAcidElementalHuge } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"acid~elemental,~huge" #2} ~ }
+    { \textbf{"acid~elemental,~huge" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 129 )
+}
+
+\NewDocumentCommand { \DndAcidElementalLarge } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"acid~elemental,~large" #2} ~ }
+    { \textbf{"acid~elemental,~large" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 129 )
+}
+
+\NewDocumentCommand { \DndAcidElementalMedium } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"acid~elemental,~medium" #2} ~ }
+    { \textbf{"acid~elemental,~medium" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 128 )
+}
+
+\NewDocumentCommand { \DndAcidElementalSmall } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"acid~elemental,~small" #2} ~ }
+    { \textbf{"acid~elemental,~small" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 128 )
+}
+
+\NewDocumentCommand { \DndBeaverPrehistoric } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"beaver,~prehistoric" #2} ~ }
+    { \textbf{"beaver,~prehistoric" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 24 )
+}
+
+\NewDocumentCommand { \DndFireCrabDiminutive } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"fire~crab,~diminutive" #2} ~ }
+    { \textbf{"fire~crab,~diminutive" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 145 )
+}
+
+\NewDocumentCommand { \DndGravityElementalHuge } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"gravity~elemental,~huge" #2} ~ }
+    { \textbf{"gravity~elemental,~huge" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 130 )
+}
+
+\NewDocumentCommand { \DndGravityElementalLarge } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"gravity~elemental,~large" #2} ~ }
+    { \textbf{"gravity~elemental,~large" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 130 )
+}
+
+\NewDocumentCommand { \DndGravityElementalMedium } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"gravity~elemental,~medium" #2} ~ }
+    { \textbf{"gravity~elemental,~medium" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 129 )
+}
+
+\NewDocumentCommand { \DndGravityElementalSmall } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"gravity~elemental,~small" #2} ~ }
+    { \textbf{"gravity~elemental,~small" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 130 )
+}
+
+\NewDocumentCommand { \DndLightningElementalMedium } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"lightning~elemental,~medium" #2} ~ }
+    { \textbf{"lightning~elemental,~medium" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 131 )
+}
+
+\NewDocumentCommand { \DndMaphistalSecondOfOrcus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"maphistal,~second~of~orcus" #2} ~ }
+    { \textbf{"maphistal,~second~of~orcus" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 92 )
+}
+
+\NewDocumentCommand { \DndObsidianElementalHuge } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"obsidian~elemental,~huge" #2} ~ }
+    { \textbf{"obsidian~elemental,~huge" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 132 )
+}
+
+\NewDocumentCommand { \DndObsidianElementalLarge } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"obsidian~elemental,~large" #2} ~ }
+    { \textbf{"obsidian~elemental,~large" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 135 )
+}
+
+\NewDocumentCommand { \DndObsidianElementalMedium } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"obsidian~elemental,~medium" #2} ~ }
+    { \textbf{"obsidian~elemental,~medium" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 132 )
+}
+
+\NewDocumentCommand { \DndObsidianElementalSmall } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"obsidian~elemental,~small" #2} ~ }
+    { \textbf{"obsidian~elemental,~small" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 132 )
+}
+
+\NewDocumentCommand { \DndRhinocerosPrehistoricEmbolotherium } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"rhinoceros,~prehistoric~(embolotherium)" #2} ~ }
+    { \textbf{"rhinoceros,~prehistoric~(embolotherium)" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 273 )
+}
+
+\NewDocumentCommand { \DndSonechardGeneralOfOrcus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"sonechard,~general~of~orcus" #2} ~ }
+    { \textbf{"sonechard,~general~of~orcus" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 96 )
+}
+
+\NewDocumentCommand { \DndThaumaturmiteGreater } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"thaumaturmite,~greater" #2} ~ }
+    { \textbf{"thaumaturmite,~greater" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 307 )
+}
+
+\NewDocumentCommand { \DndThaumaturmiteLesser } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"thaumaturmite,~lesser" #2} ~ }
+    { \textbf{"thaumaturmite,~lesser" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 307 )
+}
+
+\NewDocumentCommand { \DndTimeElementalCommon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"time~elemental,~common" #2} ~ }
+    { \textbf{"time~elemental,~common" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 133 )
+}
+
+\NewDocumentCommand { \DndTsthoggaTheFrogGod } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"tsthogga,~the~frog~god" #2} ~ }
+    { \textbf{"tsthogga,~the~frog~god" #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 98 )
+}
+
+\NewDocumentCommand { \DndAbasheen } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Abasheen #2} ~ }
+    { \textbf{abasheen #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 165 )
+}
+
+\NewDocumentCommand { \DndAbyssalHarvester } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Abyssal~harvester #2} ~ }
+    { \textbf{abyssal~harvester #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 7 )
+}
+
+\NewDocumentCommand { \DndAbyssalLarva } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Abyssal~larva #2} ~ }
+    { \textbf{abyssal~larva #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 8 )
+}
+
+\NewDocumentCommand { \DndAdultCloudDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adult~cloud~dragon #2} ~ }
+    { \textbf{adult~cloud~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 109 )
+}
+
+\NewDocumentCommand { \DndAdultDungeonDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adult~dungeon~dragon #2} ~ }
+    { \textbf{adult~dungeon~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 112 )
+}
+
+\NewDocumentCommand { \DndAdultGrayDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adult~gray~dragon #2} ~ }
+    { \textbf{adult~gray~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 116 )
+}
+
+\NewDocumentCommand { \DndAdultMistDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adult~mist~dragon #2} ~ }
+    { \textbf{adult~mist~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 118 )
+}
+
+\NewDocumentCommand { \DndAdvancedDemilich } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Advanced~demilich #2} ~ }
+    { \textbf{advanced~demilich #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 76 )
+}
+
+\NewDocumentCommand { \DndAerialAssaultGnome } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Aerial~assault~gnome #2} ~ }
+    { \textbf{aerial~assault~gnome #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 9 )
+}
+
+\NewDocumentCommand { \DndAeshmaRageDemon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Aeshma~(rage~demon) #2} ~ }
+    { \textbf{aeshma~(rage~demon) #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 78 )
+}
+
+\NewDocumentCommand { \DndAirDragonElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Air~dragon~elemental #2} ~ }
+    { \textbf{air~dragon~elemental #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 135 )
+}
+
+\NewDocumentCommand { \DndAlbinoCaveSpider } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Albino~cave~spider #2} ~ }
+    { \textbf{albino~cave~spider #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 298 )
+}
+
+\NewDocumentCommand { \DndAllip } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Allip #2} ~ }
+    { \textbf{allip #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 10 )
+}
+
+\NewDocumentCommand { \DndAmalgamation } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Amalgamation #2} ~ }
+    { \textbf{amalgamation #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 11 )
+}
+
+\NewDocumentCommand { \DndAmberOoze } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Amber~ooze #2} ~ }
+    { \textbf{amber~ooze #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 245 )
+}
+
+\NewDocumentCommand { \DndAmphisbaena } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Amphisbaena #2} ~ }
+    { \textbf{amphisbaena #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 12 )
+}
+
+\NewDocumentCommand { \DndAncientCloudDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ancient~cloud~dragon #2} ~ }
+    { \textbf{ancient~cloud~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 108 )
+}
+
+\NewDocumentCommand { \DndAncientDungeonDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ancient~dungeon~dragon #2} ~ }
+    { \textbf{ancient~dungeon~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 111 )
+}
+
+\NewDocumentCommand { \DndAncientGrayDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ancient~gray~dragon #2} ~ }
+    { \textbf{ancient~gray~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 115 )
+}
+
+\NewDocumentCommand { \DndAncientMistDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ancient~mist~dragon #2} ~ }
+    { \textbf{ancient~mist~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 117 )
+}
+
+\NewDocumentCommand { \DndArcherBush } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Archer~bush #2} ~ }
+    { \textbf{archer~bush #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 16 )
+}
+
+\NewDocumentCommand { \DndArmorPlatedBeaver } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Armor~plated~beaver #2} ~ }
+    { \textbf{armor~plated~beaver #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 23 )
+}
+
+\NewDocumentCommand { \DndAsrai } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Asrai #2} ~ }
+    { \textbf{asrai #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 17 )
+}
+
+\NewDocumentCommand { \DndAzizouPainDemon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Azizou~(pain~demon) #2} ~ }
+    { \textbf{azizou~(pain~demon) #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 79 )
+}
+
+\NewDocumentCommand { \DndBalbanBruteDemon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Balban~(brute~demon) #2} ~ }
+    { \textbf{balban~(brute~demon) #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 80 )
+}
+
+\NewDocumentCommand { \DndBarbegaziIceGnome } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Barbegazi~(ice~gnome) #2} ~ }
+    { \textbf{barbegazi~(ice~gnome) #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 19 )
+}
+
+\NewDocumentCommand { \DndBarizouAssassinDemon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Barizou~(assassin~demon) #2} ~ }
+    { \textbf{barizou~(assassin~demon) #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 80 )
+}
+
+\NewDocumentCommand { \DndBarrowWight } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Barrow~wight #2} ~ }
+    { \textbf{barrow~wight #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 323 )
+}
+
+\NewDocumentCommand { \DndBasiliskZombie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Basilisk~zombie #2} ~ }
+    { \textbf{basilisk~zombie #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 328 )
+}
+
+\NewDocumentCommand { \DndBedlam } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bedlam #2} ~ }
+    { \textbf{bedlam #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 25 )
+}
+
+\NewDocumentCommand { \DndBeetlor } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Beetlor #2} ~ }
+    { \textbf{beetlor #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 32 )
+}
+
+\NewDocumentCommand { \DndBelabra } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Belabra #2} ~ }
+    { \textbf{belabra #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 33 )
+}
+
+\NewDocumentCommand { \DndBiclops } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Biclops #2} ~ }
+    { \textbf{biclops #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 34 )
+}
+
+\NewDocumentCommand { \DndBighornBison } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bighorn~bison #2} ~ }
+    { \textbf{bighorn~bison #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 35 )
+}
+
+\NewDocumentCommand { \DndBlackBulette } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Black~bulette #2} ~ }
+    { \textbf{black~bulette #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 47 )
+}
+
+\NewDocumentCommand { \DndBlackOrc } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Black~orc #2} ~ }
+    { \textbf{black~orc #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 251 )
+}
+
+\NewDocumentCommand { \DndBlackOrcChampion } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Black~orc~champion #2} ~ }
+    { \textbf{black~orc~champion #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 251 )
+}
+
+\NewDocumentCommand { \DndBlackSkeleton } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Black~skeleton #2} ~ }
+    { \textbf{black~skeleton #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 291 )
+}
+
+\NewDocumentCommand { \DndBleedingHorrorMinotaur } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bleeding~horror~minotaur #2} ~ }
+    { \textbf{bleeding~horror~minotaur #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 232 )
+}
+
+\NewDocumentCommand { \DndBlindheim } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Blindheim #2} ~ }
+    { \textbf{blindheim #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 36 )
+}
+
+\NewDocumentCommand { \DndBlisterBeetle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Blister~beetle #2} ~ }
+    { \textbf{blister~beetle #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 26 )
+}
+
+\NewDocumentCommand { \DndBloodBush } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Blood~bush #2} ~ }
+    { \textbf{blood~bush #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 37 )
+}
+
+\NewDocumentCommand { \DndBloodGolem } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Blood~golem #2} ~ }
+    { \textbf{blood~golem #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 185 )
+}
+
+\NewDocumentCommand { \DndBloodOrc } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Blood~orc #2} ~ }
+    { \textbf{blood~orc #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 253 )
+}
+
+\NewDocumentCommand { \DndBloodOrcElderWarrior } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Blood~orc~elder~warrior #2} ~ }
+    { \textbf{blood~orc~elder~warrior #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 253 )
+}
+
+\NewDocumentCommand { \DndBloodOrchid } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Blood~orchid #2} ~ }
+    { \textbf{blood~orchid #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 38 )
+}
+
+\NewDocumentCommand { \DndBloodOrchidSavant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Blood~orchid~savant #2} ~ }
+    { \textbf{blood~orchid~savant #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 38 )
+}
+
+\NewDocumentCommand { \DndBloodWight } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Blood~wight #2} ~ }
+    { \textbf{blood~wight #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 324 )
+}
+
+\NewDocumentCommand { \DndBlueBulette } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Blue~bulette #2} ~ }
+    { \textbf{blue~bulette #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 48 )
+}
+
+\NewDocumentCommand { \DndBoarfolk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Boarfolk #2} ~ }
+    { \textbf{boarfolk #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 40 )
+}
+
+\NewDocumentCommand { \DndBoarfolkRager } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Boarfolk~rager #2} ~ }
+    { \textbf{boarfolk~rager #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 41 )
+}
+
+\NewDocumentCommand { \DndBogBeast } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bog~beast #2} ~ }
+    { \textbf{bog~beast #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 42 )
+}
+
+\NewDocumentCommand { \DndBogCreeper } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bog~creeper #2} ~ }
+    { \textbf{bog~creeper #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 43 )
+}
+
+\NewDocumentCommand { \DndBoneCrawler } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bone~crawler #2} ~ }
+    { \textbf{bone~crawler #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 44 )
+}
+
+\NewDocumentCommand { \DndBrassMan } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Brass~man #2} ~ }
+    { \textbf{brass~man #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 45 )
+}
+
+\NewDocumentCommand { \DndBrineSeaSerpent } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Brine~sea~serpent #2} ~ }
+    { \textbf{brine~sea~serpent #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 278 )
+}
+
+\NewDocumentCommand { \DndBrineZombie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Brine~zombie #2} ~ }
+    { \textbf{brine~zombie #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 329 )
+}
+
+\NewDocumentCommand { \DndBronzeMinotaur } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bronze~minotaur #2} ~ }
+    { \textbf{bronze~minotaur #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 233 )
+}
+
+\NewDocumentCommand { \DndBrownMold } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Brown~mold #2} ~ }
+    { \textbf{brown~mold #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 236 )
+}
+
+\NewDocumentCommand { \DndBrownie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Brownie #2} ~ }
+    { \textbf{brownie #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 46 )
+}
+
+\NewDocumentCommand { \DndBurningGhat } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Burning~ghat #2} ~ }
+    { \textbf{burning~ghat #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 52 )
+}
+
+\NewDocumentCommand { \DndCadaver } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cadaver #2} ~ }
+    { \textbf{cadaver #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 53 )
+}
+
+\NewDocumentCommand { \DndCadaverLord } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cadaver~lord #2} ~ }
+    { \textbf{cadaver~lord #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 54 )
+}
+
+\NewDocumentCommand { \DndCarrionClaw } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Carrion~claw #2} ~ }
+    { \textbf{carrion~claw #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 57 )
+}
+
+\NewDocumentCommand { \DndCarrionMoth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Carrion~moth #2} ~ }
+    { \textbf{carrion~moth #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 58 )
+}
+
+\NewDocumentCommand { \DndCaryatidColumn } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Caryatid~column #2} ~ }
+    { \textbf{caryatid~column #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 59 )
+}
+
+\NewDocumentCommand { \DndCaterprism } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Caterprism #2} ~ }
+    { \textbf{caterprism #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 60 )
+}
+
+\NewDocumentCommand { \DndCaveBeetle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cave~beetle #2} ~ }
+    { \textbf{cave~beetle #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 26 )
+}
+
+\NewDocumentCommand { \DndCaveGiant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cave~giant #2} ~ }
+    { \textbf{cave~giant #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 169 )
+}
+
+\NewDocumentCommand { \DndCaveLeech } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cave~leech #2} ~ }
+    { \textbf{cave~leech #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 214 )
+}
+
+\NewDocumentCommand { \DndCaveTroll } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cave~troll #2} ~ }
+    { \textbf{cave~troll #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 312 )
+}
+
+\NewDocumentCommand { \DndCavernLizard } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cavern~lizard #2} ~ }
+    { \textbf{cavern~lizard #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 218 )
+}
+
+\NewDocumentCommand { \DndCerberus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cerberus #2} ~ }
+    { \textbf{cerberus #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 103 )
+}
+
+\NewDocumentCommand { \DndChaaorBeastDemon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Chaaor~(beast~demon) #2} ~ }
+    { \textbf{chaaor~(beast~demon) #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 81 )
+}
+
+\NewDocumentCommand { \DndChalkydri } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Chalkydri #2} ~ }
+    { \textbf{chalkydri #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 13 )
+}
+
+\NewDocumentCommand { \DndChaosBeast } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Chaos~beast #2} ~ }
+    { \textbf{chaos~beast #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 61 )
+}
+
+\NewDocumentCommand { \DndChoronzonChaosDemon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Choronzon~(chaos~demon) #2} ~ }
+    { \textbf{choronzon~(chaos~demon) #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 82 )
+}
+
+\NewDocumentCommand { \DndCinderGhoul } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cinder~ghoul #2} ~ }
+    { \textbf{cinder~ghoul #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 167 )
+}
+
+\NewDocumentCommand { \DndCinderKnight } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cinder~knight #2} ~ }
+    { \textbf{cinder~knight #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 62 )
+}
+
+\NewDocumentCommand { \DndClamor } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Clamor #2} ~ }
+    { \textbf{clamor #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 63 )
+}
+
+\NewDocumentCommand { \DndCloudDragonWyrmling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cloud~dragon~wyrmling #2} ~ }
+    { \textbf{cloud~dragon~wyrmling #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 110 )
+}
+
+\NewDocumentCommand { \DndClubnek } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Clubnek #2} ~ }
+    { \textbf{clubnek #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 64 )
+}
+
+\NewDocumentCommand { \DndConshee } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Conshee #2} ~ }
+    { \textbf{conshee #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 66 )
+}
+
+\NewDocumentCommand { \DndCopperMouseDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Copper~mouse~dragon #2} ~ }
+    { \textbf{copper~mouse~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 121 )
+}
+
+\NewDocumentCommand { \DndCorpseCandle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Corpse~candle #2} ~ }
+    { \textbf{corpse~candle #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 67 )
+}
+
+\NewDocumentCommand { \DndCorpseRook } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Corpse~rook #2} ~ }
+    { \textbf{corpse~rook #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 68 )
+}
+
+\NewDocumentCommand { \DndCrabman } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Crabman #2} ~ }
+    { \textbf{crabman #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 69 )
+}
+
+\NewDocumentCommand { \DndCrimsonBasilisk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Crimson~basilisk #2} ~ }
+    { \textbf{crimson~basilisk #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 20 )
+}
+
+\NewDocumentCommand { \DndCryptThing } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Crypt~thing #2} ~ }
+    { \textbf{crypt~thing #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 70 )
+}
+
+\NewDocumentCommand { \DndCrystallineHorror } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Crystalline~horror #2} ~ }
+    { \textbf{crystalline~horror #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 71 )
+}
+
+\NewDocumentCommand { \DndDagon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dagon #2} ~ }
+    { \textbf{dagon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 88 )
+}
+
+\NewDocumentCommand { \DndDarkCadejo } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dark~cadejo #2} ~ }
+    { \textbf{dark~cadejo #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 55 )
+}
+
+\NewDocumentCommand { \DndDeathCow } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Death~cow #2} ~ }
+    { \textbf{death~cow #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 72 )
+}
+
+\NewDocumentCommand { \DndDeathWatchBeetle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Death~watch~beetle #2} ~ }
+    { \textbf{death~watch~beetle #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 27 )
+}
+
+\NewDocumentCommand { \DndDecapus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Decapus #2} ~ }
+    { \textbf{decapus #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 73 )
+}
+
+\NewDocumentCommand { \DndDeepHunterSeaSerpent } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Deep~hunter~sea~serpent #2} ~ }
+    { \textbf{deep~hunter~sea~serpent #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 279 )
+}
+
+\NewDocumentCommand { \DndDefenderGlobe } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Defender~globe #2} ~ }
+    { \textbf{defender~globe #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 75 )
+}
+
+\NewDocumentCommand { \DndDemonSpider } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Demon~spider #2} ~ }
+    { \textbf{demon~spider #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 298 )
+}
+
+\NewDocumentCommand { \DndDemonicKnight } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Demonic~knight #2} ~ }
+    { \textbf{demonic~knight #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 100 )
+}
+
+\NewDocumentCommand { \DndDemonicMist } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Demonic~mist #2} ~ }
+    { \textbf{demonic~mist #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 101 )
+}
+
+\NewDocumentCommand { \DndDerghodemonCockroachDemon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Derghodemon~(cockroach~demon) #2} ~ }
+    { \textbf{derghodemon~(cockroach~demon) #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 83 )
+}
+
+\NewDocumentCommand { \DndDevilDog } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Devil~dog #2} ~ }
+    { \textbf{devil~dog #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 102 )
+}
+
+\NewDocumentCommand { \DndDevouringMist } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Devouring~mist #2} ~ }
+    { \textbf{devouring~mist #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 105 )
+}
+
+\NewDocumentCommand { \DndDragonCrab } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dragon~crab #2} ~ }
+    { \textbf{dragon~crab #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 106 )
+}
+
+\NewDocumentCommand { \DndDungeonDragonWyrmling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dungeon~dragon~wyrmling #2} ~ }
+    { \textbf{dungeon~dragon~wyrmling #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 113 )
+}
+
+\NewDocumentCommand { \DndDustGhoul } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dust~ghoul #2} ~ }
+    { \textbf{dust~ghoul #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 168 )
+}
+
+\NewDocumentCommand { \DndEarthElementalDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Earth~elemental~dragon #2} ~ }
+    { \textbf{earth~elemental~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 136 )
+}
+
+\NewDocumentCommand { \DndElderAcidElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Elder~acid~elemental #2} ~ }
+    { \textbf{elder~acid~elemental #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 129 )
+}
+
+\NewDocumentCommand { \DndElderGravityElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Elder~gravity~elemental #2} ~ }
+    { \textbf{elder~gravity~elemental #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 130 )
+}
+
+\NewDocumentCommand { \DndElderObsidianElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Elder~obsidian~elemental #2} ~ }
+    { \textbf{elder~obsidian~elemental #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 133 )
+}
+
+\NewDocumentCommand { \DndElderSpellParrot } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Elder~spell~parrot #2} ~ }
+    { \textbf{elder~spell~parrot #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 297 )
+}
+
+\NewDocumentCommand { \DndElectrumMouseDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Electrum~mouse~dragon #2} ~ }
+    { \textbf{electrum~mouse~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 120 )
+}
+
+\NewDocumentCommand { \DndEncephalonGorger } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Encephalon~gorger #2} ~ }
+    { \textbf{encephalon~gorger #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 140 )
+}
+
+\NewDocumentCommand { \DndEyeKiller } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Eye~killer #2} ~ }
+    { \textbf{eye~killer #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 142 )
+}
+
+\NewDocumentCommand { \DndEyeOfTheDeep } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Eye~of~the~deep #2} ~ }
+    { \textbf{eye~of~the~deep #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 143 )
+}
+
+\NewDocumentCommand { \DndFallenEmpyreal } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fallen~empyreal #2} ~ }
+    { \textbf{fallen~empyreal #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 14 )
+}
+
+\NewDocumentCommand { \DndFangedSeaSerpent } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fanged~sea~serpent #2} ~ }
+    { \textbf{fanged~sea~serpent #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 280 )
+}
+
+\NewDocumentCommand { \DndFerrousWorm } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ferrous~worm #2} ~ }
+    { \textbf{ferrous~worm #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 144 )
+}
+
+\NewDocumentCommand { \DndFireCrab } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fire~crab #2} ~ }
+    { \textbf{fire~crab #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 145 )
+}
+
+\NewDocumentCommand { \DndFireElementalDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fire~elemental~dragon #2} ~ }
+    { \textbf{fire~elemental~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 137 )
+}
+
+\NewDocumentCommand { \DndFireGoblin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fire~goblin #2} ~ }
+    { \textbf{fire~goblin #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 180 )
+}
+
+\NewDocumentCommand { \DndFireLizard } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fire~lizard #2} ~ }
+    { \textbf{fire~lizard #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 218 )
+}
+
+\NewDocumentCommand { \DndFireNymph } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fire~nymph #2} ~ }
+    { \textbf{fire~nymph #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 147 )
+}
+
+\NewDocumentCommand { \DndFirePhantom } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fire~phantom #2} ~ }
+    { \textbf{fire~phantom #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 148 )
+}
+
+\NewDocumentCommand { \DndFireWhaleBurningLeviathan } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fire~whale~(burning~leviathan) #2} ~ }
+    { \textbf{fire~whale~(burning~leviathan) #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 149 )
+}
+
+\NewDocumentCommand { \DndFlyDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fly~dragon #2} ~ }
+    { \textbf{fly~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 114 )
+}
+
+\NewDocumentCommand { \DndFogWarden } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fog~warden #2} ~ }
+    { \textbf{fog~warden #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 151 )
+}
+
+\NewDocumentCommand { \DndFolly } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Folly #2} ~ }
+    { \textbf{folly #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 152 )
+}
+
+\NewDocumentCommand { \DndForgottenOne } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Forgotten~one #2} ~ }
+    { \textbf{forgotten~one #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 153 )
+}
+
+\NewDocumentCommand { \DndFourArmedGargoyle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Four-armed~gargoyle #2} ~ }
+    { \textbf{four-armed~gargoyle #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 161 )
+}
+
+\NewDocumentCommand { \DndFrostDwarf } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Frost~dwarf #2} ~ }
+    { \textbf{frost~dwarf #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 126 )
+}
+
+\NewDocumentCommand { \DndFrostMan } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Frost~man #2} ~ }
+    { \textbf{frost~man #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 156 )
+}
+
+\NewDocumentCommand { \DndFuathGremlin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fuath~gremlin #2} ~ }
+    { \textbf{fuath~gremlin #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 193 )
+}
+
+\NewDocumentCommand { \DndFungalFolkAlchemistI } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fungal~folk~alchemist~i #2} ~ }
+    { \textbf{fungal~folk~alchemist~i #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 157 )
+}
+
+\NewDocumentCommand { \DndFungalFolkAlchemistIi } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fungal~folk~alchemist~ii #2} ~ }
+    { \textbf{fungal~folk~alchemist~ii #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 157 )
+}
+
+\NewDocumentCommand { \DndFungalFolkAlchemistIii } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fungal~folk~alchemist~iii #2} ~ }
+    { \textbf{fungal~folk~alchemist~iii #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 158 )
+}
+
+\NewDocumentCommand { \DndFungalFolkAlchemistIv } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fungal~folk~alchemist~iv #2} ~ }
+    { \textbf{fungal~folk~alchemist~iv #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 158 )
+}
+
+\NewDocumentCommand { \DndFungalFolkAlchemistV } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fungal~folk~alchemist~v #2} ~ }
+    { \textbf{fungal~folk~alchemist~v #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 158 )
+}
+
+\NewDocumentCommand { \DndFungusGargoyle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fungus~gargoyle #2} ~ }
+    { \textbf{fungus~gargoyle #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 161 )
+}
+
+\NewDocumentCommand { \DndGallowsTree } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gallows~tree #2} ~ }
+    { \textbf{gallows~tree #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 159 )
+}
+
+\NewDocumentCommand { \DndGallowsTreeZombie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gallows~tree~zombie #2} ~ }
+    { \textbf{gallows~tree~zombie #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 160 )
+}
+
+\NewDocumentCommand { \DndGelidBeetle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gelid~beetle #2} ~ }
+    { \textbf{gelid~beetle #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 28 )
+}
+
+\NewDocumentCommand { \DndGemDog } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gem~dog #2} ~ }
+    { \textbf{gem~dog #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 164 )
+}
+
+\NewDocumentCommand { \DndGeruzouSlimeDemon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Geruzou~(slime~demon) #2} ~ }
+    { \textbf{geruzou~(slime~demon) #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 83 )
+}
+
+\NewDocumentCommand { \DndGharrosScorpionDemon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gharros~(scorpion~demon) #2} ~ }
+    { \textbf{gharros~(scorpion~demon) #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 84 )
+}
+
+\NewDocumentCommand { \DndGhostFacedBattlePriest } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ghost-faced~battle~priest #2} ~ }
+    { \textbf{ghost-faced~battle~priest #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 254 )
+}
+
+\NewDocumentCommand { \DndGhostFacedOrc } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ghost-faced~orc #2} ~ }
+    { \textbf{ghost-faced~orc #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 254 )
+}
+
+\NewDocumentCommand { \DndGhoulWolf } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ghoul~wolf #2} ~ }
+    { \textbf{ghoul~wolf #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 327 )
+}
+
+\NewDocumentCommand { \DndGiantDireAbyssalFrog } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~dire~abyssal~frog #2} ~ }
+    { \textbf{giant~dire~abyssal~frog #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 154 )
+}
+
+\NewDocumentCommand { \DndGiantFly } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~fly #2} ~ }
+    { \textbf{giant~fly #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 150 )
+}
+
+\NewDocumentCommand { \DndGiantHamster } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~hamster #2} ~ }
+    { \textbf{giant~hamster #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 195 )
+}
+
+\NewDocumentCommand { \DndGiantLeech } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~leech #2} ~ }
+    { \textbf{giant~leech #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 215 )
+}
+
+\NewDocumentCommand { \DndGiantLynx } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~lynx #2} ~ }
+    { \textbf{giant~lynx #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 222 )
+}
+
+\NewDocumentCommand { \DndGiantSeaHorse } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~sea~horse #2} ~ }
+    { \textbf{giant~sea~horse #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 284 )
+}
+
+\NewDocumentCommand { \DndGiantSloth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~sloth #2} ~ }
+    { \textbf{giant~sloth #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 295 )
+}
+
+\NewDocumentCommand { \DndGiantTick } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~tick #2} ~ }
+    { \textbf{giant~tick #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 308 )
+}
+
+\NewDocumentCommand { \DndGibberingAbomination } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gibbering~abomination #2} ~ }
+    { \textbf{gibbering~abomination #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 174 )
+}
+
+\NewDocumentCommand { \DndGibberingOrb } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gibbering~orb #2} ~ }
+    { \textbf{gibbering~orb #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 177 )
+}
+
+\NewDocumentCommand { \DndGildedSeaSerpent } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gilded~sea~serpent #2} ~ }
+    { \textbf{gilded~sea~serpent #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 281 )
+}
+
+\NewDocumentCommand { \DndGlassWyrm } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Glass~wyrm #2} ~ }
+    { \textbf{glass~wyrm #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 178 )
+}
+
+\NewDocumentCommand { \DndGloomCrawler } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gloom~crawler #2} ~ }
+    { \textbf{gloom~crawler #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 179 )
+}
+
+\NewDocumentCommand { \DndGnasherLizard } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gnasher~lizard #2} ~ }
+    { \textbf{gnasher~lizard #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 219 )
+}
+
+\NewDocumentCommand { \DndGoldBulette } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gold~bulette #2} ~ }
+    { \textbf{gold~bulette #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 48 )
+}
+
+\NewDocumentCommand { \DndGoldMouseDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gold~mouse~dragon #2} ~ }
+    { \textbf{gold~mouse~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 120 )
+}
+
+\NewDocumentCommand { \DndGorgimera } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gorgimera #2} ~ }
+    { \textbf{gorgimera #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 191 )
+}
+
+\NewDocumentCommand { \DndGorsonTheBloodDuke } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gorson~the~blood~duke #2} ~ }
+    { \textbf{gorson~the~blood~duke #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 103 )
+}
+
+\NewDocumentCommand { \DndGrayDragonWyrmling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gray~dragon~wyrmling #2} ~ }
+    { \textbf{gray~dragon~wyrmling #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 116 )
+}
+
+\NewDocumentCommand { \DndGreaterAcidElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Greater~acid~elemental #2} ~ }
+    { \textbf{greater~acid~elemental #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 129 )
+}
+
+\NewDocumentCommand { \DndGreaterFireCrab } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Greater~fire~crab #2} ~ }
+    { \textbf{greater~fire~crab #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 146 )
+}
+
+\NewDocumentCommand { \DndGreaterGravityElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Greater~gravity~elemental #2} ~ }
+    { \textbf{greater~gravity~elemental #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 130 )
+}
+
+\NewDocumentCommand { \DndGreaterLightningElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Greater~lightning~elemental #2} ~ }
+    { \textbf{greater~lightning~elemental #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 131 )
+}
+
+\NewDocumentCommand { \DndGreaterObsidianElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Greater~obsidian~elemental #2} ~ }
+    { \textbf{greater~obsidian~elemental #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 133 )
+}
+
+\NewDocumentCommand { \DndGreenBulette } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Green~bulette #2} ~ }
+    { \textbf{green~bulette #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 49 )
+}
+
+\NewDocumentCommand { \DndGreenGuardianGargoyle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Green~guardian~gargoyle #2} ~ }
+    { \textbf{green~guardian~gargoyle #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 162 )
+}
+
+\NewDocumentCommand { \DndGreenskinOrc } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Greenskin~orc #2} ~ }
+    { \textbf{greenskin~orc #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 255 )
+}
+
+\NewDocumentCommand { \DndGreenskinOrcElfhunter } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Greenskin~orc~elfhunter #2} ~ }
+    { \textbf{greenskin~orc~elfhunter #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 255 )
+}
+
+\NewDocumentCommand { \DndGremlin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gremlin #2} ~ }
+    { \textbf{gremlin #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 192 )
+}
+
+\NewDocumentCommand { \DndGremlinFilcher } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gremlin~filcher #2} ~ }
+    { \textbf{gremlin~filcher #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 192 )
+}
+
+\NewDocumentCommand { \DndGreruorFrogDemon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Greruor~(frog~demon) #2} ~ }
+    { \textbf{greruor~(frog~demon) #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 85 )
+}
+
+\NewDocumentCommand { \DndGribbon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gribbon #2} ~ }
+    { \textbf{gribbon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 194 )
+}
+
+\NewDocumentCommand { \DndGuardianDemon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Guardian~demon #2} ~ }
+    { \textbf{guardian~demon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 86 )
+}
+
+\NewDocumentCommand { \DndHellbender } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hellbender #2} ~ }
+    { \textbf{hellbender #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 197 )
+}
+
+\NewDocumentCommand { \DndHellcat } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hellcat #2} ~ }
+    { \textbf{hellcat #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 198 )
+}
+
+\NewDocumentCommand { \DndHellmoth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hellmoth #2} ~ }
+    { \textbf{hellmoth #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 196 )
+}
+
+\NewDocumentCommand { \DndHeraldOfTsathogga } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Herald~of~tsathogga #2} ~ }
+    { \textbf{herald~of~tsathogga #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 199 )
+}
+
+\NewDocumentCommand { \DndHornedLord } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Horned~lord #2} ~ }
+    { \textbf{horned~lord #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 201 )
+}
+
+\NewDocumentCommand { \DndHsagrath } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hsagrath #2} ~ }
+    { \textbf{hsagrath #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 203 )
+}
+
+\NewDocumentCommand { \DndHuecuva } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Huecuva #2} ~ }
+    { \textbf{huecuva #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 204 )
+}
+
+\NewDocumentCommand { \DndHybridRevenant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hybrid~revenant #2} ~ }
+    { \textbf{hybrid~revenant #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 271 )
+}
+
+\NewDocumentCommand { \DndHydrodemon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hydrodemon #2} ~ }
+    { \textbf{hydrodemon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 86 )
+}
+
+\NewDocumentCommand { \DndIceGolem } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ice~golem #2} ~ }
+    { \textbf{ice~golem #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 186 )
+}
+
+\NewDocumentCommand { \DndIceTroll } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ice~troll #2} ~ }
+    { \textbf{ice~troll #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 313 )
+}
+
+\NewDocumentCommand { \DndIronCobra } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Iron~cobra #2} ~ }
+    { \textbf{iron~cobra #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 205 )
+}
+
+\NewDocumentCommand { \DndJackInIrons } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Jack-in_irons #2} ~ }
+    { \textbf{jack-in_irons #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 170 )
+}
+
+\NewDocumentCommand { \DndJadeColossus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Jade~colossus #2} ~ }
+    { \textbf{jade~colossus #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 65 )
+}
+
+\NewDocumentCommand { \DndJynx } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Jynx #2} ~ }
+    { \textbf{jynx #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 207 )
+}
+
+\NewDocumentCommand { \DndKamasuhn } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kamasuhn #2} ~ }
+    { \textbf{kamasuhn #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 208 )
+}
+
+\NewDocumentCommand { \DndKarina } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Karina #2} ~ }
+    { \textbf{karina #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 209 )
+}
+
+\NewDocumentCommand { \DndKathlin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kathlin #2} ~ }
+    { \textbf{kathlin #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 210 )
+}
+
+\NewDocumentCommand { \DndKillerFrog } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Killer~frog #2} ~ }
+    { \textbf{killer~frog #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 155 )
+}
+
+\NewDocumentCommand { \DndKostchtchie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kostchtchie #2} ~ }
+    { \textbf{kostchtchie #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 90 )
+}
+
+\NewDocumentCommand { \DndKuahLij } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kuah-lij #2} ~ }
+    { \textbf{kuah-lij #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 211 )
+}
+
+\NewDocumentCommand { \DndLanternGoat } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lantern~goat #2} ~ }
+    { \textbf{lantern~goat #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 212 )
+}
+
+\NewDocumentCommand { \DndLavaChild } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lava~child #2} ~ }
+    { \textbf{lava~child #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 213 )
+}
+
+\NewDocumentCommand { \DndLeadSkeleton } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lead~skeleton #2} ~ }
+    { \textbf{lead~skeleton #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 292 )
+}
+
+\NewDocumentCommand { \DndLeprechaun } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Leprechaun #2} ~ }
+    { \textbf{leprechaun #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 216 )
+}
+
+\NewDocumentCommand { \DndLesserGibberingOrb } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lesser~gibbering~orb #2} ~ }
+    { \textbf{lesser~gibbering~orb #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 175 )
+}
+
+\NewDocumentCommand { \DndLesserLightningElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lesser~lightning~elemental #2} ~ }
+    { \textbf{lesser~lightning~elemental #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 131 )
+}
+
+\NewDocumentCommand { \DndLichShade } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lich~shade #2} ~ }
+    { \textbf{lich~shade #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 217 )
+}
+
+\NewDocumentCommand { \DndLightCadejo } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Light~cadejo #2} ~ }
+    { \textbf{light~cadejo #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 56 )
+}
+
+\NewDocumentCommand { \DndLightningMephit } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lightning~mephit #2} ~ }
+    { \textbf{lightning~mephit #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 229 )
+}
+
+\NewDocumentCommand { \DndLightningWeird } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lightning~weird #2} ~ }
+    { \textbf{lightning~weird #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 322 )
+}
+
+\NewDocumentCommand { \DndLivestoneOoze } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Livestone~ooze #2} ~ }
+    { \textbf{livestone~ooze #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 246 )
+}
+
+\NewDocumentCommand { \DndLostLimb } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lost~limb #2} ~ }
+    { \textbf{lost~limb #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 220 )
+}
+
+\NewDocumentCommand { \DndLurkerAbove } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lurker~above #2} ~ }
+    { \textbf{lurker~above #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 221 )
+}
+
+\NewDocumentCommand { \DndLythic } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lythic #2} ~ }
+    { \textbf{lythic #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 223 )
+}
+
+\NewDocumentCommand { \DndMagmaOoze } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Magma~ooze #2} ~ }
+    { \textbf{magma~ooze #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 246 )
+}
+
+\NewDocumentCommand { \DndMagmoid } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Magmoid #2} ~ }
+    { \textbf{magmoid #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 224 )
+}
+
+\NewDocumentCommand { \DndMagnesiumGolem } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Magnesium~golem #2} ~ }
+    { \textbf{magnesium~golem #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 187 )
+}
+
+\NewDocumentCommand { \DndMalignantMouth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Malignant~mouth #2} ~ }
+    { \textbf{malignant~mouth #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 225 )
+}
+
+\NewDocumentCommand { \DndMantidrake } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mantidrake #2} ~ }
+    { \textbf{mantidrake #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 227 )
+}
+
+\NewDocumentCommand { \DndMargoyle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Margoyle #2} ~ }
+    { \textbf{margoyle #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 163 )
+}
+
+\NewDocumentCommand { \DndMastodon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mastodon #2} ~ }
+    { \textbf{mastodon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 228 )
+}
+
+\NewDocumentCommand { \DndMehrimGoatDemon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mehrim~(goat~demon) #2} ~ }
+    { \textbf{mehrim~(goat~demon) #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 87 )
+}
+
+\NewDocumentCommand { \DndMetallicOoze } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Metallic~ooze #2} ~ }
+    { \textbf{metallic~ooze #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 247 )
+}
+
+\NewDocumentCommand { \DndMimi } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mimi #2} ~ }
+    { \textbf{mimi #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 231 )
+}
+
+\NewDocumentCommand { \DndMistDragonWyrmling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mist~dragon~wyrmling #2} ~ }
+    { \textbf{mist~dragon~wyrmling #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 119 )
+}
+
+\NewDocumentCommand { \DndMobat } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mobat #2} ~ }
+    { \textbf{mobat #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 22 )
+}
+
+\NewDocumentCommand { \DndMohrg } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mohrg #2} ~ }
+    { \textbf{mohrg #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 235 )
+}
+
+\NewDocumentCommand { \DndMordnaissant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mordnaissant #2} ~ }
+    { \textbf{mordnaissant #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 238 )
+}
+
+\NewDocumentCommand { \DndMudbog } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mudbog #2} ~ }
+    { \textbf{mudbog #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 248 )
+}
+
+\NewDocumentCommand { \DndMummyOfTheDeep } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mummy~of~the~deep #2} ~ }
+    { \textbf{mummy~of~the~deep #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 240 )
+}
+
+\NewDocumentCommand { \DndMustardJelly } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mustard~jelly #2} ~ }
+    { \textbf{mustard~jelly #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 249 )
+}
+
+\NewDocumentCommand { \DndNetherspark } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Netherspark #2} ~ }
+    { \textbf{netherspark #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 241 )
+}
+
+\NewDocumentCommand { \DndNobleStreynor } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Noble~streynor #2} ~ }
+    { \textbf{noble~streynor #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 242 )
+}
+
+\NewDocumentCommand { \DndNobleTimeElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Noble~time~elemental #2} ~ }
+    { \textbf{noble~time~elemental #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 134 )
+}
+
+\NewDocumentCommand { \DndNucklavee } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Nucklavee #2} ~ }
+    { \textbf{nucklavee #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 243 )
+}
+
+\NewDocumentCommand { \DndOakman } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Oakman #2} ~ }
+    { \textbf{oakman #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 244 )
+}
+
+\NewDocumentCommand { \DndObsidianMinotaur } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Obsidian~minotaur #2} ~ }
+    { \textbf{obsidian~minotaur #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 234 )
+}
+
+\NewDocumentCommand { \DndOilShark } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Oil~shark #2} ~ }
+    { \textbf{oil~shark #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 288 )
+}
+
+\NewDocumentCommand { \DndOnyxDeer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Onyx~deer #2} ~ }
+    { \textbf{onyx~deer #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 74 )
+}
+
+\NewDocumentCommand { \DndOozeGolem } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ooze~golem #2} ~ }
+    { \textbf{ooze~golem #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 188 )
+}
+
+\NewDocumentCommand { \DndOphidian } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ophidian #2} ~ }
+    { \textbf{ophidian #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 250 )
+}
+
+\NewDocumentCommand { \DndOrcus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Orcus #2} ~ }
+    { \textbf{orcus #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 93 )
+}
+
+\NewDocumentCommand { \DndPazuzu } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Pazuzu #2} ~ }
+    { \textbf{pazuzu #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 94 )
+}
+
+\NewDocumentCommand { \DndPhasma } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Phasma #2} ~ }
+    { \textbf{phasma #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 256 )
+}
+
+\NewDocumentCommand { \DndPhlogistonBush } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Phlogiston~bush #2} ~ }
+    { \textbf{phlogiston~bush #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 257 )
+}
+
+\NewDocumentCommand { \DndPhooka } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Phooka #2} ~ }
+    { \textbf{phooka #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 258 )
+}
+
+\NewDocumentCommand { \DndPhycomid } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Phycomid #2} ~ }
+    { \textbf{phycomid #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 259 )
+}
+
+\NewDocumentCommand { \DndPlagueZombie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Plague~zombie #2} ~ }
+    { \textbf{plague~zombie #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 329 )
+}
+
+\NewDocumentCommand { \DndPlatinumMouseDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Platinum~mouse~dragon #2} ~ }
+    { \textbf{platinum~mouse~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 120 )
+}
+
+\NewDocumentCommand { \DndPrehistoricHoneyBadger } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Prehistoric~honey~badger #2} ~ }
+    { \textbf{prehistoric~honey~badger #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 18 )
+}
+
+\NewDocumentCommand { \DndPrehistoricRhinocerosElasmotherium } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Prehistoric~rhinoceros~elasmotherium #2} ~ }
+    { \textbf{prehistoric~rhinoceros~elasmotherium #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 272 )
+}
+
+\NewDocumentCommand { \DndPrismSpider } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Prism~spider #2} ~ }
+    { \textbf{prism~spider #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 299 )
+}
+
+\NewDocumentCommand { \DndPurpleWormZombie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Purple~worm~zombie #2} ~ }
+    { \textbf{purple~worm~zombie #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 330 )
+}
+
+\NewDocumentCommand { \DndPyreZombie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Pyre~zombie #2} ~ }
+    { \textbf{pyre~zombie #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 331 )
+}
+
+\NewDocumentCommand { \DndQuantum } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Quantum #2} ~ }
+    { \textbf{quantum #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 260 )
+}
+
+\NewDocumentCommand { \DndRaggoth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Raggoth #2} ~ }
+    { \textbf{raggoth #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 261 )
+}
+
+\NewDocumentCommand { \DndRakklethornToad } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Rakklethorn~toad #2} ~ }
+    { \textbf{rakklethorn~toad #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 262 )
+}
+
+\NewDocumentCommand { \DndRavagerBeetle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ravager~beetle #2} ~ }
+    { \textbf{ravager~beetle #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 28 )
+}
+
+\NewDocumentCommand { \DndRavagerBrawlerForm } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ravager~brawler~form #2} ~ }
+    { \textbf{ravager~brawler~form #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 264 )
+}
+
+\NewDocumentCommand { \DndRavagerCrawlerForm } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ravager~crawler~form #2} ~ }
+    { \textbf{ravager~crawler~form #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 263 )
+}
+
+\NewDocumentCommand { \DndRavagerFlyerForm } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ravager~flyer~form #2} ~ }
+    { \textbf{ravager~flyer~form #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 265 )
+}
+
+\NewDocumentCommand { \DndRavagerSpawnBrawlerForm } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ravager~spawn~brawler~form #2} ~ }
+    { \textbf{ravager~spawn~brawler~form #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 266 )
+}
+
+\NewDocumentCommand { \DndRavagerSpawnCrawlerForm } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ravager~spawn~crawler~form #2} ~ }
+    { \textbf{ravager~spawn~crawler~form #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 266 )
+}
+
+\NewDocumentCommand { \DndRavagerSpawnFlierForm } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ravager~spawn~flier~form #2} ~ }
+    { \textbf{ravager~spawn~flier~form #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 267 )
+}
+
+\NewDocumentCommand { \DndRedBulette } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Red~bulette #2} ~ }
+    { \textbf{red~bulette #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 50 )
+}
+
+\NewDocumentCommand { \DndReigon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Reigon #2} ~ }
+    { \textbf{reigon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 268 )
+}
+
+\NewDocumentCommand { \DndReliquaryGuardian } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Reliquary~guardian #2} ~ }
+    { \textbf{reliquary~guardian #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 269 )
+}
+
+\NewDocumentCommand { \DndRequiemBeetle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Requiem~beetle #2} ~ }
+    { \textbf{requiem~beetle #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 29 )
+}
+
+\NewDocumentCommand { \DndRetchHound } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Retch~hound #2} ~ }
+    { \textbf{retch~hound #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 270 )
+}
+
+\NewDocumentCommand { \DndRhincerosBeetle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Rhinceros~beetle #2} ~ }
+    { \textbf{rhinceros~beetle #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 29 )
+}
+
+\NewDocumentCommand { \DndRiptideHorror } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Riptide~horror #2} ~ }
+    { \textbf{riptide~horror #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 274 )
+}
+
+\NewDocumentCommand { \DndRiverTroll } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{River~troll #2} ~ }
+    { \textbf{river~troll #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 313 )
+}
+
+\NewDocumentCommand { \DndRockTroll } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Rock~troll #2} ~ }
+    { \textbf{rock~troll #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 314 )
+}
+
+\NewDocumentCommand { \DndRoyalTimeElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Royal~time~elemental #2} ~ }
+    { \textbf{royal~time~elemental #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 134 )
+}
+
+\NewDocumentCommand { \DndSaberToothedJaguar } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Saber-toothed~jaguar #2} ~ }
+    { \textbf{saber-toothed~jaguar #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 206 )
+}
+
+\NewDocumentCommand { \DndSabrewing } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sabrewing #2} ~ }
+    { \textbf{sabrewing #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 275 )
+}
+
+\NewDocumentCommand { \DndSaltDrake } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Salt~drake #2} ~ }
+    { \textbf{salt~drake #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 124 )
+}
+
+\NewDocumentCommand { \DndSandGiant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sand~giant #2} ~ }
+    { \textbf{sand~giant #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 171 )
+}
+
+\NewDocumentCommand { \DndSandKraken } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sand~kraken #2} ~ }
+    { \textbf{sand~kraken #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 276 )
+}
+
+\NewDocumentCommand { \DndSawtoothBeetle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sawtooth~beetle #2} ~ }
+    { \textbf{sawtooth~beetle #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 30 )
+}
+
+\NewDocumentCommand { \DndScylla } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Scylla #2} ~ }
+    { \textbf{scylla #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 277 )
+}
+
+\NewDocumentCommand { \DndSeaGiant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sea~giant #2} ~ }
+    { \textbf{sea~giant #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 172 )
+}
+
+\NewDocumentCommand { \DndSepiaSnake } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sepia~snake #2} ~ }
+    { \textbf{sepia~snake #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 296 )
+}
+
+\NewDocumentCommand { \DndSeraph } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Seraph #2} ~ }
+    { \textbf{seraph #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 166 )
+}
+
+\NewDocumentCommand { \DndShadelock } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Shadelock #2} ~ }
+    { \textbf{shadelock #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 285 )
+}
+
+\NewDocumentCommand { \DndShadowCaptain } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Shadow~captain #2} ~ }
+    { \textbf{shadow~captain #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 286 )
+}
+
+\NewDocumentCommand { \DndShadowHunter } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Shadow~hunter #2} ~ }
+    { \textbf{shadow~hunter #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 287 )
+}
+
+\NewDocumentCommand { \DndShadowHunterHatchling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Shadow~hunter~hatchling #2} ~ }
+    { \textbf{shadow~hunter~hatchling #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 287 )
+}
+
+\NewDocumentCommand { \DndShipbreakerSeaSerpent } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Shipbreaker~sea~serpent #2} ~ }
+    { \textbf{shipbreaker~sea~serpent #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 281 )
+}
+
+\NewDocumentCommand { \DndSilid } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Silid #2} ~ }
+    { \textbf{silid #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 289 )
+}
+
+\NewDocumentCommand { \DndSilverMouseDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Silver~mouse~dragon #2} ~ }
+    { \textbf{silver~mouse~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 121 )
+}
+
+\NewDocumentCommand { \DndSkeletonKnight } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Skeleton~knight #2} ~ }
+    { \textbf{skeleton~knight #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 290 )
+}
+
+\NewDocumentCommand { \DndSkullSpider } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Skull~spider #2} ~ }
+    { \textbf{skull~spider #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 300 )
+}
+
+\NewDocumentCommand { \DndSkulleton } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Skulleton #2} ~ }
+    { \textbf{skulleton #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 293 )
+}
+
+\NewDocumentCommand { \DndSlothViper } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sloth~viper #2} ~ }
+    { \textbf{sloth~viper #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 294 )
+}
+
+\NewDocumentCommand { \DndSmokeDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Smoke~dragon #2} ~ }
+    { \textbf{smoke~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 122 )
+}
+
+\NewDocumentCommand { \DndSmokeMephit } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Smoke~mephit #2} ~ }
+    { \textbf{smoke~mephit #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 230 )
+}
+
+\NewDocumentCommand { \DndSpellParrot } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Spell~parrot #2} ~ }
+    { \textbf{spell~parrot #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 297 )
+}
+
+\NewDocumentCommand { \DndSpellgorgedZombie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Spellgorged~zombie #2} ~ }
+    { \textbf{spellgorged~zombie #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 331 )
+}
+
+\NewDocumentCommand { \DndSpittingSeaSerpent } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Spitting~sea~serpent #2} ~ }
+    { \textbf{spitting~sea~serpent #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 283 )
+}
+
+\NewDocumentCommand { \DndSplinterDrake } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Splinter~drake #2} ~ }
+    { \textbf{splinter~drake #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 125 )
+}
+
+\NewDocumentCommand { \DndSpokvatten } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Spokvatten #2} ~ }
+    { \textbf{spokvatten #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 301 )
+}
+
+\NewDocumentCommand { \DndStenchBeetle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Stench~beetle #2} ~ }
+    { \textbf{stench~beetle #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 30 )
+}
+
+\NewDocumentCommand { \DndStoneDelver } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Stone~delver #2} ~ }
+    { \textbf{stone~delver #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 302 )
+}
+
+\NewDocumentCommand { \DndStoneGoblin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Stone~goblin #2} ~ }
+    { \textbf{stone~goblin #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 181 )
+}
+
+\NewDocumentCommand { \DndStormWarden } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Storm~warden #2} ~ }
+    { \textbf{storm~warden #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 303 )
+}
+
+\NewDocumentCommand { \DndSwampTroll } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Swamp~troll #2} ~ }
+    { \textbf{swamp~troll #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 315 )
+}
+
+\NewDocumentCommand { \DndSwarmOfGrigs } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Swarm~of~grigs #2} ~ }
+    { \textbf{swarm~of~grigs #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 304 )
+}
+
+\NewDocumentCommand { \DndSwarmOfPoisonousFrogs } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Swarm~of~poisonous~frogs #2} ~ }
+    { \textbf{swarm~of~poisonous~frogs #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 305 )
+}
+
+\NewDocumentCommand { \DndSwordWight } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sword~wight #2} ~ }
+    { \textbf{sword~wight #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 325 )
+}
+
+\NewDocumentCommand { \DndTshann } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{T'shann #2} ~ }
+    { \textbf{t'shann #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 319 )
+}
+
+\NewDocumentCommand { \DndTaintedServantOfTsathogga } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Tainted~servant~of~tsathogga #2} ~ }
+    { \textbf{tainted~servant~of~tsathogga #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 306 )
+}
+
+\NewDocumentCommand { \DndTallowGolem } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Tallow~golem #2} ~ }
+    { \textbf{tallow~golem #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 188 )
+}
+
+\NewDocumentCommand { \DndTranslucentBulette } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Translucent~bulette #2} ~ }
+    { \textbf{translucent~bulette #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 50 )
+}
+
+\NewDocumentCommand { \DndTransposer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Transposer #2} ~ }
+    { \textbf{transposer #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 309 )
+}
+
+\NewDocumentCommand { \DndTroblin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Troblin #2} ~ }
+    { \textbf{troblin #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 310 )
+}
+
+\NewDocumentCommand { \DndTsathar } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Tsathar #2} ~ }
+    { \textbf{tsathar #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 316 )
+}
+
+\NewDocumentCommand { \DndTsatharMonk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Tsathar~monk #2} ~ }
+    { \textbf{tsathar~monk #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 316 )
+}
+
+\NewDocumentCommand { \DndTsatharPriest } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Tsathar~priest #2} ~ }
+    { \textbf{tsathar~priest #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 317 )
+}
+
+\NewDocumentCommand { \DndTsatharSorcerer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Tsathar~sorcerer #2} ~ }
+    { \textbf{tsathar~sorcerer #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 318 )
+}
+
+\NewDocumentCommand { \DndTunnelWorm } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Tunnel~worm #2} ~ }
+    { \textbf{tunnel~worm #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 320 )
+}
+
+\NewDocumentCommand { \DndTwoToedHornedMoose } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Two-toed~horned~moose #2} ~ }
+    { \textbf{two-toed~horned~moose #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 237 )
+}
+
+\NewDocumentCommand { \DndUndeadOoze } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Undead~ooze #2} ~ }
+    { \textbf{undead~ooze #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 248 )
+}
+
+\NewDocumentCommand { \DndUndeadSwordsman } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Undead~swordsman #2} ~ }
+    { \textbf{undead~swordsman #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 321 )
+}
+
+\NewDocumentCommand { \DndVolcanoGiant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Volcano~giant #2} ~ }
+    { \textbf{volcano~giant #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 172 )
+}
+
+\NewDocumentCommand { \DndVrockZombie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Vrock~zombie #2} ~ }
+    { \textbf{vrock~zombie #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 332 )
+}
+
+\NewDocumentCommand { \DndVulgarMouseDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Vulgar~mouse~dragon #2} ~ }
+    { \textbf{vulgar~mouse~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 119 )
+}
+
+\NewDocumentCommand { \DndWaterBeetle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Water~beetle #2} ~ }
+    { \textbf{water~beetle #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 31 )
+}
+
+\NewDocumentCommand { \DndWaterElementalDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Water~elemental~dragon #2} ~ }
+    { \textbf{water~elemental~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 138 )
+}
+
+\NewDocumentCommand { \DndWaterGoblin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Water~goblin #2} ~ }
+    { \textbf{water~goblin #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 182 )
+}
+
+\NewDocumentCommand { \DndWindGoblin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wind~goblin #2} ~ }
+    { \textbf{wind~goblin #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 182 )
+}
+
+\NewDocumentCommand { \DndWitchDollGolem } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Witch-doll~golem #2} ~ }
+    { \textbf{witch-doll~golem #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 189 )
+}
+
+\NewDocumentCommand { \DndWizardsShackle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wizard's~shackle #2} ~ }
+    { \textbf{wizard's~shackle #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 326 )
+}
+
+\NewDocumentCommand { \DndWoodGiant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wood~giant #2} ~ }
+    { \textbf{wood~giant #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 173 )
+}
+
+\NewDocumentCommand { \DndWoodGoblin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wood~goblin #2} ~ }
+    { \textbf{wood~goblin #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 183 )
+}
+
+\NewDocumentCommand { \DndWoodGolem } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wood~golem #2} ~ }
+    { \textbf{wood~golem #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 190 )
+}
+
+\NewDocumentCommand { \DndWoodsApe } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Woods~ape #2} ~ }
+    { \textbf{woods~ape #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 15 )
+}
+
+\NewDocumentCommand { \DndWoolyMammoth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wooly~mammoth #2} ~ }
+    { \textbf{wooly~mammoth #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 226 )
+}
+
+\NewDocumentCommand { \DndWoolyRhinoceros } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wooly~rhinoceros #2} ~ }
+    { \textbf{wooly~rhinoceros #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 273 )
+}
+
+\NewDocumentCommand { \DndWrathDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wrath~dragon #2} ~ }
+    { \textbf{wrath~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 122 )
+}
+
+\NewDocumentCommand { \DndYoungCloudDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~cloud~dragon #2} ~ }
+    { \textbf{young~cloud~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 110 )
+}
+
+\NewDocumentCommand { \DndYoungDungeonDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~dungeon~dragon #2} ~ }
+    { \textbf{young~dungeon~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 112 )
+}
+
+\NewDocumentCommand { \DndYoungGrayDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~gray~dragon #2} ~ }
+    { \textbf{young~gray~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 116 )
+}
+
+\NewDocumentCommand { \DndYoungMistDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~mist~dragon #2} ~ }
+    { \textbf{young~mist~dragon #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 118 )
+}
+
+\NewDocumentCommand { \DndZombieBehir } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Zombie~behir #2} ~ }
+    { \textbf{zombie~behir #2} ~ }
+  ( \textit{ToH} , ~ p. \nobreakspace 328 )
+}
+

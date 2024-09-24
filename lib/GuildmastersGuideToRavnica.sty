@@ -1,0 +1,653 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Guildmaster's Guide to Ravnica
+
+\NewDocumentCommand { \DndFelidarWinged } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"felidar,~winged" #2} ~ }
+    { \textbf{"felidar,~winged" #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 199 )
+}
+
+\NewDocumentCommand { \DndAnarch } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Anarch #2} ~ }
+    { \textbf{anarch #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 239 )
+}
+
+\NewDocumentCommand { \DndArchonOfTheTriumvirate } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Archon~of~the~triumvirate #2} ~ }
+    { \textbf{archon~of~the~triumvirate #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 192 )
+}
+
+\NewDocumentCommand { \DndArclightPhoenix } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Arclight~phoenix #2} ~ }
+    { \textbf{arclight~phoenix #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 193 )
+}
+
+\NewDocumentCommand { \DndAurelia } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Aurelia #2} ~ }
+    { \textbf{aurelia #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 230 )
+}
+
+\NewDocumentCommand { \DndBattleforceAngel } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Battleforce~angel #2} ~ }
+    { \textbf{battleforce~angel #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 189 )
+}
+
+\NewDocumentCommand { \DndBiomancer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Biomancer #2} ~ }
+    { \textbf{biomancer #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 256 )
+}
+
+\NewDocumentCommand { \DndBlistercoilWeird } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Blistercoil~weird #2} ~ }
+    { \textbf{blistercoil~weird #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 207 )
+}
+
+\NewDocumentCommand { \DndBloodDrinkerVampire } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Blood~drinker~vampire #2} ~ }
+    { \textbf{blood~drinker~vampire #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 223 )
+}
+
+\NewDocumentCommand { \DndBloodWitch } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Blood~witch #2} ~ }
+    { \textbf{blood~witch #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 248 )
+}
+
+\NewDocumentCommand { \DndBloodflayGiant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bloodflay~giant #2} ~ }
+    { \textbf{bloodflay~giant #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 200 )
+}
+
+\NewDocumentCommand { \DndBorborygmos } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Borborygmos #2} ~ }
+    { \textbf{borborygmos #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 238 )
+}
+
+\NewDocumentCommand { \DndCackler } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cackler #2} ~ }
+    { \textbf{cackler #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 195 )
+}
+
+\NewDocumentCommand { \DndCategoryOneKrasis } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Category~1~krasis #2} ~ }
+    { \textbf{category~1~krasis #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 210 )
+}
+
+\NewDocumentCommand { \DndCategoryTwoKrasis } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Category~2~krasis #2} ~ }
+    { \textbf{category~2~krasis #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 211 )
+}
+
+\NewDocumentCommand { \DndCategoryThreeKrasis } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Category~3~krasis #2} ~ }
+    { \textbf{category~3~krasis #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 212 )
+}
+
+\NewDocumentCommand { \DndConclaveDryad } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Conclave~dryad #2} ~ }
+    { \textbf{conclave~dryad #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 194 )
+}
+
+\NewDocumentCommand { \DndCosmotronicBlastseeker } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cosmotronic~blastseeker #2} ~ }
+    { \textbf{cosmotronic~blastseeker #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 242 )
+}
+
+\NewDocumentCommand { \DndCounterfluxBlastseeker } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Counterflux~blastseeker #2} ~ }
+    { \textbf{counterflux~blastseeker #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 242 )
+}
+
+\NewDocumentCommand { \DndDeathpactAngel } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Deathpact~angel #2} ~ }
+    { \textbf{deathpact~angel #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 191 )
+}
+
+\NewDocumentCommand { \DndDevkarinLich } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Devkarin~lich #2} ~ }
+    { \textbf{devkarin~lich #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 198 )
+}
+
+\NewDocumentCommand { \DndDruidOfTheOldWays } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Druid~of~the~old~ways #2} ~ }
+    { \textbf{druid~of~the~old~ways #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 239 )
+}
+
+\NewDocumentCommand { \DndFelidar } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Felidar #2} ~ }
+    { \textbf{felidar #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 199 )
+}
+
+\NewDocumentCommand { \DndFirefist } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Firefist #2} ~ }
+    { \textbf{firefist #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 231 )
+}
+
+\NewDocumentCommand { \DndFiremaneAngel } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Firemane~angel #2} ~ }
+    { \textbf{firemane~angel #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 190 )
+}
+
+\NewDocumentCommand { \DndFluxBlastseeker } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Flux~blastseeker #2} ~ }
+    { \textbf{flux~blastseeker #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 242 )
+}
+
+\NewDocumentCommand { \DndFluxcharger } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fluxcharger #2} ~ }
+    { \textbf{fluxcharger #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 208 )
+}
+
+\NewDocumentCommand { \DndFlyingHorror } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Flying~horror #2} ~ }
+    { \textbf{flying~horror #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 203 )
+}
+
+\NewDocumentCommand { \DndFrontlineMedic } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Frontline~medic #2} ~ }
+    { \textbf{frontline~medic #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 231 )
+}
+
+\NewDocumentCommand { \DndGalvanicBlastseeker } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Galvanic~blastseeker #2} ~ }
+    { \textbf{galvanic~blastseeker #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 243 )
+}
+
+\NewDocumentCommand { \DndGalvanicWeird } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Galvanic~weird #2} ~ }
+    { \textbf{galvanic~weird #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 209 )
+}
+
+\NewDocumentCommand { \DndGloamwing } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gloamwing #2} ~ }
+    { \textbf{gloamwing #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 215 )
+}
+
+\NewDocumentCommand { \DndGoblinGangMember } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Goblin~gang~member #2} ~ }
+    { \textbf{goblin~gang~member #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 167 )
+}
+
+\NewDocumentCommand { \DndGolgariShaman } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Golgari~shaman #2} ~ }
+    { \textbf{golgari~shaman #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 236 )
+}
+
+\NewDocumentCommand { \DndGuardianGiant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Guardian~giant #2} ~ }
+    { \textbf{guardian~giant #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 201 )
+}
+
+\NewDocumentCommand { \DndHorncaller } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Horncaller #2} ~ }
+    { \textbf{horncaller #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 253 )
+}
+
+\NewDocumentCommand { \DndHybridBrute } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hybrid~brute #2} ~ }
+    { \textbf{hybrid~brute #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 217 )
+}
+
+\NewDocumentCommand { \DndHybridFlyer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hybrid~flyer #2} ~ }
+    { \textbf{hybrid~flyer #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 217 )
+}
+
+\NewDocumentCommand { \DndHybridPoisoner } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hybrid~poisoner #2} ~ }
+    { \textbf{hybrid~poisoner #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 217 )
+}
+
+\NewDocumentCommand { \DndHybridShocker } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hybrid~shocker #2} ~ }
+    { \textbf{hybrid~shocker #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 218 )
+}
+
+\NewDocumentCommand { \DndHybridSpy } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hybrid~spy #2} ~ }
+    { \textbf{hybrid~spy #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 218 )
+}
+
+\NewDocumentCommand { \DndIndenturedSpirit } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Indentured~spirit #2} ~ }
+    { \textbf{indentured~spirit #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 206 )
+}
+
+\NewDocumentCommand { \DndIsperia } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Isperia #2} ~ }
+    { \textbf{isperia #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 227 )
+}
+
+\NewDocumentCommand { \DndJaradVodSavo } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Jarad~vod~savo #2} ~ }
+    { \textbf{jarad~vod~savo #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 235 )
+}
+
+\NewDocumentCommand { \DndKraulDeathpriest } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kraul~deathpriest #2} ~ }
+    { \textbf{kraul~deathpriest #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 214 )
+}
+
+\NewDocumentCommand { \DndKraulWarrior } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kraul~warrior #2} ~ }
+    { \textbf{kraul~warrior #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 213 )
+}
+
+\NewDocumentCommand { \DndKrenko } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Krenko #2} ~ }
+    { \textbf{krenko #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 168 )
+}
+
+\NewDocumentCommand { \DndLawmage } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lawmage #2} ~ }
+    { \textbf{lawmage #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 228 )
+}
+
+\NewDocumentCommand { \DndLazav } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lazav #2} ~ }
+    { \textbf{lazav #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 232 )
+}
+
+\NewDocumentCommand { \DndLoadingRig } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Loading~rig #2} ~ }
+    { \textbf{loading~rig #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 170 )
+}
+
+\NewDocumentCommand { \DndMasterOfCruelties } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Master~of~cruelties #2} ~ }
+    { \textbf{master~of~cruelties #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 196 )
+}
+
+\NewDocumentCommand { \DndMindDrinkerVampire } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mind~drinker~vampire #2} ~ }
+    { \textbf{mind~drinker~vampire #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 224 )
+}
+
+\NewDocumentCommand { \DndMindMage } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mind~mage #2} ~ }
+    { \textbf{mind~mage #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 233 )
+}
+
+\NewDocumentCommand { \DndNightveilSpecter } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Nightveil~specter #2} ~ }
+    { \textbf{nightveil~specter #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 215 )
+}
+
+\NewDocumentCommand { \DndNivMizzet } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Niv-mizzet #2} ~ }
+    { \textbf{niv-mizzet #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 241 )
+}
+
+\NewDocumentCommand { \DndNivixCyclops } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Nivix~cyclops #2} ~ }
+    { \textbf{nivix~cyclops #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 216 )
+}
+
+\NewDocumentCommand { \DndObzedatGhost } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Obzedat~ghost #2} ~ }
+    { \textbf{obzedat~ghost #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 245 )
+}
+
+\NewDocumentCommand { \DndOrzhovGiant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Orzhov~giant #2} ~ }
+    { \textbf{orzhov~giant #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 202 )
+}
+
+\NewDocumentCommand { \DndPeludaDrake } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Peluda~drake #2} ~ }
+    { \textbf{peluda~drake #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 131 )
+}
+
+\NewDocumentCommand { \DndPrecognitiveMage } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Precognitive~mage #2} ~ }
+    { \textbf{precognitive~mage #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 228 )
+}
+
+\NewDocumentCommand { \DndRakdos } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Rakdos #2} ~ }
+    { \textbf{rakdos #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 247 )
+}
+
+\NewDocumentCommand { \DndRakdosLampooner } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Rakdos~lampooner #2} ~ }
+    { \textbf{rakdos~lampooner #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 248 )
+}
+
+\NewDocumentCommand { \DndRakdosPerformer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Rakdos~performer #2} ~ }
+    { \textbf{rakdos~performer #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 249 )
+}
+
+\NewDocumentCommand { \DndReckoner } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Reckoner #2} ~ }
+    { \textbf{reckoner #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 231 )
+}
+
+\NewDocumentCommand { \DndRubblebeltStalker } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Rubblebelt~stalker #2} ~ }
+    { \textbf{rubblebelt~stalker #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 239 )
+}
+
+\NewDocumentCommand { \DndScorchbringerGuard } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Scorchbringer~guard #2} ~ }
+    { \textbf{scorchbringer~guard #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 243 )
+}
+
+\NewDocumentCommand { \DndServitorThrull } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Servitor~thrull #2} ~ }
+    { \textbf{servitor~thrull #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 221 )
+}
+
+\NewDocumentCommand { \DndShadowHorror } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Shadow~horror #2} ~ }
+    { \textbf{shadow~horror #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 205 )
+}
+
+\NewDocumentCommand { \DndSireOfInsanity } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sire~of~insanity #2} ~ }
+    { \textbf{sire~of~insanity #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 197 )
+}
+
+\NewDocumentCommand { \DndSkitteringHorror } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Skittering~horror #2} ~ }
+    { \textbf{skittering~horror #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 205 )
+}
+
+\NewDocumentCommand { \DndSkullDrake } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Skull~drake #2} ~ }
+    { \textbf{skull~drake #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 132 )
+}
+
+\NewDocumentCommand { \DndSkyjekRoc } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Skyjek~roc #2} ~ }
+    { \textbf{skyjek~roc #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 219 )
+}
+
+\NewDocumentCommand { \DndSkyswimmer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Skyswimmer #2} ~ }
+    { \textbf{skyswimmer #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 220 )
+}
+
+\NewDocumentCommand { \DndSoldier } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Soldier #2} ~ }
+    { \textbf{soldier #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 226 )
+}
+
+\NewDocumentCommand { \DndSunderShaman } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sunder~shaman #2} ~ }
+    { \textbf{sunder~shaman #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 202 )
+}
+
+\NewDocumentCommand { \DndThoughtSpy } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Thought~spy #2} ~ }
+    { \textbf{thought~spy #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 233 )
+}
+
+\NewDocumentCommand { \DndTrostani } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Trostani #2} ~ }
+    { \textbf{trostani #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 252 )
+}
+
+\NewDocumentCommand { \DndUndercityMedusa } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Undercity~medusa #2} ~ }
+    { \textbf{undercity~medusa #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 222 )
+}
+
+\NewDocumentCommand { \DndWingedThrull } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Winged~thrull #2} ~ }
+    { \textbf{winged~thrull #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 221 )
+}
+
+\NewDocumentCommand { \DndWurm } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wurm #2} ~ }
+    { \textbf{wurm #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 225 )
+}
+
+\NewDocumentCommand { \DndZegana } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Zegana #2} ~ }
+    { \textbf{zegana #2} ~ }
+  ( \textit{GGtR} , ~ p. \nobreakspace 255 )
+}
+

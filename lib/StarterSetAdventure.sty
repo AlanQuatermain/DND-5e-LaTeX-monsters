@@ -1,0 +1,45 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Starter Set Adventure
+
+\NewDocumentCommand { \DndEvilMage } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Evil~mage #2} ~ }
+    { \textbf{evil~mage #2} ~ }
+  ( \textit{LMoP} , ~ p. \nobreakspace 57 )
+}
+
+\NewDocumentCommand { \DndMormeskTheWraith } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mormesk~the~wraith #2} ~ }
+    { \textbf{mormesk~the~wraith #2} ~ }
+  ( \textit{LMoP} , ~ p. \nobreakspace 59 )
+}
+
+\NewDocumentCommand { \DndNezznarTheBlackSpider } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Nezznar~the~black~spider #2} ~ }
+    { \textbf{nezznar~the~black~spider #2} ~ }
+  ( \textit{LMoP} , ~ p. \nobreakspace 59 )
+}
+
+\NewDocumentCommand { \DndRedbrandRuffian } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Redbrand~ruffian #2} ~ }
+    { \textbf{redbrand~ruffian #2} ~ }
+  ( \textit{LMoP} , ~ p. \nobreakspace 61 )
+}
+
+\NewDocumentCommand { \DndSildarHallwinter } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sildar~hallwinter #2} ~ }
+    { \textbf{sildar~hallwinter #2} ~ }
+  ( \textit{LMoP} , ~ p. \nobreakspace 61 )
+}
+

@@ -1,0 +1,72 @@
+\ExplSyntaxOn
+
+\bool_if:NT \__dndm_include_dmg
+  { \RequirePackage {lib/DungeonMastersGuide} }
+\bool_if:NT \__dndm_include_mm
+  { \RequirePackage {lib/MonsterManual} }
+\bool_if:NT \__dndm_include_mfolioI
+  { \RequirePackage {lib/MordenkainensFiendishFolioVol1} }
+\bool_if:NT \__dndm_include_mtome
+  { \RequirePackage {lib/MordenkainensTomeOfFoes} }
+\bool_if:NT \__dndm_include_phb
+  { \RequirePackage {lib/PlayersHandbook} }
+\bool_if:NT \__dndm_include_vologtm
+  { \RequirePackage {lib/VolosGuideToMonsters} }
+\bool_if:NT \__dndm_include_xanathar
+  { \RequirePackage {lib/XanatharsGuideToEverything} }
+\bool_if:NT \__dndm_include_erising
+  { \RequirePackage {lib/EberronRisingFromTheLastWar} }
+\bool_if:NT \__dndm_include_wildemount
+  { \RequirePackage {lib/ExplorersGuideToWildemount} }
+\bool_if:NT \__dndm_include_ravnica
+  { \RequirePackage {lib/GuildmastersGuideToRavnica} }
+\bool_if:NT \__dndm_include_theros
+  { \RequirePackage {lib/MythicOdysseysOfTheros} }
+\bool_if:NT \__dndm_include_dominaria
+  { \RequirePackage {lib/PlaneShiftDominaria} }
+\bool_if:NT \__dndm_include_innistrad
+  { \RequirePackage {lib/PlaneShiftInnistrad} }
+\bool_if:NT \__dndm_include_ixalan
+  { \RequirePackage {lib/PlaneShiftIxalan} }
+\bool_if:NT \__dndm_include_kaladesh
+  { \RequirePackage {lib/PlaneShiftKaladesh} }
+\bool_if:NT \__dndm_include_avernus
+  { \RequirePackage {lib/BaldursGateDescentIntoAvernus} }
+\bool_if:NT \__dndm_include_strahd
+  { \RequirePackage {lib/CurseOfStrahd} }
+\bool_if:NT \__dndm_include_saltmarsh
+  { \RequirePackage {lib/GhostsOfSaltmarsh} }
+\bool_if:NT \__dndm_include_hoarddq
+  { \RequirePackage {lib/HoardOfTheDragonQueen} }
+\bool_if:NT \__dndm_include_abyss
+  { \RequirePackage {lib/OutOfTheAbyss} }
+\bool_if:NT \__dndm_include_pota
+  { \RequirePackage {lib/PrincesOfTheApocalypse} }
+\bool_if:NT \__dndm_include_rtiamat
+  { \RequirePackage {lib/RiseOfTiamat} }
+\bool_if:NT \__dndm_include_starter
+  { \RequirePackage {lib/StarterSetAdventure} }
+\bool_if:NT \__dndm_include_thunder
+  { \RequirePackage {lib/StormKingsThunder} }
+\bool_if:NT \__dndm_include_yawning
+  { \RequirePackage {lib/TalesFromTheYawningPortal} }
+\bool_if:NT \__dndm_include_toann
+  { \RequirePackage {lib/TombOfAnnihilation} }
+\bool_if:NT \__dndm_include_wdragon
+  { \RequirePackage {lib/WaterdeepDragonHeist} }
+\bool_if:NT \__dndm_include_wdungeon
+  { \RequirePackage {lib/WaterdeepDungeonOfTheMadMage} }
+\bool_if:NT \__dndm_include_ccodex
+  { \RequirePackage {lib/CreatureCodex} }
+\bool_if:NT \__dndm_include_fefoes
+  { \RequirePackage {lib/FifthEditionFoes} }
+\bool_if:NT \__dndm_include_limitless
+  { \RequirePackage {lib/LimitlessMonsters} }
+\bool_if:NT \__dndm_include_tob
+  { \RequirePackage {lib/TomeOfBeasts} }
+\bool_if:NT \__dndm_include_toh
+  { \RequirePackage {lib/TomeOfHorrors} }
+\bool_if:NT \__dndm_include_tpkb
+  { \RequirePackage {lib/TotalPartyKillBestiary} }
+\bool_if:NT \__dndm_include_expeberron
+  { \RequirePackage {lib/ExploringEberron} }

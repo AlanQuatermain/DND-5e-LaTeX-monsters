@@ -1,0 +1,29 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Plane Shift: Dominaria
+
+\NewDocumentCommand { \DndHomarid } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Homarid #2} ~ }
+    { \textbf{homarid #2} ~ }
+  ( \textit{PS:D} , ~ p. \nobreakspace 15 )
+}
+
+\NewDocumentCommand { \DndKavaPredator } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kava~predator #2} ~ }
+    { \textbf{kava~predator #2} ~ }
+  ( \textit{PS:D} , ~ p. \nobreakspace 24 )
+}
+
+\NewDocumentCommand { \DndSteelLeafKavu } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Steel~leaf~kavu #2} ~ }
+    { \textbf{steel~leaf~kavu #2} ~ }
+  ( \textit{PS:D} , ~ p. \nobreakspace 24 )
+}
+

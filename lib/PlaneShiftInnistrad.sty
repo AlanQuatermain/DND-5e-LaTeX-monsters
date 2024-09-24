@@ -1,0 +1,13 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Plane Shift: Innistrad
+
+\NewDocumentCommand { \DndCreepyDoll } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Creepy~doll #2} ~ }
+    { \textbf{creepy~doll #2} ~ }
+  ( \textit{PS:In} , ~ p. \nobreakspace 25 )
+}
+

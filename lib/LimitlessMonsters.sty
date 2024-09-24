@@ -1,0 +1,917 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Limitless Monsters
+
+\NewDocumentCommand { \DndAnimatedArmorUnfinished } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"animated~armor,~unfinished" #2} ~ }
+    { \textbf{"animated~armor,~unfinished" #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 8 )
+}
+
+\NewDocumentCommand { \DndArgentaGoddessOfHealing } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"argenta,~goddess~of~healing" #2} ~ }
+    { \textbf{"argenta,~goddess~of~healing" #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 13 )
+}
+
+\NewDocumentCommand { \DndNixGoddessOfDarkness } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"nix,~goddess~of~darkness" #2} ~ }
+    { \textbf{"nix,~goddess~of~darkness" #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 64 )
+}
+
+\NewDocumentCommand { \DndRhinocerosNestbackWaspInfected } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{"rhinoceros,~nestback~wasp~infected" #2} ~ }
+    { \textbf{"rhinoceros,~nestback~wasp~infected" #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 62 )
+}
+
+\NewDocumentCommand { \DndAasimar } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Aasimar #2} ~ }
+    { \textbf{aasimar #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 6 )
+}
+
+\NewDocumentCommand { \DndAdultElectrumDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adult~electrum~dragon #2} ~ }
+    { \textbf{adult~electrum~dragon #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 30 )
+}
+
+\NewDocumentCommand { \DndAdultRedDracolich } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adult~red~dracolich #2} ~ }
+    { \textbf{adult~red~dracolich #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 22 )
+}
+
+\NewDocumentCommand { \DndAlchemicalOoze } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Alchemical~ooze #2} ~ }
+    { \textbf{alchemical~ooze #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 66 )
+}
+
+\NewDocumentCommand { \DndAncientElectrumDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ancient~electrum~dragon #2} ~ }
+    { \textbf{ancient~electrum~dragon #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 31 )
+}
+
+\NewDocumentCommand { \DndAncientGreenDragonZombie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ancient~green~dragon~zombie #2} ~ }
+    { \textbf{ancient~green~dragon~zombie #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 104 )
+}
+
+\NewDocumentCommand { \DndAppleheadCornbaby } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Applehead/cornbaby #2} ~ }
+    { \textbf{applehead/cornbaby #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 9 )
+}
+
+\NewDocumentCommand { \DndApprenticeMage } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Apprentice~mage #2} ~ }
+    { \textbf{apprentice~mage #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 108 )
+}
+
+\NewDocumentCommand { \DndArchfey } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Archfey #2} ~ }
+    { \textbf{archfey #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 10 )
+}
+
+\NewDocumentCommand { \DndArchivist } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Archivist #2} ~ }
+    { \textbf{archivist #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 109 )
+}
+
+\NewDocumentCommand { \DndAshMephit } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ash~mephit #2} ~ }
+    { \textbf{ash~mephit #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 55 )
+}
+
+\NewDocumentCommand { \DndAstralPirate } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Astral~pirate #2} ~ }
+    { \textbf{astral~pirate #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 14 )
+}
+
+\NewDocumentCommand { \DndAstralRaidMage } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Astral~raid~mage #2} ~ }
+    { \textbf{astral~raid~mage #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 15 )
+}
+
+\NewDocumentCommand { \DndAzerMarauders } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Azer~marauders #2} ~ }
+    { \textbf{azer~marauders #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 16 )
+}
+
+\NewDocumentCommand { \DndBilgeHorror } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bilge~horror #2} ~ }
+    { \textbf{bilge~horror #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 17 )
+}
+
+\NewDocumentCommand { \DndBrassOracle } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Brass~oracle #2} ~ }
+    { \textbf{brass~oracle #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 7 )
+}
+
+\NewDocumentCommand { \DndBriarKnight } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Briar~knight #2} ~ }
+    { \textbf{briar~knight #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 32 )
+}
+
+\NewDocumentCommand { \DndChampionOfArgenta } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Champion~of~argenta #2} ~ }
+    { \textbf{champion~of~argenta #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 12 )
+}
+
+\NewDocumentCommand { \DndCharnelHound } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Charnel~hound #2} ~ }
+    { \textbf{charnel~hound #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 18 )
+}
+
+\NewDocumentCommand { \DndChosenOfLugh } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Chosen~of~lugh #2} ~ }
+    { \textbf{chosen~of~lugh #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 19 )
+}
+
+\NewDocumentCommand { \DndCombatEngineer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Combat~engineer #2} ~ }
+    { \textbf{combat~engineer #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 110 )
+}
+
+\NewDocumentCommand { \DndCuriosity } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Curiosity #2} ~ }
+    { \textbf{curiosity #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 98 )
+}
+
+\NewDocumentCommand { \DndDeepCrab } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Deep~crab #2} ~ }
+    { \textbf{deep~crab #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 20 )
+}
+
+\NewDocumentCommand { \DndDivineEchoOfDeath } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Divine~echo~of~death #2} ~ }
+    { \textbf{divine~echo~of~death #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 26 )
+}
+
+\NewDocumentCommand { \DndDivineEchoOfKnowledge } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Divine~echo~of~knowledge #2} ~ }
+    { \textbf{divine~echo~of~knowledge #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 27 )
+}
+
+\NewDocumentCommand { \DndDivineEchoOfTrickery } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Divine~echo~of~trickery #2} ~ }
+    { \textbf{divine~echo~of~trickery #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 28 )
+}
+
+\NewDocumentCommand { \DndDragonHunter } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dragon~hunter #2} ~ }
+    { \textbf{dragon~hunter #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 111 )
+}
+
+\NewDocumentCommand { \DndDrowVeteran } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Drow~veteran #2} ~ }
+    { \textbf{drow~veteran #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 95 )
+}
+
+\NewDocumentCommand { \DndDrowZombie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Drow~zombie #2} ~ }
+    { \textbf{drow~zombie #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 105 )
+}
+
+\NewDocumentCommand { \DndDrownedMephit } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Drowned~mephit #2} ~ }
+    { \textbf{drowned~mephit #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 54 )
+}
+
+\NewDocumentCommand { \DndDuende } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Duende #2} ~ }
+    { \textbf{duende #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 25 )
+}
+
+\NewDocumentCommand { \DndElderMimic } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Elder~mimic #2} ~ }
+    { \textbf{elder~mimic #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 60 )
+}
+
+\NewDocumentCommand { \DndElectrumDragonWyrmling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Electrum~dragon~wyrmling #2} ~ }
+    { \textbf{electrum~dragon~wyrmling #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 29 )
+}
+
+\NewDocumentCommand { \DndElvishRidingHound } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Elvish~riding~hound #2} ~ }
+    { \textbf{elvish~riding~hound #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 33 )
+}
+
+\NewDocumentCommand { \DndEtherealLeaches } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ethereal~leaches #2} ~ }
+    { \textbf{ethereal~leaches #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 34 )
+}
+
+\NewDocumentCommand { \DndFeralGnoll } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Feral~gnoll #2} ~ }
+    { \textbf{feral~gnoll #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 40 )
+}
+
+\NewDocumentCommand { \DndFeralGnollShaman } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Feral~gnoll~shaman #2} ~ }
+    { \textbf{feral~gnoll~shaman #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 40 )
+}
+
+\NewDocumentCommand { \DndFeralPackLeader } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Feral~pack~leader #2} ~ }
+    { \textbf{feral~pack~leader #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 35 )
+}
+
+\NewDocumentCommand { \DndFighterMage } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fighter~mage #2} ~ }
+    { \textbf{fighter~mage #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 112 )
+}
+
+\NewDocumentCommand { \DndForestGiant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Forest~giant #2} ~ }
+    { \textbf{forest~giant #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 39 )
+}
+
+\NewDocumentCommand { \DndForsaken } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Forsaken #2} ~ }
+    { \textbf{forsaken #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 36 )
+}
+
+\NewDocumentCommand { \DndGiantCaterpillar } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~caterpillar #2} ~ }
+    { \textbf{giant~caterpillar #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 37 )
+}
+
+\NewDocumentCommand { \DndGiantLunaMoth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~luna~moth #2} ~ }
+    { \textbf{giant~luna~moth #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 38 )
+}
+
+\NewDocumentCommand { \DndGraveMephit } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Grave~mephit #2} ~ }
+    { \textbf{grave~mephit #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 56 )
+}
+
+\NewDocumentCommand { \DndGremlin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gremlin #2} ~ }
+    { \textbf{gremlin #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 41 )
+}
+
+\NewDocumentCommand { \DndGrottoHag } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Grotto~hag #2} ~ }
+    { \textbf{grotto~hag #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 42 )
+}
+
+\NewDocumentCommand { \DndHalfRedDragonWyvern } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Half~red~dragon~wyvern #2} ~ }
+    { \textbf{half~red~dragon~wyvern #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 44 )
+}
+
+\NewDocumentCommand { \DndHalfRedDragonTroll } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Half-red~dragon~troll #2} ~ }
+    { \textbf{half-red~dragon~troll #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 43 )
+}
+
+\NewDocumentCommand { \DndHighPriest } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{High~priest #2} ~ }
+    { \textbf{high~priest #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 113 )
+}
+
+\NewDocumentCommand { \DndHospitaller } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hospitaller #2} ~ }
+    { \textbf{hospitaller #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 114 )
+}
+
+\NewDocumentCommand { \DndIceElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ice~elemental #2} ~ }
+    { \textbf{ice~elemental #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 45 )
+}
+
+\NewDocumentCommand { \DndJester } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Jester #2} ~ }
+    { \textbf{jester #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 115 )
+}
+
+\NewDocumentCommand { \DndKavora } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kavora #2} ~ }
+    { \textbf{kavora #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 21 )
+}
+
+\NewDocumentCommand { \DndKelrinn } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kelrinn #2} ~ }
+    { \textbf{kelrinn #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 46 )
+}
+
+\NewDocumentCommand { \DndKelrinnChief } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kelrinn~chief #2} ~ }
+    { \textbf{kelrinn~chief #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 46 )
+}
+
+\NewDocumentCommand { \DndKoboldSorcerer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kobold~sorcerer #2} ~ }
+    { \textbf{kobold~sorcerer #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 47 )
+}
+
+\NewDocumentCommand { \DndLivingHorde } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Living~~horde #2} ~ }
+    { \textbf{living~~horde #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 50 )
+}
+
+\NewDocumentCommand { \DndLivingSpellbook } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Living~spellbook #2} ~ }
+    { \textbf{living~spellbook #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 51 )
+}
+
+\NewDocumentCommand { \DndLordKnight } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lord~knight #2} ~ }
+    { \textbf{lord~knight #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 116 )
+}
+
+\NewDocumentCommand { \DndLubberFiend } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lubber~fiend #2} ~ }
+    { \textbf{lubber~fiend #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 52 )
+}
+
+\NewDocumentCommand { \DndMageHound } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mage~hound #2} ~ }
+    { \textbf{mage~hound #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 53 )
+}
+
+\NewDocumentCommand { \DndMindRake } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mind~rake #2} ~ }
+    { \textbf{mind~rake #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 61 )
+}
+
+\NewDocumentCommand { \DndMinotaurBlockadeCrasher } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Minotaur~blockade~crasher #2} ~ }
+    { \textbf{minotaur~blockade~crasher #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 15 )
+}
+
+\NewDocumentCommand { \DndNightmareMephit } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Nightmare~mephit #2} ~ }
+    { \textbf{nightmare~mephit #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 57 )
+}
+
+\NewDocumentCommand { \DndNixie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Nixie #2} ~ }
+    { \textbf{nixie #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 63 )
+}
+
+\NewDocumentCommand { \DndOrcShaman } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Orc~shaman #2} ~ }
+    { \textbf{orc~shaman #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 67 )
+}
+
+\NewDocumentCommand { \DndOrcVeteran } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Orc~veteran #2} ~ }
+    { \textbf{orc~veteran #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 96 )
+}
+
+\NewDocumentCommand { \DndOrcZombie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Orc~zombie #2} ~ }
+    { \textbf{orc~zombie #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 106 )
+}
+
+\NewDocumentCommand { \DndPestilenceHarpy } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Pestilence~harpy #2} ~ }
+    { \textbf{pestilence~harpy #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 68 )
+}
+
+\NewDocumentCommand { \DndPickpocketStreetChild } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Pickpocket~street~child #2} ~ }
+    { \textbf{pickpocket~street~child #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 117 )
+}
+
+\NewDocumentCommand { \DndPitcherPlant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Pitcher~plant #2} ~ }
+    { \textbf{pitcher~plant #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 69 )
+}
+
+\NewDocumentCommand { \DndPollutedWaterElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Polluted~water~elemental #2} ~ }
+    { \textbf{polluted~water~elemental #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 70 )
+}
+
+\NewDocumentCommand { \DndPraesida } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Praesida #2} ~ }
+    { \textbf{praesida #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 71 )
+}
+
+\NewDocumentCommand { \DndPrimordialAirElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Primordial~air~elemental #2} ~ }
+    { \textbf{primordial~air~elemental #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 72 )
+}
+
+\NewDocumentCommand { \DndPrimordialEarthElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Primordial~earth~elemental #2} ~ }
+    { \textbf{primordial~earth~elemental #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 73 )
+}
+
+\NewDocumentCommand { \DndPrimordialFireElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Primordial~fire~elemental #2} ~ }
+    { \textbf{primordial~fire~elemental #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 74 )
+}
+
+\NewDocumentCommand { \DndPrimordialWaterElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Primordial~water~elemental #2} ~ }
+    { \textbf{primordial~water~elemental #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 75 )
+}
+
+\NewDocumentCommand { \DndPuffball } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Puffball #2} ~ }
+    { \textbf{puffball #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 76 )
+}
+
+\NewDocumentCommand { \DndRadiant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Radiant #2} ~ }
+    { \textbf{radiant #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 77 )
+}
+
+\NewDocumentCommand { \DndRustDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Rust~dragon #2} ~ }
+    { \textbf{rust~dragon #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 24 )
+}
+
+\NewDocumentCommand { \DndSargasso } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sargasso #2} ~ }
+    { \textbf{sargasso #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 78 )
+}
+
+\NewDocumentCommand { \DndSavageVampire } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Savage~vampire #2} ~ }
+    { \textbf{savage~vampire #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 91 )
+}
+
+\NewDocumentCommand { \DndScion } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Scion #2} ~ }
+    { \textbf{scion #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 79 )
+}
+
+\NewDocumentCommand { \DndSeaSerpent } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sea~serpent #2} ~ }
+    { \textbf{sea~serpent #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 80 )
+}
+
+\NewDocumentCommand { \DndSewerfolk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sewerfolk #2} ~ }
+    { \textbf{sewerfolk #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 81 )
+}
+
+\NewDocumentCommand { \DndShadowRook } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Shadow~rook #2} ~ }
+    { \textbf{shadow~rook #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 82 )
+}
+
+\NewDocumentCommand { \DndShipwreckGolem } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Shipwreck~golem #2} ~ }
+    { \textbf{shipwreck~golem #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 83 )
+}
+
+\NewDocumentCommand { \DndSkeletalGuardian } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Skeletal~guardian #2} ~ }
+    { \textbf{skeletal~guardian #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 84 )
+}
+
+\NewDocumentCommand { \DndStenchMephit } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Stench~mephit #2} ~ }
+    { \textbf{stench~mephit #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 58 )
+}
+
+\NewDocumentCommand { \DndStormElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Storm~elemental #2} ~ }
+    { \textbf{storm~elemental #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 86 )
+}
+
+\NewDocumentCommand { \DndStreetChildrenSwarm } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Street~children~swarm #2} ~ }
+    { \textbf{street~children~swarm #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 117 )
+}
+
+\NewDocumentCommand { \DndSwarmOfNestbackWasps } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Swarm~of~nestback~wasps #2} ~ }
+    { \textbf{swarm~of~nestback~wasps #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 62 )
+}
+
+\NewDocumentCommand { \DndSwarmOfShadowRooks } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Swarm~of~shadow~rooks #2} ~ }
+    { \textbf{swarm~of~shadow~rooks #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 82 )
+}
+
+\NewDocumentCommand { \DndSwarmOfSpiders } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Swarm~of~spiders #2} ~ }
+    { \textbf{swarm~of~spiders #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 105 )
+}
+
+\NewDocumentCommand { \DndTheLaughing } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{The~laughing #2} ~ }
+    { \textbf{the~laughing #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 87 )
+}
+
+\NewDocumentCommand { \DndTimeMephit } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Time~mephit #2} ~ }
+    { \textbf{time~mephit #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 59 )
+}
+
+\NewDocumentCommand { \DndTorgallTrollAlpha } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Tor'gall~(troll~alpha) #2} ~ }
+    { \textbf{tor'gall~(troll~alpha) #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 88 )
+}
+
+\NewDocumentCommand { \DndVampirePriest } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Vampire~priest #2} ~ }
+    { \textbf{vampire~priest #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 89 )
+}
+
+\NewDocumentCommand { \DndVampireWizard } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Vampire~wizard #2} ~ }
+    { \textbf{vampire~wizard #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 93 )
+}
+
+\NewDocumentCommand { \DndVoidLich } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Void~lich #2} ~ }
+    { \textbf{void~lich #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 48 )
+}
+
+\NewDocumentCommand { \DndWarlock } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Warlock #2} ~ }
+    { \textbf{warlock #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 118 )
+}
+
+\NewDocumentCommand { \DndWhim } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Whim #2} ~ }
+    { \textbf{whim #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 97 )
+}
+
+\NewDocumentCommand { \DndWhisperCat } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Whisper~cat #2} ~ }
+    { \textbf{whisper~cat #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 99 )
+}
+
+\NewDocumentCommand { \DndWickerDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wicker~dragon #2} ~ }
+    { \textbf{wicker~dragon #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 100 )
+}
+
+\NewDocumentCommand { \DndWickerWyrmling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wicker~wyrmling #2} ~ }
+    { \textbf{wicker~wyrmling #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 101 )
+}
+
+\NewDocumentCommand { \DndWickerman } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wickerman #2} ~ }
+    { \textbf{wickerman #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 102 )
+}
+
+\NewDocumentCommand { \DndWightCrossbowman } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wight~crossbowman #2} ~ }
+    { \textbf{wight~crossbowman #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 103 )
+}
+
+\NewDocumentCommand { \DndWoodElfScout } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wood~elf~scout #2} ~ }
+    { \textbf{wood~elf~scout #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 33 )
+}
+
+\NewDocumentCommand { \DndYoungBlueDragonSkeleton } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~blue~dragon~skeleton #2} ~ }
+    { \textbf{young~blue~dragon~skeleton #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 85 )
+}
+
+\NewDocumentCommand { \DndYoungElectrumDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~electrum~dragon #2} ~ }
+    { \textbf{young~electrum~dragon #2} ~ }
+  ( \textit{LM} , ~ p. \nobreakspace 29 )
+}
+

@@ -1,0 +1,419 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Package Options
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Provides class / package option processing of l3keys in LaTeX2e
+\RequirePackage {l3keys2e}
+
+% Messages for unknown options
+\msg_new:nnn {dndm} { options / unknown } { Unknown ~ option ~ " #1 ". }
+
+% One option per book, with some groups and super-groups
+
+%% wotc: wotcbase,planeshift,ERftLW,EGtW,GGtR,MOoT
+%% wotcall: wotc,wotcadv
+%% wotcmtg: planeshift,GGtR,MOoT
+%% eberron: ERftLW,EE
+%% tpp: CC,FeF,LM,ToB,ToH,TPKB,EE
+%% all: wotcall,tpp
+
+%% wotcbase
+\bool_new:N \__dndm_include_dmg       % Dungeon Master's Guide
+\bool_new:N \__dndm_include_mm        % Monster Manual
+\bool_new:N \__dndm_include_mfolioI   % Mordenkainen's Fiendish Folio Vol. 1
+\bool_new:N \__dndm_include_mtome     % Mordenkainen's Tome of Foes
+\bool_new:N \__dndm_include_phb       % Player's Handbook
+\bool_new:N \__dndm_include_vologtm   % Volo's Guide to Monsters
+\bool_new:N \__dndm_include_xanathar  % Xanathar's Guide to Everything
+
+%% planeshift
+\bool_new:N \__dndm_include_dominaria % Plane Shift: Dominaria
+\bool_new:N \__dndm_include_innistrad % Plane Shift: Innistrad
+\bool_new:N \__dndm_include_ixalan    % Plane Shift: Ixalan
+\bool_new:N \__dndm_include_kaladesh  % Plane Shift: Kaladesh
+
+%% ERftLW
+\bool_new:N \__dndm_include_erising % Eberron: Rising from the Last War
+
+%% EGtW
+\bool_new:N \__dndm_include_wildemount  % Explorer's Guide to Wildemount
+
+%% GGtR
+\bool_new:N \__dndm_include_ravnica % Guildmaster's Guide to Ravnica
+
+%% MOoT
+\bool_new:N \__dndm_include_theros  % Mythic Oddyseys of Theros
+
+%% wotcadv
+\bool_new:N \__dndm_include_avernus % Baldur's Gate: Descent into Avernus
+\bool_new:N \__dndm_include_strahd  % Curse of Strahd
+\bool_new:N \__dndm_include_saltmarsh % Ghosts of Saltmarsh
+\bool_new:N \__dndm_include_hoarddq % Hoard of the Dragon Queen
+\bool_new:N \__dndm_include_abyss   % Out of the Abyss
+\bool_new:N \__dndm_include_pota    % Princes of the Apocalypse
+\bool_new:N \__dndm_include_rtiamat % Rise of Tiamat
+\bool_new:N \__dndm_include_starter % Lost Mines of Phandelver
+\bool_new:N \__dndm_include_thunder % Storm King's Thunder
+\bool_new:N \__dndm_include_yawning % Tales from the Yawning Portal
+\bool_new:N \__dndm_include_toann   % Tomb of Annihilation
+\bool_new:N \__dndm_include_wdragon % Waterdeep: Dragon Heist
+\bool_new:N \__dndm_include_wdungeon  % Waterdeep: Dungeon of the Mad Mage
+
+% CC
+\bool_new:N \__dndm_include_ccodex  % Creature Codex
+
+% FeF
+\bool_new:N \__dndm_include_fefoes  % Fifth Edition Foes
+
+% LM
+\bool_new:N \__dndm_include_limitless % Limitless Monsters
+
+% ToB
+\bool_new:N \__dndm_include_tob     % Tome of Beasts
+
+% ToH
+\bool_new:N \__dndm_include_toh     % Tome of Horrors
+
+% TPKB
+\bool_new:N \__dndm_include_tpkb    % Total Party Kill Bestiary
+
+% EE
+\bool_new:N \__dndm_include_expeberron  % Exploring Eberron
+
+\cs_new_protected:Npn \__dndm_enable_wotcbase:
+  {
+    \bool_set_true:N \__dndm_include_dmg
+    \bool_set_true:N \__dndm_include_mm
+    \bool_set_true:N \__dndm_include_mfolioI
+    \bool_set_true:N \__dndm_include_mtome
+    \bool_set_true:N \__dndm_include_phb
+    \bool_set_true:N \__dndm_include_vologtm
+    \bool_set_true:N \__dndm_include_xanathar
+  }
+
+\cs_new_protected:Npn \__dndm_enable_planeshift:
+  {
+    \bool_set_true:N \__dndm_include_dominaria
+    \bool_set_true:N \__dndm_include_innistrad
+    \bool_set_true:N \__dndm_include_ixalan
+    \bool_set_true:N \__dndm_include_kaladesh
+  }
+
+\cs_new_protected:Npn \__dndm_enable_wotcadv:
+  {
+    \bool_set_true:N \__dndm_include_avernus
+    \bool_set_true:N \__dndm_include_strahd
+    \bool_set_true:N \__dndm_include_saltmarsh
+    \bool_set_true:N \__dndm_include_hoarddq
+    \bool_set_true:N \__dndm_include_abyss
+    \bool_set_true:N \__dndm_include_pota
+    \bool_set_true:N \__dndm_include_rtiamat
+    \bool_set_true:N \__dndm_include_starter
+    \bool_set_true:N \__dndm_include_thunder
+    \bool_set_true:N \__dndm_include_yawning
+    \bool_set_true:N \__dndm_include_toann
+    \bool_set_true:N \__dndm_include_wdragon
+    \bool_set_true:N \__dndm_include_wdungeon
+  }
+
+\cs_new_protected:Npn \__dndm_enable_wotcall:
+  {
+    \__dndm_enable_wotcbase:
+    \__dndm_enable_wotcadv:
+    \__dndm_enable_planeshift:
+    \bool_set_true:N \__dndm_include_erising
+    \bool_set_true:N \__dndm_include_ravnica
+    \bool_set_true:N \__dndm_include_theros
+    \bool_set_true:N \__dndm_include_wildemount
+  }
+
+\cs_new_protected:Npn \__dndm_enable_tpp:
+  {
+    \bool_set_true:N \__dndm_include_ccodex
+    \bool_set_true:N \__dndm_include_fefoes
+    \bool_set_true:N \__dndm_include_limitless
+    \bool_set_true:N \__dndm_include_tob
+    \bool_set_true:N \__dndm_include_toh
+    \bool_set_true:N \__dndm_include_tpkb
+    \bool_set_true:N \__dndm_include_expeberron
+  }
+
+\keys_define:nn { dndm / options }
+  {
+    wotc .code:n =
+      {
+        \__dndm_enable_wotcbase:
+        \__dndm_enable_planeshift:
+        \bool_set_true:N \__dndm_include_erising
+        \bool_set_true:N \__dndm_include_ravnica
+        \bool_set_true:N \__dndm_include_theros
+        \bool_set_true:N \__dndm_include_wildemount
+      },
+    wotc .value_forbidden:n = true,
+    
+    wotcbase .code:n =
+      {
+        \__dndm_enable_wotcbase:
+      },
+    wotcbase .value_forbidden:n = true,
+    
+    wotcall .code:n = 
+      {
+        \__dndm_enable_wotcall:
+      },
+    wotcall .value_forbidden:n = true,
+    
+    wotcmtg .code:n =
+      {
+        \__dndm_enable_planeshift:
+        \bool_set_true:N \__dndm_include_ravnica
+        \bool_set_true:N \__dndm_include_theros
+      },
+    wotcmtg .value_forbidden:n = true,
+    
+    wotcadv .code:n =
+      {
+        \__dndm_enable_wotcadv:
+      },
+    wotcadv .value_forbidden:n = true,
+    
+    eberron .code:n =
+      {
+        \bool_set_true:N \__dndm_include_erising
+        \bool_set_true:N \__dndm_include_expeberron
+      },
+    eberron .value_forbidden:n = true,
+    
+    tpp .code:n =
+      {
+        \__dndm_enable_tpp:
+      },
+    tpp .value_forbidden:n = true,
+    
+    all .code:n =
+      {
+        \__dndm_enable_wotcall:
+        \__dndm_enable_tpp:
+      },
+    all .value_forbidden:n = true,
+    
+    dmg .code:n =
+      {
+        \bool_set_true:N \__dndm_include_dmg
+      },
+    dmg .value_forbidden:n = true,
+    
+    mm .code:n =
+      {
+        \bool_set_true:N \__dndm_include_mm
+      },
+    mm .value_forbidden:n = true,
+    
+    mfolioI .code:n =
+      {
+        \bool_set_true:N \__dndm_include_mfolioI
+      },
+    mfolioI .value_forbidden:n = true,
+    
+    mtof .code:n =
+      {
+        \bool_set_true:N \__dndm_include_mtome
+      },
+    mtof .value_forbidden:n = true,
+    
+    phb .code:n =
+      {
+        \bool_set_true:N \__dndm_include_phb
+      },
+    phb .value_forbidden:n = true,
+    
+    vgtm .code:n =
+      {
+        \bool_set_true:N \__dndm_include_vologtm
+      },
+    vgtm .value_forbidden:n = true,
+    
+    xgte .code:n =
+      {
+        \bool_set_true:N \__dndm_include_xanathar
+      },
+    xgte .value_forbidden:n = true,
+    
+    psdom .code:n =
+      {
+        \bool_set_true:N \__dndm_include_dominaria
+      },
+    psdom .value_forbidden:n = true,
+    
+    psinn .code:n =
+      {
+        \bool_set_true:N \__dndm_include_innistrad
+      },
+    psinn .value_forbidden:n = true,
+    
+    psixa .code:n =
+      {
+        \bool_set_true:N \__dndm_include_ixalan
+      },
+    psixa .value_forbidden:n = true,
+    
+    pskal .code:n =
+      {
+        bool_set_true:N \__dndm_include_kaladesh
+      },
+    pskal .value_forbidden:n = true,
+    
+    erftlw .code:n =
+      {
+        \bool_set_true:N \__dndm_include_erising
+      },
+    erftlw .value_forbidden:n = true,
+    
+    egtw .code:n =
+      {
+        \bool_set_true:N \__dndm_include_wildemount
+      },
+    egtw .value_forbidden:n = true,
+    
+    ggtr .code:n =
+      {
+        \bool_set_true:N \__dndm_include_ravnica
+      },
+    ggtr .value_forbidden:n = true,
+    
+    moot .code:n =
+      {
+        \bool_set_true:N \__dndm_include_theros
+      },
+    moot .value_forbidden:n = true,
+    
+    bgdia .code:n =
+      {
+        \bool_set_true:N \__dndm_include_avernus
+      },
+    bgdia .value_forbidden:n = true,
+    
+    cos .code:n =
+      {
+        \bool_set_true:N \__dndm_include_strahd
+      },
+    cos .value_forbidden:n = true,
+    
+    gos .code:n =
+      {
+        \bool_set_true:N \__dndm_include_saltmarsh
+      },
+    gos .value_forbidden:n = true,
+    
+    hotdq .code:n =
+      {
+        \bool_set_true:N \__dndm_include_hoarddq
+      },
+    hotdq .value_forbidden:n = true,
+    
+    oota .code:n =
+      {
+        \bool_set_true:N \__dndm_include_abyss
+      },
+    oota .value_forbidden:n = true,
+    
+    pota .code:n =
+      {
+        \bool_set_true:N \__dndm_include_pota
+      },
+    pota .value_forbidden:n = true,
+    
+    rot .code:n =
+      {
+        \bool_set_true:N \__dndm_include_rtiamat
+      },
+    rot .value_forbidden:n = true,
+    
+    ssa .code:n =
+      {
+        \bool_set_true:N \__dndm_include_starter
+      },
+    ssa .value_forbidden:n = true,
+    
+    skt .code:n =
+      {
+        \bool_set_true:N \__dndm_include_thunder
+      },
+    skt .value_forbidden:n = true,
+    
+    tftyp .code:n =
+      {
+        \bool_set_true:N \__dndm_include_yawning
+      },
+    tftyp .value_forbidden:n = true,
+    
+    toa .code:n =
+      {
+        \bool_set_true:N \__dndm_include_toann
+      },
+    toa .value_forbidden:n = true,
+    
+    wdh .code:n =
+      {
+        \bool_set_true:N \__dndm_include_wdragon
+      },
+    wdh .value_forbidden:n = true,
+    
+    wtotmm .code:n =
+      {
+        \bool_set_true:N \__dndm_include_wdungeon
+      },
+    wtotmm .value_forbidden:n = true,
+    
+    cc .code:n =
+      {
+        \bool_set_true:N \__dndm_include_ccodex
+      },
+    cc .value_forbidden:n = true,
+    
+    fef .code:n =
+      {
+        \bool_set_true:N \__dndm_include_fefoes
+      },
+    fef .value_forbidden:n = true,
+    
+    lm .code:n =
+      {
+        \bool_set_true:N \__dndm_include_limitless
+      },
+    lm .value_forbidden:n = true,
+    
+    tob .code:n =
+      {
+        \bool_set_true:N \__dndm_include_tob
+      },
+    tob .value_forbidden:n = true,
+    
+    toh .code:n =
+      {
+        \bool_set_true:N \__dndm_include_toh
+      },
+    toh .value_forbidden:n = true,
+    
+    tpkb .code:n =
+      {
+        bool_set_true:N \__dndm_include_tpkb
+      },
+    tpkb .value_forbidden:n = true,
+    
+    ee .code:n =
+      {
+        \bool_set_true:N \__dndm_include_expeberron
+      },
+    ee .value_forbidden:n = true,
+    
+    unknown .code:n =
+      {
+        \msg_error:nnx { dndm } { options / unknown } {\l_keys_key_tl}
+      },
+  }
+
+\ProcessKeysOptions { dndm / options }
+

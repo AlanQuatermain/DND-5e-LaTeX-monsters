@@ -1,0 +1,29 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Dungeon Master's Guide
+
+\NewDocumentCommand { \DndAvatarOfDeath } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Avatar~of~death #2} ~ }
+    { \textbf{avatar~of~death #2} ~ }
+  ( \textit{DMG} , ~ p. \nobreakspace 164 )
+}
+
+\NewDocumentCommand { \DndGiantFly } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~fly #2} ~ }
+    { \textbf{giant~fly #2} ~ }
+  ( \textit{DMG} , ~ p. \nobreakspace 169 )
+}
+
+\NewDocumentCommand { \DndLarva } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Larva #2} ~ }
+    { \textbf{larva #2} ~ }
+  ( \textit{DMG} , ~ p. \nobreakspace 63 )
+}
+
