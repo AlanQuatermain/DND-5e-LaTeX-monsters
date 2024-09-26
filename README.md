@@ -169,7 +169,8 @@ The `wotcbase` option includes the following individual sources:
 | `mcdl` | Monstrous Compendium Vol. 2: Dragonlance Creatures |
 
 Passing `onednd` will use the 2024 editions of the Player's Handbook and Monster
-Manual, once those are included.
+Manual, once those are included.  Until content is available for those, they will
+instead include their 2014 counterparts.
 
 #### Official Campaign Settings
 
@@ -251,6 +252,17 @@ The `eberron` setting includes these sources.
 | -------- | -------- |
 | `erftlw` | Eberron: Rising from the Last War |
 | `ee` | Exploring Eberron |
+
+#### Everything Dragonlance
+
+Since much of the Dragonlance bestiary resides in Shadow of the Dragon Queen,
+setting `dragonlance` will explicitly include both that and the Dragonlance
+volume of the Monstrous Compendium.
+
+| Code     | Content  |
+| -------- | -------- |
+| `dsotdq` | Dragonlance: Shadow of the Dragon Queen |
+| `mcdl` | Monstrous Compendium Vol. 2: Dragonlance Creatures |
 
 #### Planeshift (M:TG cross-over content)
 

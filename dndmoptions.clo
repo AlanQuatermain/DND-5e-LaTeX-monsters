@@ -244,6 +244,13 @@
       },
     eberron .value_forbidden:n = true,
 
+    dragonlance .code:n =
+      {
+        \bool_set_true:N \__dndm_include_dlmon
+        \bool_set_true:N \__dndm_include_dlshadow
+      },
+    dragonlance .value_forbidden:n = true,
+
     tpp .code:n =
       {
         \__dndm_enable_tpp:
