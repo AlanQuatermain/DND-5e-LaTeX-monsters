@@ -237,6 +237,12 @@
       },
     wotcadv .value_forbidden:n = true,
 
+    wotcextra .code:n =
+      {
+        \__dndm_enable_wotcextras:
+      },
+    wotcextra .value_forbidden:n = true,
+
     eberron .code:n =
       {
         \bool_set_true:N \__dndm_include_erising

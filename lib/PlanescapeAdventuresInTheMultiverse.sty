@@ -1,4 +1,438 @@
 \ExplSyntaxOn
 
+\_DndSetMonsterSource { PS:AitM } { Planescape:~Adventures~in~the~Multiverse }
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Planescape: Adventures in the Multiverse
+
+\ProvideDocumentCommand { \DndAdultTimeDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adult~Time~Dragon#2} ~ }
+    { \textbf{adult~time~dragon#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 50 )
+}
+
+\ProvideDocumentCommand { \DndAncientTimeDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ancient~Time~Dragon#2} ~ }
+    { \textbf{ancient~time~dragon#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 48 )
+}
+
+\ProvideDocumentCommand { \DndAtharNull } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Athar~Null#2} ~ }
+    { \textbf{athar~null#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 53 )
+}
+
+\ProvideDocumentCommand { \DndAurumachRilmani } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Aurumach~Rilmani#2} ~ }
+    { \textbf{aurumach~rilmani#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 43 )
+}
+
+\ProvideDocumentCommand { \DndAvoralGuardinal } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Avoral~Guardinal#2} ~ }
+    { \textbf{avoral~guardinal#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 32 )
+}
+
+\ProvideDocumentCommand { \DndBaernaloth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Baernaloth#2} ~ }
+    { \textbf{baernaloth#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 20 )
+}
+
+\ProvideDocumentCommand { \DndBariaurWanderer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bariaur~Wanderer#2} ~ }
+    { \textbf{bariaur~wanderer#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 21 )
+}
+
+\ProvideDocumentCommand { \DndBleakCabalVoidSoother } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bleak~Cabal~Void~Soother#2} ~ }
+    { \textbf{bleak~cabal~void~soother#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 54 )
+}
+
+\ProvideDocumentCommand { \DndCraniumRatSqueaker } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cranium~Rat~Squeaker#2} ~ }
+    { \textbf{cranium~rat~squeaker#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 22 )
+}
+
+\ProvideDocumentCommand { \DndCraniumRatSqueakerSwarm } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cranium~Rat~Squeaker~Swarm#2} ~ }
+    { \textbf{cranium~rat~squeaker~swarm#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 22 )
+}
+
+\ProvideDocumentCommand { \DndCuprilachRilmani } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cuprilach~Rilmani#2} ~ }
+    { \textbf{cuprilach~rilmani#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 44 )
+}
+
+\ProvideDocumentCommand { \DndDabus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dabus#2} ~ }
+    { \textbf{dabus#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 23 )
+}
+
+\ProvideDocumentCommand { \DndDarkweaver } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Darkweaver#2} ~ }
+    { \textbf{darkweaver#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 25 )
+}
+
+\ProvideDocumentCommand { \DndDecatonModron } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Decaton~Modron#2} ~ }
+    { \textbf{decaton~modron#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 36 )
+}
+
+\ProvideDocumentCommand { \DndDoomguardDoomLord } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Doomguard~Doom~Lord#2} ~ }
+    { \textbf{doomguard~doom~lord#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 55 )
+}
+
+\ProvideDocumentCommand { \DndDoomguardRotBlade } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Doomguard~Rot~Blade#2} ~ }
+    { \textbf{doomguard~rot~blade#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 56 )
+}
+
+\ProvideDocumentCommand { \DndEaterOfKnowledge } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Eater~Of~Knowledge#2} ~ }
+    { \textbf{eater~of~knowledge#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 29 )
+}
+
+\ProvideDocumentCommand { \DndEquinalGuardinal } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Equinal~Guardinal#2} ~ }
+    { \textbf{equinal~guardinal#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 33 )
+}
+
+\ProvideDocumentCommand { \DndFaratsuDemodand } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Faratsu~Demodand#2} ~ }
+    { \textbf{faratsu~demodand#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 26 )
+}
+
+\ProvideDocumentCommand { \DndFatedShaker } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fated~Shaker#2} ~ }
+    { \textbf{fated~shaker#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 56 )
+}
+
+\ProvideDocumentCommand { \DndFerrumachRilmani } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ferrumach~Rilmani#2} ~ }
+    { \textbf{ferrumach~rilmani#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 44 )
+}
+
+\ProvideDocumentCommand { \DndFraternityOfOrderLawBender } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fraternity~Of~Order~Law~Bender#2} ~ }
+    { \textbf{fraternity~of~order~law~bender#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 57 )
+}
+
+\ProvideDocumentCommand { \DndGithzeraiFuturist } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Githzerai~Futurist#2} ~ }
+    { \textbf{githzerai~futurist#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 30 )
+}
+
+\ProvideDocumentCommand { \DndGithzeraiTraveler } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Githzerai~Traveler#2} ~ }
+    { \textbf{githzerai~traveler#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 31 )
+}
+
+\ProvideDocumentCommand { \DndGithzeraiUniter } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Githzerai~Uniter#2} ~ }
+    { \textbf{githzerai~uniter#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 31 )
+}
+
+\ProvideDocumentCommand { \DndHandsOfHavocFireStarter } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hands~Of~Havoc~Fire~Starter#2} ~ }
+    { \textbf{hands~of~havoc~fire~starter#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 58 )
+}
+
+\ProvideDocumentCommand { \DndHarmoniumCaptain } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Harmonium~Captain#2} ~ }
+    { \textbf{harmonium~captain#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 59 )
+}
+
+\ProvideDocumentCommand { \DndHarmoniumPeacekeeper } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Harmonium~Peacekeeper#2} ~ }
+    { \textbf{harmonium~peacekeeper#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 59 )
+}
+
+\ProvideDocumentCommand { \DndHeraldsOfDustRemnant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Heralds~Of~Dust~Remnant#2} ~ }
+    { \textbf{heralds~of~dust~remnant#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 59 )
+}
+
+\ProvideDocumentCommand { \DndHextonModron } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hexton~Modron#2} ~ }
+    { \textbf{hexton~modron#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 37 )
+}
+
+\ProvideDocumentCommand { \DndHoundArchon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hound~Archon#2} ~ }
+    { \textbf{hound~archon#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 16 )
+}
+
+\ProvideDocumentCommand { \DndKelubarDemodand } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kelubar~Demodand#2} ~ }
+    { \textbf{kelubar~demodand#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 27 )
+}
+
+\ProvideDocumentCommand { \DndKolyarut } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kolyarut#2} ~ }
+    { \textbf{kolyarut#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 34 )
+}
+
+\ProvideDocumentCommand { \DndLanternArchon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lantern~Archon#2} ~ }
+    { \textbf{lantern~archon#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 17 )
+}
+
+\ProvideDocumentCommand { \DndMaelephant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Maelephant#2} ~ }
+    { \textbf{maelephant#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 35 )
+}
+
+\ProvideDocumentCommand { \DndMercykillerBloodhound } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mercykiller~Bloodhound#2} ~ }
+    { \textbf{mercykiller~bloodhound#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 60 )
+}
+
+\ProvideDocumentCommand { \DndMindsEyeMatterSmith } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mind's~Eye~Matter~Smith#2} ~ }
+    { \textbf{mind's~eye~matter~smith#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 60 )
+}
+
+\ProvideDocumentCommand { \DndMustevalGuardinal } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Musteval~Guardinal#2} ~ }
+    { \textbf{musteval~guardinal#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 33 )
+}
+
+\ProvideDocumentCommand { \DndNonatonModron } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Nonaton~Modron#2} ~ }
+    { \textbf{nonaton~modron#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 38 )
+}
+
+\ProvideDocumentCommand { \DndOctonModron } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Octon~Modron#2} ~ }
+    { \textbf{octon~modron#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 40 )
+}
+
+\ProvideDocumentCommand { \DndPlanarIncarnate } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Planar~Incarnate#2} ~ }
+    { \textbf{planar~incarnate#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 41 )
+}
+
+\ProvideDocumentCommand { \DndRazorvineBlight } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Razorvine~Blight#2} ~ }
+    { \textbf{razorvine~blight#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 42 )
+}
+
+\ProvideDocumentCommand { \DndSeptonModron } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Septon~Modron#2} ~ }
+    { \textbf{septon~modron#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 40 )
+}
+
+\ProvideDocumentCommand { \DndShatorDemodand } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Shator~Demodand#2} ~ }
+    { \textbf{shator~demodand#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 28 )
+}
+
+\ProvideDocumentCommand { \DndShemeshka } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Shemeshka#2} ~ }
+    { \textbf{shemeshka#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 46 )
+}
+
+\ProvideDocumentCommand { \DndSocietyOfSensationMuse } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Society~Of~Sensation~Muse#2} ~ }
+    { \textbf{society~of~sensation~muse#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 61 )
+}
+
+\ProvideDocumentCommand { \DndSunfly } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sunfly#2} ~ }
+    { \textbf{sunfly#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 47 )
+}
+
+\ProvideDocumentCommand { \DndSwarmOfSunflies } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Swarm~Of~Sunflies#2} ~ }
+    { \textbf{swarm~of~sunflies#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 47 )
+}
+
+\ProvideDocumentCommand { \DndTimeDragonWyrmling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Time~Dragon~Wyrmling#2} ~ }
+    { \textbf{time~dragon~wyrmling#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 51 )
+}
+
+\ProvideDocumentCommand { \DndTranscendentOrderConduit } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Transcendent~Order~Conduit#2} ~ }
+    { \textbf{transcendent~order~conduit#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 62 )
+}
+
+\ProvideDocumentCommand { \DndTranscendentOrderInstinct } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Transcendent~Order~Instinct#2} ~ }
+    { \textbf{transcendent~order~instinct#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 62 )
+}
+
+\ProvideDocumentCommand { \DndVargouilleReflection } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Vargouille~Reflection#2} ~ }
+    { \textbf{vargouille~reflection#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 52 )
+}
+
+\ProvideDocumentCommand { \DndWardenArchon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Warden~Archon#2} ~ }
+    { \textbf{warden~archon#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 18 )
+}
+
+\ProvideDocumentCommand { \DndYoungTimeDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~Time~Dragon#2} ~ }
+    { \textbf{young~time~dragon#2} ~ }
+  ( \textit{PS:AitM} , ~ p. \nobreakspace 51 )
+}

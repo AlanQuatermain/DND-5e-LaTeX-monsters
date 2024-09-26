@@ -1,6 +1,21 @@
 \ExplSyntaxOn
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Mapping short to long names
+
+\prop_new:N \__dndm_names_map
+
+\NewDocumentCommand { \_DndSetMonsterSource } { m m } {
+  \prop_put:Nnn \__dndm_names_map { #1 } { #2 }
+}
+
+\NewDocumentCommand { \DndMapMonsterSources } { m } {
+  \prop_map_inline:Nn \__dndm_names_map {
+    #1
+  }
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% WotC Base Books
 
 \bool_if:NT \__dndm_include_phb

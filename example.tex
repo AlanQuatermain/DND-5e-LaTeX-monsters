@@ -20,7 +20,7 @@
 \usepackage{listings}
 \usepackage{shortvrb}
 \usepackage{stfloats}
-\usepackage[all]{dndmonsters}
+\usepackage[wotc,wotcextra,veor,cotn,dsotdq]{dndmonsters}
 
 \captionsetup[table]{labelformat=empty,font={sf,sc,bf,},skip=0pt}
 
@@ -39,5 +39,17 @@
 \chapter{Example}
 
 One \DndCitadelSpider\ stalks across the ground ahead of you, and a \DndSwarmOfSorrowfish\ makes the lake behind you untenable.  Several \DndBozakDraconian[s]\ approach from the east, while to the right \DndVerminaard*\ looks on haughtily.
+
+\subsubsection{Sources}
+
+This book uses the following abbreviations to reference other publications:
+
+\DndMapMonsterSources {\textbf{#1}: \textit{#2}, }
+
+\newpage
+
+\begin{DndTable}[header=Sources in a Table]{lX}
+  \DndMapMonsterSources {\textbf{#1} & #2 \\}
+\end{DndTable}
 
 \end{document}
