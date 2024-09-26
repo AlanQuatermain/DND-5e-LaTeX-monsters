@@ -1,0 +1,13 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Domains of Delight
+
+\ProvideDocumentCommand { \DndYarnspinner } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Yarnspinner#2} ~ }
+    { \textbf{yarnspinner#2} ~ }
+  ( \textit{DoD} , ~ p. \nobreakspace 22 )
+}
+

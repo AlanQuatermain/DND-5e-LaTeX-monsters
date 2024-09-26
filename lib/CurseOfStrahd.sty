@@ -3,147 +3,146 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Curse of Strahd
 
-\NewDocumentCommand { \DndBabaLysaga } { s O{} }
+\ProvideDocumentCommand { \DndBabaLysaga } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Baba~lysaga #2} ~ }
-    { \textbf{baba~lysaga #2} ~ }
+    { \textbf{Baba~Lysaga#2} ~ }
+    { \textbf{baba~lysaga#2} ~ }
   ( \textit{CoS} , ~ p. \nobreakspace 228 )
 }
 
-\NewDocumentCommand { \DndBabaLysagasCreepingHut } { s O{} }
+\ProvideDocumentCommand { \DndBabaLysagasCreepingHut } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Baba~lysaga's~creeping~hut #2} ~ }
-    { \textbf{baba~lysaga's~creeping~hut #2} ~ }
+    { \textbf{Baba~Lysaga's~Creeping~Hut#2} ~ }
+    { \textbf{baba~lysaga's~creeping~hut#2} ~ }
   ( \textit{CoS} , ~ p. \nobreakspace 226 )
 }
 
-\NewDocumentCommand { \DndBavorianWitch } { s O{} }
+\ProvideDocumentCommand { \DndBarovianWitch } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Bavorian~witch #2} ~ }
-    { \textbf{bavorian~witch #2} ~ }
+    { \textbf{Barovian~Witch#2} ~ }
+    { \textbf{barovian~witch#2} ~ }
   ( \textit{CoS} , ~ p. \nobreakspace 229 )
 }
 
-\NewDocumentCommand { \DndBroomOfAnimatedAttack } { s O{} }
+\ProvideDocumentCommand { \DndBroomOfAnimatedAttack } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Broom~of~animated~attack #2} ~ }
-    { \textbf{broom~of~animated~attack #2} ~ }
+    { \textbf{Broom~of~Animated~Attack#2} ~ }
+    { \textbf{broom~of~animated~attack#2} ~ }
   ( \textit{CoS} , ~ p. \nobreakspace 226 )
 }
 
-\NewDocumentCommand { \DndEzmereldaDavenir } { s O{} }
+\ProvideDocumentCommand { \DndEzmereldaDavenir } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Ezmerelda~d'avenir #2} ~ }
-    { \textbf{ezmerelda~d'avenir #2} ~ }
-  ( \textit{CoS} , ~ p. \nobreakspace 230 )
-}
-
-\NewDocumentCommand { \DndGuardianPortrait } { s O{} }
-{
-  \IfBooleanTF {#1}
-    { \textbf{Guardian~portrait #2} ~ }
-    { \textbf{guardian~portrait #2} ~ }
-  ( \textit{CoS} , ~ p. \nobreakspace 227 )
-}
-
-\NewDocumentCommand { \DndIzekStrazni } { s O{} }
-{
-  \IfBooleanTF {#1}
-    { \textbf{Izek~strazni #2} ~ }
-    { \textbf{izek~strazni #2} ~ }
+    { \textbf{Ezmerelda~D'avenir#2} ~ }
+    { \textbf{ezmerelda~d'avenir#2} ~ }
   ( \textit{CoS} , ~ p. \nobreakspace 231 )
 }
 
-\NewDocumentCommand { \DndMadamEva } { s O{} }
+\ProvideDocumentCommand { \DndGuardianPortrait } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Madam~eva #2} ~ }
-    { \textbf{madam~eva #2} ~ }
-  ( \textit{CoS} , ~ p. \nobreakspace 233 )
-}
-
-\NewDocumentCommand { \DndMongrelfolk } { s O{} }
-{
-  \IfBooleanTF {#1}
-    { \textbf{Mongrelfolk #2} ~ }
-    { \textbf{mongrelfolk #2} ~ }
-  ( \textit{CoS} , ~ p. \nobreakspace 234 )
-}
-
-\NewDocumentCommand { \DndPhantomWarrior } { s O{} }
-{
-  \IfBooleanTF {#1}
-    { \textbf{Phantom~warrior #2} ~ }
-    { \textbf{phantom~warrior #2} ~ }
-  ( \textit{CoS} , ~ p. \nobreakspace 235 )
-}
-
-\NewDocumentCommand { \DndPidlwickIi } { s O{} }
-{
-  \IfBooleanTF {#1}
-    { \textbf{Pidlwick~ii #2} ~ }
-    { \textbf{pidlwick~ii #2} ~ }
-  ( \textit{CoS} , ~ p. \nobreakspace 236 )
-}
-
-\NewDocumentCommand { \DndRahadin } { s O{} }
-{
-  \IfBooleanTF {#1}
-    { \textbf{Rahadin #2} ~ }
-    { \textbf{rahadin #2} ~ }
-  ( \textit{CoS} , ~ p. \nobreakspace 236 )
-}
-
-\NewDocumentCommand { \DndRictavio } { s O{} }
-{
-  \IfBooleanTF {#1}
-    { \textbf{Rictavio #2} ~ }
-    { \textbf{rictavio #2} ~ }
-  ( \textit{CoS} , ~ p. \nobreakspace 238 )
-}
-
-\NewDocumentCommand { \DndStrahdZombie } { s O{} }
-{
-  \IfBooleanTF {#1}
-    { \textbf{Strahd~zombie #2} ~ }
-    { \textbf{strahd~zombie #2} ~ }
-  ( \textit{CoS} , ~ p. \nobreakspace 241 )
-}
-
-\NewDocumentCommand { \DndStrahdVonZarovich } { s O{} }
-{
-  \IfBooleanTF {#1}
-    { \textbf{Strahd~von~zarovich #2} ~ }
-    { \textbf{strahd~von~zarovich #2} ~ }
-  ( \textit{CoS} , ~ p. \nobreakspace 239 )
-}
-
-\NewDocumentCommand { \DndStrahdsAnimatedArmor } { s O{} }
-{
-  \IfBooleanTF {#1}
-    { \textbf{Strahd's~animated~armor #2} ~ }
-    { \textbf{strahd's~animated~armor #2} ~ }
+    { \textbf{Guardian~Portrait#2} ~ }
+    { \textbf{guardian~portrait#2} ~ }
   ( \textit{CoS} , ~ p. \nobreakspace 227 )
 }
 
-\NewDocumentCommand { \DndTreeBlight } { s O{} }
+\ProvideDocumentCommand { \DndIzekStrazni } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Tree~blight #2} ~ }
-    { \textbf{tree~blight #2} ~ }
+    { \textbf{Izek~Strazni#2} ~ }
+    { \textbf{izek~strazni#2} ~ }
+  ( \textit{CoS} , ~ p. \nobreakspace 232 )
+}
+
+\ProvideDocumentCommand { \DndMadamEva } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Madam~Eva#2} ~ }
+    { \textbf{madam~eva#2} ~ }
+  ( \textit{CoS} , ~ p. \nobreakspace 233 )
+}
+
+\ProvideDocumentCommand { \DndMongrelfolk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mongrelfolk#2} ~ }
+    { \textbf{mongrelfolk#2} ~ }
+  ( \textit{CoS} , ~ p. \nobreakspace 234 )
+}
+
+\ProvideDocumentCommand { \DndPhantomWarrior } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Phantom~Warrior#2} ~ }
+    { \textbf{phantom~warrior#2} ~ }
+  ( \textit{CoS} , ~ p. \nobreakspace 235 )
+}
+
+\ProvideDocumentCommand { \DndPidlwickIi } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Pidlwick~Ii#2} ~ }
+    { \textbf{pidlwick~ii#2} ~ }
+  ( \textit{CoS} , ~ p. \nobreakspace 236 )
+}
+
+\ProvideDocumentCommand { \DndRahadin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Rahadin#2} ~ }
+    { \textbf{rahadin#2} ~ }
+  ( \textit{CoS} , ~ p. \nobreakspace 237 )
+}
+
+\ProvideDocumentCommand { \DndRictavio } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Rictavio#2} ~ }
+    { \textbf{rictavio#2} ~ }
+  ( \textit{CoS} , ~ p. \nobreakspace 238 )
+}
+
+\ProvideDocumentCommand { \DndStrahdVonZarovich } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Strahd~Von~Zarovich#2} ~ }
+    { \textbf{strahd~von~zarovich#2} ~ }
+  ( \textit{CoS} , ~ p. \nobreakspace 240 )
+}
+
+\ProvideDocumentCommand { \DndStrahdZombie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Strahd~Zombie#2} ~ }
+    { \textbf{strahd~zombie#2} ~ }
+  ( \textit{CoS} , ~ p. \nobreakspace 241 )
+}
+
+\ProvideDocumentCommand { \DndStrahdsAnimatedArmor } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Strahd's~Animated~Armor#2} ~ }
+    { \textbf{strahd's~animated~armor#2} ~ }
+  ( \textit{CoS} , ~ p. \nobreakspace 227 )
+}
+
+\ProvideDocumentCommand { \DndTreeBlight } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Tree~Blight#2} ~ }
+    { \textbf{tree~blight#2} ~ }
   ( \textit{CoS} , ~ p. \nobreakspace 230 )
 }
 
-\NewDocumentCommand { \DndWereraven } { s O{} }
+\ProvideDocumentCommand { \DndVladimirHorngaard } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Wereraven #2} ~ }
-    { \textbf{wereraven #2} ~ }
-  ( \textit{CoS} , ~ p. \nobreakspace 242 )
+    { \textbf{Vladimir~Horngaard#2} ~ }
+    { \textbf{vladimir~horngaard#2} ~ }
+  ( \textit{CoS} , ~ p. \nobreakspace 241 )
 }
-

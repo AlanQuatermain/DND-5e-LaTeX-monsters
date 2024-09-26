@@ -3,67 +3,51 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Rise of Tiamat
 
-\NewDocumentCommand { \DndDragonfang } { s O{} }
+\ProvideDocumentCommand { \DndDragonfang } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Dragonfang #2} ~ }
-    { \textbf{dragonfang #2} ~ }
+    { \textbf{Dragonfang#2} ~ }
+    { \textbf{dragonfang#2} ~ }
   ( \textit{RoT} , ~ p. \nobreakspace 89 )
 }
 
-\NewDocumentCommand { \DndDragonsoul } { s O{} }
+\ProvideDocumentCommand { \DndDragonsoul } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Dragonsoul #2} ~ }
-    { \textbf{dragonsoul #2} ~ }
+    { \textbf{Dragonsoul#2} ~ }
+    { \textbf{dragonsoul#2} ~ }
   ( \textit{RoT} , ~ p. \nobreakspace 89 )
 }
 
-\NewDocumentCommand { \DndDragonwing } { s O{} }
+\ProvideDocumentCommand { \DndIceToad } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Dragonwing #2} ~ }
-    { \textbf{dragonwing #2} ~ }
+    { \textbf{Ice~Toad#2} ~ }
+    { \textbf{ice~toad#2} ~ }
   ( \textit{RoT} , ~ p. \nobreakspace 90 )
 }
 
-\NewDocumentCommand { \DndIceToad } { s O{} }
+\ProvideDocumentCommand { \DndNaergothBladelord } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Ice~toad #2} ~ }
-    { \textbf{ice~toad #2} ~ }
+    { \textbf{Naergoth~Bladelord#2} ~ }
+    { \textbf{naergoth~bladelord#2} ~ }
   ( \textit{RoT} , ~ p. \nobreakspace 90 )
 }
 
-\NewDocumentCommand { \DndNaergothBladelord } { s O{} }
+\ProvideDocumentCommand { \DndNeronvain } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Naergoth~bladelord #2} ~ }
-    { \textbf{naergoth~bladelord #2} ~ }
-  ( \textit{RoT} , ~ p. \nobreakspace 90 )
-}
-
-\NewDocumentCommand { \DndNeronvain } { s O{} }
-{
-  \IfBooleanTF {#1}
-    { \textbf{Neronvain #2} ~ }
-    { \textbf{neronvain #2} ~ }
+    { \textbf{Neronvain#2} ~ }
+    { \textbf{neronvain#2} ~ }
   ( \textit{RoT} , ~ p. \nobreakspace 91 )
 }
 
-\NewDocumentCommand { \DndSeverin } { s O{} }
+\ProvideDocumentCommand { \DndSeverin } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Severin #2} ~ }
-    { \textbf{severin #2} ~ }
-  ( \textit{RoT} , ~ p. \nobreakspace 92 )
-}
-
-\NewDocumentCommand { \DndTiamat } { s O{} }
-{
-  \IfBooleanTF {#1}
-    { \textbf{Tiamat #2} ~ }
-    { \textbf{tiamat #2} ~ }
+    { \textbf{Severin#2} ~ }
+    { \textbf{severin#2} ~ }
   ( \textit{RoT} , ~ p. \nobreakspace 92 )
 }
 

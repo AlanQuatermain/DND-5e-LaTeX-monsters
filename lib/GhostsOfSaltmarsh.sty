@@ -3,355 +3,386 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Ghosts of Saltmarsh
 
-\NewDocumentCommand { \DndAmphisbaena } { s O{} }
+\ProvideDocumentCommand { \DndBullywugCroaker } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Amphisbaena #2} ~ }
-    { \textbf{amphisbaena #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 230 )
+    { \textbf{Bullywug~Croaker#2} ~ }
+    { \textbf{bullywug~croaker#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 232 )
 }
 
-\NewDocumentCommand { \DndBullywugCroaker } { s O{} }
+\ProvideDocumentCommand { \DndBullywugRoyal } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Bullywug~croaker #2} ~ }
-    { \textbf{bullywug~croaker #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 232 )
+    { \textbf{Bullywug~Royal#2} ~ }
+    { \textbf{bullywug~royal#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 232 )
 }
 
-\NewDocumentCommand { \DndBullywugRoyal } { s O{} }
+\ProvideDocumentCommand { \DndDrownedAscetic } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Bullywug~royal #2} ~ }
-    { \textbf{bullywug~royal #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 232 )
+    { \textbf{Drowned~Ascetic#2} ~ }
+    { \textbf{drowned~ascetic#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 233 )
 }
 
-\NewDocumentCommand { \DndDrownedAscetic } { s O{} }
+\ProvideDocumentCommand { \DndDrownedAssassin } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Drowned~ascetic #2} ~ }
-    { \textbf{drowned~ascetic #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 233 )
+    { \textbf{Drowned~Assassin#2} ~ }
+    { \textbf{drowned~assassin#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 234 )
 }
 
-\NewDocumentCommand { \DndDrownedAssassin } { s O{} }
+\ProvideDocumentCommand { \DndDrownedBlade } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Drowned~assassin #2} ~ }
-    { \textbf{drowned~assassin #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 234 )
+    { \textbf{Drowned~Blade#2} ~ }
+    { \textbf{drowned~blade#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 235 )
 }
 
-\NewDocumentCommand { \DndDrownedBlade } { s O{} }
+\ProvideDocumentCommand { \DndDrownedMaster } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Drowned~blade #2} ~ }
-    { \textbf{drowned~blade #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 235 )
+    { \textbf{Drowned~Master#2} ~ }
+    { \textbf{drowned~master#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 235 )
 }
 
-\NewDocumentCommand { \DndDrownedMaster } { s O{} }
+\ProvideDocumentCommand { \DndFathomer } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Drowned~master #2} ~ }
-    { \textbf{drowned~master #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 235 )
+    { \textbf{Fathomer#2} ~ }
+    { \textbf{fathomer#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 236 )
 }
 
-\NewDocumentCommand { \DndGiantCoralSnake } { s O{} }
+\ProvideDocumentCommand { \DndGiantCoralSnake } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Giant~coral~snake #2} ~ }
-    { \textbf{giant~coral~snake #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 236 )
+    { \textbf{Giant~Coral~Snake#2} ~ }
+    { \textbf{giant~coral~snake#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 236 )
 }
 
-\NewDocumentCommand { \DndGiantSeaEel } { s O{} }
+\ProvideDocumentCommand { \DndGiantSeaEel } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Giant~sea~eel #2} ~ }
-    { \textbf{giant~sea~eel #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 237 )
+    { \textbf{Giant~Sea~Eel#2} ~ }
+    { \textbf{giant~sea~eel#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 237 )
 }
 
-\NewDocumentCommand { \DndHarpyMatriarch } { s O{} }
+\ProvideDocumentCommand { \DndHarpyMatriarch } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Harpy~matriarch #2} ~ }
-    { \textbf{harpy~matriarch #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 237 )
+    { \textbf{Harpy~Matriarch#2} ~ }
+    { \textbf{harpy~matriarch#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 237 )
 }
 
-\NewDocumentCommand { \DndJuvenileKraken } { s O{} }
+\ProvideDocumentCommand { \DndJuvenileKraken } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Juvenile~kraken #2} ~ }
-    { \textbf{juvenile~kraken #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 238 )
+    { \textbf{Juvenile~Kraken#2} ~ }
+    { \textbf{juvenile~kraken#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 238 )
 }
 
-\NewDocumentCommand { \DndKoalinth } { s O{} }
+\ProvideDocumentCommand { \DndKoalinth } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Koalinth #2} ~ }
-    { \textbf{koalinth #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 238 )
+    { \textbf{Koalinth#2} ~ }
+    { \textbf{koalinth#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 238 )
 }
 
-\NewDocumentCommand { \DndKoalinthSergeant } { s O{} }
+\ProvideDocumentCommand { \DndKoalinthSergeant } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Koalinth~sergeant #2} ~ }
-    { \textbf{koalinth~sergeant #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 239 )
+    { \textbf{Koalinth~Sergeant#2} ~ }
+    { \textbf{koalinth~sergeant#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 239 )
 }
 
-\NewDocumentCommand { \DndKysh } { s O{} }
+\ProvideDocumentCommand { \DndKysh } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Kysh #2} ~ }
-    { \textbf{kysh #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 240 )
+    { \textbf{Kysh#2} ~ }
+    { \textbf{kysh#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 240 )
 }
 
-\NewDocumentCommand { \DndLivingIronStatue } { s O{} }
+\ProvideDocumentCommand { \DndLivingIronStatue } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Living~iron~statue #2} ~ }
-    { \textbf{living~iron~statue #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 241 )
+    { \textbf{Living~Iron~Statue#2} ~ }
+    { \textbf{living~iron~statue#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 241 )
 }
 
-\NewDocumentCommand { \DndLizardfolkRender } { s O{} }
+\ProvideDocumentCommand { \DndLizardfolkCommoner } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Lizardfolk~render #2} ~ }
-    { \textbf{lizardfolk~render #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 241 )
+    { \textbf{Lizardfolk~Commoner#2} ~ }
+    { \textbf{lizardfolk~commoner#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 241 )
 }
 
-\NewDocumentCommand { \DndLocathah } { s O{} }
+\ProvideDocumentCommand { \DndLizardfolkRender } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Locathah #2} ~ }
-    { \textbf{locathah #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 243 )
+    { \textbf{Lizardfolk~Render#2} ~ }
+    { \textbf{lizardfolk~render#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 241 )
 }
 
-\NewDocumentCommand { \DndLocathahHunter } { s O{} }
+\ProvideDocumentCommand { \DndLizardfolkScaleshield } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Locathah~hunter #2} ~ }
-    { \textbf{locathah~hunter #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 243 )
+    { \textbf{Lizardfolk~Scaleshield#2} ~ }
+    { \textbf{lizardfolk~scaleshield#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 242 )
 }
 
-\NewDocumentCommand { \DndMawOfSekolah } { s O{} }
+\ProvideDocumentCommand { \DndLizardfolkSubchief } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Maw~of~sekolah #2} ~ }
-    { \textbf{maw~of~sekolah #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 244 )
+    { \textbf{Lizardfolk~Subchief#2} ~ }
+    { \textbf{lizardfolk~subchief#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 242 )
 }
 
-\NewDocumentCommand { \DndMerfolkSalvager } { s O{} }
+\ProvideDocumentCommand { \DndLocathah } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Merfolk~salvager #2} ~ }
-    { \textbf{merfolk~salvager #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 244 )
+    { \textbf{Locathah#2} ~ }
+    { \textbf{locathah#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 243 )
 }
 
-\NewDocumentCommand { \DndMinotaurLivingCrystalStatue } { s O{} }
+\ProvideDocumentCommand { \DndLocathahHunter } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Minotaur~living~crystal~statue #2} ~ }
-    { \textbf{minotaur~living~crystal~statue #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 245 )
+    { \textbf{Locathah~Hunter#2} ~ }
+    { \textbf{locathah~hunter#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 243 )
 }
 
-\NewDocumentCommand { \DndMonstrousPeryton } { s O{} }
+\ProvideDocumentCommand { \DndMawOfSekolah } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Monstrous~peryton #2} ~ }
-    { \textbf{monstrous~peryton #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 245 )
+    { \textbf{Maw~of~Sekolah#2} ~ }
+    { \textbf{maw~of~sekolah#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 244 )
 }
 
-\NewDocumentCommand { \DndMrDory } { s O{} }
+\ProvideDocumentCommand { \DndMerfolkSalvager } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Mr.~dory #2} ~ }
-    { \textbf{mr.~dory #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 246 )
+    { \textbf{Merfolk~Salvager#2} ~ }
+    { \textbf{merfolk~salvager#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 244 )
 }
 
-\NewDocumentCommand { \DndOceanus } { s O{} }
+\ProvideDocumentCommand { \DndMinotaurLivingCrystalStatue } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Oceanus #2} ~ }
-    { \textbf{oceanus #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 246 )
+    { \textbf{Minotaur~Living~Crystal~Statue#2} ~ }
+    { \textbf{minotaur~living~crystal~statue#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 245 )
 }
 
-\NewDocumentCommand { \DndPirateCaptain } { s O{} }
+\ProvideDocumentCommand { \DndMonstrousPeryton } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Pirate~captain #2} ~ }
-    { \textbf{pirate~captain #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 247 )
+    { \textbf{Monstrous~Peryton#2} ~ }
+    { \textbf{monstrous~peryton#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 245 )
 }
 
-\NewDocumentCommand { \DndPirateDeckWizard } { s O{} }
+\ProvideDocumentCommand { \DndMrDory } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Pirate~deck~wizard #2} ~ }
-    { \textbf{pirate~deck~wizard #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 248 )
+    { \textbf{Mr.~Dory#2} ~ }
+    { \textbf{mr.~dory#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 246 )
 }
 
-\NewDocumentCommand { \DndPirateFirstMate } { s O{} }
+\ProvideDocumentCommand { \DndOceanusSeaElf } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Pirate~first~mate #2} ~ }
-    { \textbf{pirate~first~mate #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 248 )
+    { \textbf{Oceanus~(Sea~Elf)#2} ~ }
+    { \textbf{oceanus~(sea~elf)#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 246 )
 }
 
-\NewDocumentCommand { \DndRipTidePriest } { s O{} }
+\ProvideDocumentCommand { \DndPirateBosun } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Rip~tide~priest #2} ~ }
-    { \textbf{rip~tide~priest #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 248 )
+    { \textbf{Pirate~Bosun#2} ~ }
+    { \textbf{pirate~bosun#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 247 )
 }
 
-\NewDocumentCommand { \DndSahuaginBlademaster } { s O{} }
+\ProvideDocumentCommand { \DndPirateCaptain } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Sahuagin~blademaster #2} ~ }
-    { \textbf{sahuagin~blademaster #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 249 )
+    { \textbf{Pirate~Captain#2} ~ }
+    { \textbf{pirate~captain#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 247 )
 }
 
-\NewDocumentCommand { \DndSahuaginChampion } { s O{} }
+\ProvideDocumentCommand { \DndPirateDeckWizard } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Sahuagin~champion #2} ~ }
-    { \textbf{sahuagin~champion #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 249 )
+    { \textbf{Pirate~Deck~Wizard#2} ~ }
+    { \textbf{pirate~deck~wizard#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 248 )
 }
 
-\NewDocumentCommand { \DndSahuaginCoralSmasher } { s O{} }
+\ProvideDocumentCommand { \DndPirateFirstMate } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Sahuagin~coral~smasher #2} ~ }
-    { \textbf{sahuagin~coral~smasher #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 249 )
+    { \textbf{Pirate~First~Mate#2} ~ }
+    { \textbf{pirate~first~mate#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 248 )
 }
 
-\NewDocumentCommand { \DndSahuaginDeepDiver } { s O{} }
+\ProvideDocumentCommand { \DndRipTidePriest } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Sahuagin~deep~diver #2} ~ }
-    { \textbf{sahuagin~deep~diver #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 250 )
+    { \textbf{Rip~Tide~Priest#2} ~ }
+    { \textbf{rip~tide~priest#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 248 )
 }
 
-\NewDocumentCommand { \DndSahuaginHatchlingSwarm } { s O{} }
+\ProvideDocumentCommand { \DndSahuaginBlademaster } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Sahuagin~hatchling~swarm #2} ~ }
-    { \textbf{sahuagin~hatchling~swarm #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 250 )
+    { \textbf{Sahuagin~Blademaster#2} ~ }
+    { \textbf{sahuagin~blademaster#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 249 )
 }
 
-\NewDocumentCommand { \DndSahuaginHighPriestess } { s O{} }
+\ProvideDocumentCommand { \DndSahuaginChampion } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Sahuagin~high~priestess #2} ~ }
-    { \textbf{sahuagin~high~priestess #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 251 )
+    { \textbf{Sahuagin~Champion#2} ~ }
+    { \textbf{sahuagin~champion#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 249 )
 }
 
-\NewDocumentCommand { \DndSahuaginWaveShaper } { s O{} }
+\ProvideDocumentCommand { \DndSahuaginCoralSmasher } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Sahuagin~wave~shaper #2} ~ }
-    { \textbf{sahuagin~wave~shaper #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 251 )
+    { \textbf{Sahuagin~Coral~Smasher#2} ~ }
+    { \textbf{sahuagin~coral~smasher#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 249 )
 }
 
-\NewDocumentCommand { \DndSanbalet } { s O{} }
+\ProvideDocumentCommand { \DndSahuaginDeepDiver } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Sanbalet #2} ~ }
-    { \textbf{sanbalet #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 252 )
+    { \textbf{Sahuagin~Deep~Diver#2} ~ }
+    { \textbf{sahuagin~deep~diver#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 250 )
 }
 
-\NewDocumentCommand { \DndSeaLion } { s O{} }
+\ProvideDocumentCommand { \DndSahuaginHatchlingSwarm } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Sea~lion #2} ~ }
-    { \textbf{sea~lion #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 252 )
+    { \textbf{Sahuagin~Hatchling~Swarm#2} ~ }
+    { \textbf{sahuagin~hatchling~swarm#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 250 )
 }
 
-\NewDocumentCommand { \DndShellShark } { s O{} }
+\ProvideDocumentCommand { \DndSahuaginHighPriestess } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Shell~shark #2} ~ }
-    { \textbf{shell~shark #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 252 )
+    { \textbf{Sahuagin~High~Priestess#2} ~ }
+    { \textbf{sahuagin~high~priestess#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 251 )
 }
 
-\NewDocumentCommand { \DndSkeletalAlchemist } { s O{} }
+\ProvideDocumentCommand { \DndSahuaginWaveShaper } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Skeletal~alchemist #2} ~ }
-    { \textbf{skeletal~alchemist #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 253 )
+    { \textbf{Sahuagin~Wave~Shaper#2} ~ }
+    { \textbf{sahuagin~wave~shaper#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 251 )
 }
 
-\NewDocumentCommand { \DndSkeletalJuggernaut } { s O{} }
+\ProvideDocumentCommand { \DndSanbalet } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Skeletal~juggernaut #2} ~ }
-    { \textbf{skeletal~juggernaut #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 253 )
+    { \textbf{Sanbalet#2} ~ }
+    { \textbf{sanbalet#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 252 )
 }
 
-\NewDocumentCommand { \DndSkeletalSwarm } { s O{} }
+\ProvideDocumentCommand { \DndSeaLion } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Skeletal~swarm #2} ~ }
-    { \textbf{skeletal~swarm #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 254 )
+    { \textbf{Sea~Lion#2} ~ }
+    { \textbf{sea~lion#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 252 )
 }
 
-\NewDocumentCommand { \DndSkum } { s O{} }
+\ProvideDocumentCommand { \DndShellShark } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Skum #2} ~ }
-    { \textbf{skum #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 254 )
+    { \textbf{Shell~Shark#2} ~ }
+    { \textbf{shell~shark#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 252 )
 }
 
-\NewDocumentCommand { \DndThousandTeeth } { s O{} }
+\ProvideDocumentCommand { \DndSkeletalAlchemist } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Thousand~teeth #2} ~ }
-    { \textbf{thousand~teeth #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 256 )
+    { \textbf{Skeletal~Alchemist#2} ~ }
+    { \textbf{skeletal~alchemist#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 253 )
 }
 
-\NewDocumentCommand { \DndVampiricJadeStatue } { s O{} }
+\ProvideDocumentCommand { \DndSkeletalJuggernaut } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Vampiric~jade~statue #2} ~ }
-    { \textbf{vampiric~jade~statue #2} ~ }
-  ( \textit{GoSM} , ~ p. \nobreakspace 256 )
+    { \textbf{Skeletal~Juggernaut#2} ~ }
+    { \textbf{skeletal~juggernaut#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 253 )
 }
 
+\ProvideDocumentCommand { \DndSkeletalSwarm } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Skeletal~Swarm#2} ~ }
+    { \textbf{skeletal~swarm#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 254 )
+}
+
+\ProvideDocumentCommand { \DndSkum } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Skum#2} ~ }
+    { \textbf{skum#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 254 )
+}
+
+\ProvideDocumentCommand { \DndThousandTeeth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Thousand~Teeth#2} ~ }
+    { \textbf{thousand~teeth#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 256 )
+}
+
+\ProvideDocumentCommand { \DndVampiricJadeStatue } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Vampiric~Jade~Statue#2} ~ }
+    { \textbf{vampiric~jade~statue#2} ~ }
+  ( \textit{GoS} , ~ p. \nobreakspace 256 )
+}

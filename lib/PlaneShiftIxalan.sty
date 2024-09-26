@@ -1,85 +1,85 @@
 \ExplSyntaxOn
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Plane Shift: Ixalan
+%% Planeshift: Ixalan
 
-\NewDocumentCommand { \DndEtaliPrimalStormReallyBigSpinosaurus } { s O{} }
+\ProvideDocumentCommand { \DndChupacabra } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{"etali,~primal~storm~(really~big~spinosaurus)" #2} ~ }
-    { \textbf{"etali,~primal~storm~(really~big~spinosaurus)" #2} ~ }
-  ( \textit{PS:Ix} , ~ p. \nobreakspace 33 )
+    { \textbf{Chupacabra#2} ~ }
+    { \textbf{chupacabra#2} ~ }
+  ( \textit{PS:Ixa} , ~ p. \nobreakspace 37 )
 }
 
-\NewDocumentCommand { \DndGhaltaPrimalHunger } { s O{} }
+\ProvideDocumentCommand { \DndEtaliPrimalStorm } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{"ghalta,~primal~hunger" #2} ~ }
-    { \textbf{"ghalta,~primal~hunger" #2} ~ }
-  ( \textit{PS:Ix} , ~ p. \nobreakspace 33 )
+    { \textbf{Etali,~Primal~Storm#2} ~ }
+    { \textbf{etali,~primal~storm#2} ~ }
+  ( \textit{PS:Ixa} , ~ p. \nobreakspace 33 )
 }
 
-\NewDocumentCommand { \DndGishathSunsAvatar } { s O{} }
+\ProvideDocumentCommand { \DndFrilledDeathspitter } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{"gishath,~sun's~avatar" #2} ~ }
-    { \textbf{"gishath,~sun's~avatar" #2} ~ }
-  ( \textit{PS:Ix} , ~ p. \nobreakspace 32 )
+    { \textbf{Frilled~Deathspitter#2} ~ }
+    { \textbf{frilled~deathspitter#2} ~ }
+  ( \textit{PS:Ixa} , ~ p. \nobreakspace 30 )
 }
 
-\NewDocumentCommand { \DndNezahalPrimalTide } { s O{} }
+\ProvideDocumentCommand { \DndGhaltaPrimalHunger } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{"nezahal,~primal~tide" #2} ~ }
-    { \textbf{"nezahal,~primal~tide" #2} ~ }
-  ( \textit{PS:Ix} , ~ p. \nobreakspace 33 )
+    { \textbf{Ghalta,~Primal~Hunger#2} ~ }
+    { \textbf{ghalta,~primal~hunger#2} ~ }
+  ( \textit{PS:Ixa} , ~ p. \nobreakspace 33 )
 }
 
-\NewDocumentCommand { \DndTetzimocPrimalDeathSpikey } { s O{} }
+\ProvideDocumentCommand { \DndGishathSunsAvatar } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{"tetzimoc,~primal~death~(spikey)" #2} ~ }
-    { \textbf{"tetzimoc,~primal~death~(spikey)" #2} ~ }
-  ( \textit{PS:Ix} , ~ p. \nobreakspace 33 )
+    { \textbf{Gishath,~Sun's~Avatar#2} ~ }
+    { \textbf{gishath,~sun's~avatar#2} ~ }
+  ( \textit{PS:Ixa} , ~ p. \nobreakspace 32 )
 }
 
-\NewDocumentCommand { \DndZacamaPrimalCalamityThreeHeadedTRex } { s O{} }
+\ProvideDocumentCommand { \DndNezahalPrimalTide } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{"zacama,~primal~calamity~(3-headed~t-rex)" #2} ~ }
-    { \textbf{"zacama,~primal~calamity~(3-headed~t-rex)" #2} ~ }
-  ( \textit{PS:Ix} , ~ p. \nobreakspace 33 )
+    { \textbf{Nezahal,~Primal~Tide#2} ~ }
+    { \textbf{nezahal,~primal~tide#2} ~ }
+  ( \textit{PS:Ixa} , ~ p. \nobreakspace 33 )
 }
 
-\NewDocumentCommand { \DndZetalpaPrimalDawn } { s O{} }
+\ProvideDocumentCommand { \DndSunbird } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{"zetalpa,~primal~dawn" #2} ~ }
-    { \textbf{"zetalpa,~primal~dawn" #2} ~ }
-  ( \textit{PS:Ix} , ~ p. \nobreakspace 33 )
+    { \textbf{Sunbird#2} ~ }
+    { \textbf{sunbird#2} ~ }
+  ( \textit{PS:Ixa} , ~ p. \nobreakspace 35 )
 }
 
-\NewDocumentCommand { \DndChupacabra } { s O{} }
+\ProvideDocumentCommand { \DndTetzimocPrimalDeath } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Chupacabra #2} ~ }
-    { \textbf{chupacabra #2} ~ }
-  ( \textit{PS:Ix} , ~ p. \nobreakspace 37 )
+    { \textbf{Tetzimoc,~Primal~Death#2} ~ }
+    { \textbf{tetzimoc,~primal~death#2} ~ }
+  ( \textit{PS:Ixa} , ~ p. \nobreakspace 33 )
 }
 
-\NewDocumentCommand { \DndFrilledDeathspitter } { s O{} }
+\ProvideDocumentCommand { \DndZacamaPrimalCalamity } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Frilled~deathspitter #2} ~ }
-    { \textbf{frilled~deathspitter #2} ~ }
-  ( \textit{PS:Ix} , ~ p. \nobreakspace 30 )
+    { \textbf{Zacama,~Primal~Calamity#2} ~ }
+    { \textbf{zacama,~primal~calamity#2} ~ }
+  ( \textit{PS:Ixa} , ~ p. \nobreakspace 33 )
 }
 
-\NewDocumentCommand { \DndSunbird } { s O{} }
+\ProvideDocumentCommand { \DndZetalpaPrimalDawn } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Sunbird #2} ~ }
-    { \textbf{sunbird #2} ~ }
-  ( \textit{PS:Ix} , ~ p. \nobreakspace 35 )
+    { \textbf{Zetalpa,~Primal~Dawn#2} ~ }
+    { \textbf{zetalpa,~primal~dawn#2} ~ }
+  ( \textit{PS:Ixa} , ~ p. \nobreakspace 33 )
 }
 

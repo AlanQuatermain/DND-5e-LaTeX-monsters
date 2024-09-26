@@ -1,0 +1,44 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Lost Mines of Phandelver
+
+\ProvideDocumentCommand { \DndEvilMage } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Evil~Mage#2} ~ }
+    { \textbf{evil~mage#2} ~ }
+  ( \textit{LMoP} , ~ p. \nobreakspace 57 )
+}
+
+\ProvideDocumentCommand { \DndMormeskTheWraith } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mormesk~the~Wraith#2} ~ }
+    { \textbf{mormesk~the~wraith#2} ~ }
+  ( \textit{LMoP} , ~ p. \nobreakspace 59 )
+}
+
+\ProvideDocumentCommand { \DndNezznarTheBlackSpider } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Nezznar~the~Black~Spider#2} ~ }
+    { \textbf{nezznar~the~black~spider#2} ~ }
+  ( \textit{LMoP} , ~ p. \nobreakspace 59 )
+}
+
+\ProvideDocumentCommand { \DndRedbrandRuffian } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Redbrand~Ruffian#2} ~ }
+    { \textbf{redbrand~ruffian#2} ~ }
+  ( \textit{LMoP} , ~ p. \nobreakspace 61 )
+}
+
+\ProvideDocumentCommand { \DndSildarHallwinter } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sildar~Hallwinter#2} ~ }
+    { \textbf{sildar~hallwinter#2} ~ }
+  ( \textit{LMoP} , ~ p. \nobreakspace 61 )
+}

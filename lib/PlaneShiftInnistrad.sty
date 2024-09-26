@@ -1,13 +1,37 @@
 \ExplSyntaxOn
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Plane Shift: Innistrad
+%% Planeshift: Innistrad
 
-\NewDocumentCommand { \DndCreepyDoll } { s O{} }
+\ProvideDocumentCommand { \DndCreepyDoll } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Creepy~doll #2} ~ }
-    { \textbf{creepy~doll #2} ~ }
-  ( \textit{PS:In} , ~ p. \nobreakspace 25 )
+    { \textbf{Creepy~Doll#2} ~ }
+    { \textbf{creepy~doll#2} ~ }
+  ( \textit{PS:Inn} , ~ p. \nobreakspace 25 )
+}
+
+\ProvideDocumentCommand { \DndGeist } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Geist#2} ~ }
+    { \textbf{geist#2} ~ }
+  ( \textit{PS:Inn} , ~ p. \nobreakspace 19 )
+}
+
+\ProvideDocumentCommand { \DndVampireNeonate } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Vampire~Neonate#2} ~ }
+    { \textbf{vampire~neonate#2} ~ }
+  ( \textit{PS:Inn} , ~ p. \nobreakspace 17 )
+}
+
+\ProvideDocumentCommand { \DndWerewolfKrallenhorde } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Werewolf~(Krallenhorde)#2} ~ }
+    { \textbf{werewolf~(krallenhorde)#2} ~ }
+  ( \textit{PS:Inn} , ~ p. \nobreakspace 15 )
 }
 

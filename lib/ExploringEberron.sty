@@ -1,56 +1,68 @@
-\NewDocumentCommand { \DndValaara } { s O{} }
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Exploring Eberron
+
+\ProvideDocumentCommand { \DndClawOfShaargon } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Valaara #2} ~ }
-    { \textbf{Valaara #2} ~ }
-  ( \textit{EE} , ~ p. \nobreakspace 234 )
+    { \textbf{Claw~of~Sha'argon#2} ~ }
+    { \textbf{claw~of~sha'argon#2} ~ }
+  ( \textit{EE} , ~ p. \nobreakspace 247 )
 }
-\NewDocumentCommand { \DndForestQueen } { s O{} }
+
+\ProvideDocumentCommand { \DndDuuloraQuori } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{The Forest Queen #2} ~ }
-    { \textbf{the Forest Queen #2} ~ }
-  ( \textit{EE} , ~ p. \nobreakspace 236 )
+    { \textbf{Du'ulora~Quori#2} ~ }
+    { \textbf{du'ulora~quori#2} ~ }
+  ( \textit{EE} , ~ p. \nobreakspace 245 )
 }
-\NewDocumentCommand { \DndForgottenPrince } { s O{} }
+
+\ProvideDocumentCommand { \DndMeld } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{The Forgotten Prince #2} ~ }
-    { \textbf{the Forgotten Prince #2} ~ }
-  ( \textit{EE} , ~ p. \nobreakspace 239 )
-}
-\NewDocumentCommand { \DndMeld } { s O{} }
-{
-  \IfBooleanTF {#1}
-    { \textbf{Meld #2} ~ }
-    { \textbf{meld #2} ~ }
+    { \textbf{Meld#2} ~ }
+    { \textbf{meld#2} ~ }
   ( \textit{EE} , ~ p. \nobreakspace 242 )
 }
-\NewDocumentCommand { \DndMerfolkStormcaller } { s O{} }
+
+\ProvideDocumentCommand { \DndMerfolkStormcaller } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Merfolk stormcaller #2} ~ }
-    { \textbf{merfolk stormcaller #2} ~ }
+    { \textbf{Merfolk~Stormcaller#2} ~ }
+    { \textbf{merfolk~stormcaller#2} ~ }
   ( \textit{EE} , ~ p. \nobreakspace 243 )
 }
-\NewDocumentCommand { \DndDuuloraQuori } { s O{} }
+
+\ProvideDocumentCommand { \DndPlasmid } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Du'ulora quori #2} ~ }
-    { \textbf{du'ulora quori #2} ~ }
-  ( \textit{EE} , ~ p. \nobreakspace 244 )
+    { \textbf{Plasmid#2} ~ }
+    { \textbf{plasmid#2} ~ }
+  ( \textit{EE} , ~ p. \nobreakspace 247 )
 }
-\NewDocumentCommand { \DndClawOfShaargon } { s O{} }
+
+\ProvideDocumentCommand { \DndTheForestQueen } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Claw of Sha'argon #2} ~ }
-    { \textbf{claw of sha'argon #2} ~ }
-  ( \textit{EE} , ~ p. \nobreakspace 246 )
+    { \textbf{The~Forest~Queen#2} ~ }
+    { \textbf{the~forest~queen#2} ~ }
+  ( \textit{EE} , ~ p. \nobreakspace 237 )
 }
-\NewDocumentCommand { \DndPlasmid } { s O{} }
+
+\ProvideDocumentCommand { \DndTheForgottenPrince } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Plasmid #2} ~ }
-    { \textbf{plasmid #2} ~ }
-  ( \textit{EE} , ~ p. \nobreakspace 246 )
+    { \textbf{The~Forgotten~Prince#2} ~ }
+    { \textbf{the~forgotten~prince#2} ~ }
+  ( \textit{EE} , ~ p. \nobreakspace 241 )
+}
+
+\ProvideDocumentCommand { \DndValaara } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Valaara#2} ~ }
+    { \textbf{valaara#2} ~ }
+  ( \textit{EE} , ~ p. \nobreakspace 235 )
 }

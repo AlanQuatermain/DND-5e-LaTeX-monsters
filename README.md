@@ -136,6 +136,9 @@ group several sources together.  You'll most likely want to use one of the latte
 and typically you'll want either `wotc` or `wotcbase` to use official sourcebooks
 published by Wizards of the Coast.
 
+Any items marked **(tba)** below have not yet been investigated for inclusion, but
+we expect to remedy that at some point, hence their overall inclusion.
+
 ### Groups
 
 | Code       | Content                 |
@@ -144,7 +147,7 @@ published by Wizards of the Coast.
 | `wotcbase` | As `wotc`, but without campaign setting sourcebooks. |
 | `wotcadv`  | All adventures published by WotC. |
 | `wotcmtg`  | WotC's Magic: The Gathering cross-over sourcebooks. |
-| `wotcall`  | Everything published by WotC. |
+| `wotcfull` | All major sources published by WotC. |
 | `eberron`  | All Eberron sourcebooks from WotC and Keith Baker. |
 | `tpp`      | Third-party publishers: everything not from WotC. |
 | `all`      | Literally everything. |
@@ -155,13 +158,18 @@ The `wotcbase` option includes the following individual sources:
 
 | Code     | Content  |
 | -------- | -------- |
-| `phb` | Player's Handbook (2014) |
-| `dmg` | Dungeon Master's Guide (2014) |
-| `mm` | Monster Manual (2014) |
-| `mfolioI` | Mordenkainen's Fiendish Folio Vol. 1 |
+| `phb` | Player's Handbook |
+| `mm` | Monster Manual |
 | `mtof` | Mordenkainen's Tome of Foes |
 | `vgtm` | Volo's Guide to Monsters |
-| `xgte` | Xanathar's Guide to Everything |
+| `mpmotm` | Mordenkainen Presents: Monsters of the Multiverse |
+| `ftod` | Fizban's Treasury of Dragons |
+| `bpgotg` | Bigby Presents: Glory of the Giants |
+| `mcsj` | Monstrous Compendium Vol. 1: Spelljammer Creatures |
+| `mcdl` | Monstrous Compendium Vol. 2: Dragonlance Creatures |
+
+Passing `onednd` will use the 2024 editions of the Player's Handbook and Monster
+Manual, once those are included.
 
 #### Official Campaign Settings
 
@@ -173,6 +181,26 @@ The `wotc` option adds the following to the content of `wotcbase`:
 | `egtw` | Explorer's Guide to Wildemount |
 | `ggtr` | Guildmaster's Guide to Ravnica |
 | `moot` | Mythic Oddyseys of Theros |
+| `vrgtr` | Van Richten's Guide to Ravenloft |
+| `sjais` | Spelljammer: Adventures in Space **(tba)** |
+| `paitm` | Planescape: Adventures in the Multiverse **(tba)** |
+
+#### Extra WotC Tie-Ins and Free Sources
+
+The `wotcextra` adds the following sources that either tie in with other products
+or were available as free or charity downloads.
+
+| Code     | Content  |
+| -------- | -------- |
+| `acqinc` | Acquisitions Incorporated |
+| `mfolioI` | Mordenkainen's Fiendish Folio Vol. 1 |
+| `dod` | Domains of Delight |
+| `mabjov` | Minsc and Boo's Journal of Villainy |
+| `imr` | Infernal Machine Rebuild |
+| `locr` | Locathah Rising |
+| `llok` | Lost Laboratory of Kwalish |
+| `rttg` | Return to the Glory |
+| `ttp` | The Tortle Package |
 
 #### M:TG Crossover Settings
 
@@ -187,48 +215,70 @@ The `wotcmtg` option will add the Magic: The Gathering setting sourcebooks:
 #### Official WotC Adventures
 
 The `wotcadv` option grants access to all monsters from the published adventures.
-You can also use `wotcall` to access `wotc` and `wotcadv` at the same time.
+You can also use `wotcfull` to access `wotc` and `wotcadv` at the same time.
 
 | Code     | Content  |
 | -------- | -------- |
-| `bgdia` | Baldur's Gate: Descent into Avernus |
-| `cos` | Curse of Strahd |
-| `gos` | Ghosts of Saltmarsh |
+| `lmp` | Lost Mines of Phandelver |
 | `hotdq` | Hoard of the Dragon Queen |
-| `oota` | Out of the Abyss |
-| `pota` | Princes of the Apocalypse |
 | `rot` | Rise of Tiamat |
-| `ssa` | Lost Mines of Phandelver (starter adventure) |
+| `pota` | Princes of the Apocalypse |
+| `oota` | Out of the Abyss |
+| `cos` | Curse of Strahd |
 | `skt` | Storm King's Thunder |
 | `tftyp` | Tales from the Yawning Portal |
 | `toa` | Tomb of Annihilation |
 | `wdh` | Waterdeep: Dragon Heist |
 | `wddotmm` | Waterdeep: Dungeon of the Mad Mage |
+| `bgdia` | Baldur's Gate: Descent into Avernus |
+| `gos` | Ghosts of Saltmarsh |
+| `iwdrotf` | Icewind Dale: Rime of the Frostmaiden |
+| `ckm` | Candlekeep Mysteries |
+| `twbtw` | The Wild Beyond the Witchlight |
+| `cotn` | Critical Role: Call of the Netherdeep |
+| `dsotdq` | Dragonlance: Shadow of the Dragon Queen |
+| `sacc` | Strixhaven: A Curriculum of Chaos |
+| `pabtso` | Phandelver and Below: The Shattered Obelisk |
+| `veor` | Vecna: Eve of Ruin |
+| `qftis` | Quests from the Infinite Staircase |
+
 
 #### Everything Eberron
+
+The `eberron` setting includes these sources.
 
 | Code     | Content  |
 | -------- | -------- |
 | `erftlw` | Eberron: Rising from the Last War |
 | `ee` | Exploring Eberron |
 
-#### Plane Shift (M:TG cross-over content)
+#### Planeshift (M:TG cross-over content)
+
+You can use the `planeshift` option to access all of these together.
 
 | Code     | Content  |
 | -------- | -------- |
-| `psdom` | Plane Shift: Dominaria |
-| `psinn` | Plane Shift: Innistrad |
-| `psixa` | Plane Shift: Ixalan |
-| `pskal` | Plane Shift: Kaladesh |
+| `psamo` | Planeshift: Amonkhet |
+| `psdom` | Planeshift: Dominaria |
+| `psinn` | Planeshift: Innistrad |
+| `psixa` | Planeshift: Ixalan |
+| `pskal` | Planeshift: Kaladesh |
+| `pszen` | Planeshift: Zendikar |
 
 #### Third-Party Sourcebooks
+
+Almost all of these are included in the `tpp` group option along with `planeshift`
+content, with the exception of the original *Tal'Dorei Campaign Setting*.
 
 | Code     | Content  |
 | -------- | -------- |
 | `cc` | Creature Codex |
+| `dapc` | Dark Arts Player's Companion |
 | `fef` | Fifth Edition Foes |
-| `lm` | Limitless Monsters |
 | `tob` | Tome of Beasts |
-| `toh` | Tome of Horrors |
-| `tpkb` | Total Party Kill Bestiary |
+| `tobII` | Tome of Beasts 2 |
 | `ee` | Exploring Eberron |
+| `madcII` | Monster A Day Compendium, Vol. 2 |
+| `spcm` | Sandy Petersen's Cthulhu Mythos |
+| `tdcs` | Tal'Dorei Campaign Setting (not included in `tpp` group) |
+| `tdcsr` | Tal'Dorei Campaign Setting Reborn |

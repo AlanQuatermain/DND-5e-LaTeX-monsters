@@ -1,0 +1,356 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Strixhaven: A Curriculum of Chaos
+
+\ProvideDocumentCommand { \DndArchaic } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Archaic#2} ~ }
+    { \textbf{archaic#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 184 )
+}
+
+\ProvideDocumentCommand { \DndArtElementalMascot } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Art~Elemental~Mascot#2} ~ }
+    { \textbf{art~elemental~mascot#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 185 )
+}
+
+\ProvideDocumentCommand { \DndBeledrosWitherbloom } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Beledros~Witherbloom#2} ~ }
+    { \textbf{beledros~witherbloom#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 186 )
+}
+
+\ProvideDocumentCommand { \DndBrackishTrudge } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Brackish~Trudge#2} ~ }
+    { \textbf{brackish~trudge#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 187 )
+}
+
+\ProvideDocumentCommand { \DndCogworkArchivist } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cogwork~Archivist#2} ~ }
+    { \textbf{cogwork~archivist#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 188 )
+}
+
+\ProvideDocumentCommand { \DndDaemogoth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Daemogoth#2} ~ }
+    { \textbf{daemogoth#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 189 )
+}
+
+\ProvideDocumentCommand { \DndDaemogothTitant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Daemogoth~Titant#2} ~ }
+    { \textbf{daemogoth~titant#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 190 )
+}
+
+\ProvideDocumentCommand { \DndFirstYearStudent } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{First-Year~Student#2} ~ }
+    { \textbf{first-year~student#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 191 )
+}
+
+\ProvideDocumentCommand { \DndFractalMascot } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fractal~Mascot#2} ~ }
+    { \textbf{fractal~mascot#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 192 )
+}
+
+\ProvideDocumentCommand { \DndGalazethPrismari } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Galazeth~Prismari#2} ~ }
+    { \textbf{galazeth~prismari#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 193 )
+}
+
+\ProvideDocumentCommand { \DndGroff } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Groff#2} ~ }
+    { \textbf{groff#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 194 )
+}
+
+\ProvideDocumentCommand { \DndInklingMascot } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Inkling~Mascot#2} ~ }
+    { \textbf{inkling~mascot#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 195 )
+}
+
+\ProvideDocumentCommand { \DndLoreholdApprentice } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lorehold~Apprentice#2} ~ }
+    { \textbf{lorehold~apprentice#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 197 )
+}
+
+\ProvideDocumentCommand { \DndLoreholdPledgemage } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lorehold~Pledgemage#2} ~ }
+    { \textbf{lorehold~pledgemage#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 197 )
+}
+
+\ProvideDocumentCommand { \DndLoreholdProfessorOfChaos } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lorehold~Professor~of~Chaos#2} ~ }
+    { \textbf{lorehold~professor~of~chaos#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 198 )
+}
+
+\ProvideDocumentCommand { \DndLoreholdProfessorOfOrder } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lorehold~Professor~of~Order#2} ~ }
+    { \textbf{lorehold~professor~of~order#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 198 )
+}
+
+\ProvideDocumentCommand { \DndMageHunter } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mage~Hunter#2} ~ }
+    { \textbf{mage~hunter#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 199 )
+}
+
+\ProvideDocumentCommand { \DndOracleOfStrixhaven } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Oracle~of~Strixhaven#2} ~ }
+    { \textbf{oracle~of~strixhaven#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 200 )
+}
+
+\ProvideDocumentCommand { \DndOriqBloodMage } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Oriq~Blood~Mage#2} ~ }
+    { \textbf{oriq~blood~mage#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 201 )
+}
+
+\ProvideDocumentCommand { \DndOriqRecruiter } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Oriq~Recruiter#2} ~ }
+    { \textbf{oriq~recruiter#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 202 )
+}
+
+\ProvideDocumentCommand { \DndPestMascot } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Pest~Mascot#2} ~ }
+    { \textbf{pest~mascot#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 203 )
+}
+
+\ProvideDocumentCommand { \DndPrismariApprentice } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Prismari~Apprentice#2} ~ }
+    { \textbf{prismari~apprentice#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 205 )
+}
+
+\ProvideDocumentCommand { \DndPrismariPledgemage } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Prismari~Pledgemage#2} ~ }
+    { \textbf{prismari~pledgemage#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 205 )
+}
+
+\ProvideDocumentCommand { \DndPrismariProfOfExpression } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Prismari~Prof.~of~Expression#2} ~ }
+    { \textbf{prismari~prof.~of~expression#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 206 )
+}
+
+\ProvideDocumentCommand { \DndPrismariProfOfPerfection } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Prismari~Prof.~of~Perfection#2} ~ }
+    { \textbf{prismari~prof.~of~perfection#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 206 )
+}
+
+\ProvideDocumentCommand { \DndQuandrixApprentice } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Quandrix~Apprentice#2} ~ }
+    { \textbf{quandrix~apprentice#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 208 )
+}
+
+\ProvideDocumentCommand { \DndQuandrixPledgemage } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Quandrix~Pledgemage#2} ~ }
+    { \textbf{quandrix~pledgemage#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 208 )
+}
+
+\ProvideDocumentCommand { \DndQuandrixProfOfSubstance } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Quandrix~Prof.~of~Substance#2} ~ }
+    { \textbf{quandrix~prof.~of~substance#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 209 )
+}
+
+\ProvideDocumentCommand { \DndQuandrixProfOfTheory } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Quandrix~Prof.~of~Theory#2} ~ }
+    { \textbf{quandrix~prof.~of~theory#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 209 )
+}
+
+\ProvideDocumentCommand { \DndRelicSloth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Relic~Sloth#2} ~ }
+    { \textbf{relic~sloth#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 210 )
+}
+
+\ProvideDocumentCommand { \DndRuinGrinder } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ruin~Grinder#2} ~ }
+    { \textbf{ruin~grinder#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 211 )
+}
+
+\ProvideDocumentCommand { \DndShadrixSilverquill } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Shadrix~Silverquill#2} ~ }
+    { \textbf{shadrix~silverquill#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 212 )
+}
+
+\ProvideDocumentCommand { \DndSilverquillApprentice } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Silverquill~Apprentice#2} ~ }
+    { \textbf{silverquill~apprentice#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 214 )
+}
+
+\ProvideDocumentCommand { \DndSilverquillPledgemage } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Silverquill~Pledgemage#2} ~ }
+    { \textbf{silverquill~pledgemage#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 214 )
+}
+
+\ProvideDocumentCommand { \DndSilverquillProfOfRadiance } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Silverquill~Prof.~of~Radiance#2} ~ }
+    { \textbf{silverquill~prof.~of~radiance#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 215 )
+}
+
+\ProvideDocumentCommand { \DndSilverquillProfOfShadow } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Silverquill~Prof.~of~Shadow#2} ~ }
+    { \textbf{silverquill~prof.~of~shadow#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 215 )
+}
+
+\ProvideDocumentCommand { \DndSpiritStatueMascot } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Spirit~Statue~Mascot#2} ~ }
+    { \textbf{spirit~statue~mascot#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 216 )
+}
+
+\ProvideDocumentCommand { \DndStrixhavenCampusGuide } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Strixhaven~Campus~Guide#2} ~ }
+    { \textbf{strixhaven~campus~guide#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 217 )
+}
+
+\ProvideDocumentCommand { \DndTanazirQuandrix } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Tanazir~Quandrix#2} ~ }
+    { \textbf{tanazir~quandrix#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 218 )
+}
+
+\ProvideDocumentCommand { \DndVelomachusLorehold } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Velomachus~Lorehold#2} ~ }
+    { \textbf{velomachus~lorehold#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 219 )
+}
+
+\ProvideDocumentCommand { \DndWitherbloomApprentice } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Witherbloom~Apprentice#2} ~ }
+    { \textbf{witherbloom~apprentice#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 221 )
+}
+
+\ProvideDocumentCommand { \DndWitherbloomPledgemage } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Witherbloom~Pledgemage#2} ~ }
+    { \textbf{witherbloom~pledgemage#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 222 )
+}
+
+\ProvideDocumentCommand { \DndWitherbloomProfOfDecay } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Witherbloom~Prof.~of~Decay#2} ~ }
+    { \textbf{witherbloom~prof.~of~decay#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 223 )
+}
+
+\ProvideDocumentCommand { \DndWitherbloomProfOfGrowth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Witherbloom~Prof.~of~Growth#2} ~ }
+    { \textbf{witherbloom~prof.~of~growth#2} ~ }
+  ( \textit{S:ACoC} , ~ p. \nobreakspace 223 )
+}

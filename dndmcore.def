@@ -1,19 +1,38 @@
 \ExplSyntaxOn
 
-\bool_if:NT \__dndm_include_dmg
-  { \RequirePackage {lib/DungeonMastersGuide} }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% WotC Base Books
+
+\bool_if:NT \__dndm_include_phb
+  {
+    \bool_if:NTF \__dndm_edition_XXIV
+      { \RequirePackage {lib/PlayersHandbook2024} }
+      { \RequirePackage {lib/PlayersHandbook} }
+  }
 \bool_if:NT \__dndm_include_mm
-  { \RequirePackage {lib/MonsterManual} }
-\bool_if:NT \__dndm_include_mfolioI
-  { \RequirePackage {lib/MordenkainensFiendishFolioVol1} }
+  {
+    \bool_if:NTF \__dndm_edition_XXIV
+      { \RequirePackage {lib/MonsterManual2024} }
+      { \RequirePackage {lib/MonsterManual} }
+  }
 \bool_if:NT \__dndm_include_mtome
   { \RequirePackage {lib/MordenkainensTomeOfFoes} }
-\bool_if:NT \__dndm_include_phb
-  { \RequirePackage {lib/PlayersHandbook} }
 \bool_if:NT \__dndm_include_vologtm
   { \RequirePackage {lib/VolosGuideToMonsters} }
-\bool_if:NT \__dndm_include_xanathar
-  { \RequirePackage {lib/XanatharsGuideToEverything} }
+\bool_if:NT \__dndm_include_multiv
+  { \RequirePackage {lib/MordenkainenPresentsMonstersOfTheMultiverse} }
+\bool_if:NT \__dndm_include_fizban
+  { \RequirePackage {lib/FizbansTreasuryOfDragons} }
+\bool_if:NT \__dndm_include_bgiants
+  { \RequirePackage {lib/BigbyPresentsGloryOfTheGiants} }
+\bool_if:NT \__dndm_include_sjmon
+  { \RequirePackage {lib/MonstrousCompendiumVol1SpelljammerCreatures} }
+\bool_if:NT \__dndm_include_dlmon
+  { \RequirePackage {lib/MonstrousCompendiumVol2DragonlanceCreatures} }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% WotC Campaign Settings
+
 \bool_if:NT \__dndm_include_erising
   { \RequirePackage {lib/EberronRisingFromTheLastWar} }
 \bool_if:NT \__dndm_include_wildemount
@@ -22,30 +41,44 @@
   { \RequirePackage {lib/GuildmastersGuideToRavnica} }
 \bool_if:NT \__dndm_include_theros
   { \RequirePackage {lib/MythicOdysseysOfTheros} }
+\bool_if:NT \__dndm_include_vrraven
+  { \RequirePackage {lib/VanRichtensGuideToRavenloft} }
+\bool_if:NT \__dndm_include_spelljammer
+  { \RequirePackage {lib/SpelljammerAdventuresInSpace} }
+\bool_if:NT \__dndm_include_planescape
+  { \RequirePackage {lib/PlanescapeAdventuresInTheMultiverse} }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Planeshift
+
+\bool_if:NT \__dndm_include_amonkhet
+  { \RequirePackage {lib/PlaneshiftAmonkhet} }
 \bool_if:NT \__dndm_include_dominaria
-  { \RequirePackage {lib/PlaneShiftDominaria} }
+  { \RequirePackage {lib/PlaneshiftDominaria} }
 \bool_if:NT \__dndm_include_innistrad
-  { \RequirePackage {lib/PlaneShiftInnistrad} }
+  { \RequirePackage {lib/PlaneshiftInnistrad} }
 \bool_if:NT \__dndm_include_ixalan
-  { \RequirePackage {lib/PlaneShiftIxalan} }
+  { \RequirePackage {lib/PlaneshiftIxalan} }
 \bool_if:NT \__dndm_include_kaladesh
-  { \RequirePackage {lib/PlaneShiftKaladesh} }
-\bool_if:NT \__dndm_include_avernus
-  { \RequirePackage {lib/BaldursGateDescentIntoAvernus} }
-\bool_if:NT \__dndm_include_strahd
-  { \RequirePackage {lib/CurseOfStrahd} }
-\bool_if:NT \__dndm_include_saltmarsh
-  { \RequirePackage {lib/GhostsOfSaltmarsh} }
+  { \RequirePackage {lib/PlaneshiftKaladesh} }
+\bool_if:NT \__dndm_include_zendikar
+  { \RequirePackage {lib/PlaneshiftZendikar} }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% WotC Adventures
+
+\bool_if:NT \__dndm_include_starter
+  { \RequirePackage {lib/LostMinesOfPhandelver} }
 \bool_if:NT \__dndm_include_hoarddq
   { \RequirePackage {lib/HoardOfTheDragonQueen} }
-\bool_if:NT \__dndm_include_abyss
-  { \RequirePackage {lib/OutOfTheAbyss} }
-\bool_if:NT \__dndm_include_pota
-  { \RequirePackage {lib/PrincesOfTheApocalypse} }
 \bool_if:NT \__dndm_include_rtiamat
   { \RequirePackage {lib/RiseOfTiamat} }
-\bool_if:NT \__dndm_include_starter
-  { \RequirePackage {lib/StarterSetAdventure} }
+\bool_if:NT \__dndm_include_pota
+  { \RequirePackage {lib/PrincesOfTheApocalypse} }
+\bool_if:NT \__dndm_include_abyss
+  { \RequirePackage {lib/OutOfTheAbyss} }
+\bool_if:NT \__dndm_include_strahd
+  { \RequirePackage {lib/CurseOfStrahd} }
 \bool_if:NT \__dndm_include_thunder
   { \RequirePackage {lib/StormKingsThunder} }
 \bool_if:NT \__dndm_include_yawning
@@ -56,17 +89,67 @@
   { \RequirePackage {lib/WaterdeepDragonHeist} }
 \bool_if:NT \__dndm_include_wdungeon
   { \RequirePackage {lib/WaterdeepDungeonOfTheMadMage} }
+\bool_if:NT \__dndm_include_avernus
+  { \RequirePackage {lib/BaldursGateDescentIntoAvernus} }
+\bool_if:NT \__dndm_include_saltmarsh
+  { \RequirePackage {lib/GhostsOfSaltmarsh} }
+\bool_if:NT \__dndm_include_icewindrime
+  { \RequirePackage {lib/IcewindDaleRimeOfTheFrostmaiden} }
+\bool_if:NT \__dndm_include_candlekeep
+  { \RequirePackage {lib/CandlekeepMysteries} }
+\bool_if:NT \__dndm_include_netherdeep
+  { \RequirePackage {lib/CriticalRoleCallOfTheNetherdeep} }
+\bool_if:NT \__dndm_include_dlshadow
+  { \RequirePackage {lib/DragonlanceShadowOfTheDragonQueen} }
+\bool_if:NT \__dndm_include_strixhaven
+  { \RequirePackage {lib/StrixhavenACurriculumOfChaos} }
+\bool_if:NT \__dndm_include_phandelver
+  { \RequirePackage {lib/PhandelverAndBelowTheShatteredObelisk} }
+\bool_if:NT \__dndm_include_vecnaruin
+  { \RequirePackage {lib/VecnaEveOfRuin} }
+\bool_if:NT \__dndm_include_infstair
+  { \RequirePackage {lib/QuestsFromTheInfiniteStaircase} }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% WotC Extras
+
+\bool_if:NT \__dndm_include_acqinc
+  { \RequirePackage {lib/AcquisitionsIncorporated} }
+\bool_if:NT \__dndm_include_mfolioI
+  { \RequirePackage {lib/MordenkainensFiendishFolioVol1} }
+\bool_if:NT \__dndm_include_delight
+  { \RequirePackage {lib/DomainsOfDelight} }
+\bool_if:NT \__dndm_include_minscboo
+  { \RequirePackage {lib/MinscAndBoosJournalOfVillainy} }
+\bool_if:NT \__dndm_include_imrebuild
+  { \RequirePackage {lib/InfernalMachineRebuild} }
+\bool_if:NT \__dndm_include_locathah
+  { \RequirePackage {lib/Locathah Rising} }
+\bool_if:NT \__dndm_include_kwalish
+  { \RequirePackage {lib/LostLaboratoryOfKwalish} }
+\bool_if:NT \__dndm_include_rglory
+  { \RequirePackage {lib/ReturnToTheGlory} }
+\bool_if:NT \__dndm_include_tortle
+  { \RequirePackage {lib/TheTortlePackage} }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Third Party Publishers
+
 \bool_if:NT \__dndm_include_ccodex
   { \RequirePackage {lib/CreatureCodex} }
 \bool_if:NT \__dndm_include_fefoes
   { \RequirePackage {lib/FifthEditionFoes} }
-\bool_if:NT \__dndm_include_limitless
-  { \RequirePackage {lib/LimitlessMonsters} }
 \bool_if:NT \__dndm_include_tob
   { \RequirePackage {lib/TomeOfBeasts} }
-\bool_if:NT \__dndm_include_toh
-  { \RequirePackage {lib/TomeOfHorrors} }
-\bool_if:NT \__dndm_include_tpkb
-  { \RequirePackage {lib/TotalPartyKillBestiary} }
+\bool_if:NT \__dndm_include_tobII
+  { \RequirePackage {lib/TomeOfBeasts2} }
 \bool_if:NT \__dndm_include_expeberron
   { \RequirePackage {lib/ExploringEberron} }
+\bool_if:NT \__dndm_include_madayII
+  { \RequirePackage {lib/MonsterADayCompendium20} }
+\bool_if:NT \__dndm_include_spcthulhu
+  { \RequirePackage {lib/SandyPetersensCthulhuMythos} }
+\bool_if:NT \__dndm_include_taldorei
+  { \RequirePackage {lib/TaldoreiCampaignSetting} }
+\bool_if:NT \__dndm_include_tdreborn
+  { \RequirePackage {lib/TaldoreiCampaignSettingReborn} }

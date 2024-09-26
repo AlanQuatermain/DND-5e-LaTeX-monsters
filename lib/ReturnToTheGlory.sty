@@ -1,0 +1,21 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Return to the Glory
+
+\ProvideDocumentCommand { \DndDirtUnderNails } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dirt-Under-Nails#2} ~ }
+    { \textbf{dirt-under-nails#2} ~ }
+  ( \textit{RttG} , ~ p. \nobreakspace 32 )
+}
+
+\ProvideDocumentCommand { \DndRotter } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Rotter#2} ~ }
+    { \textbf{rotter#2} ~ }
+  ( \textit{RttG} , ~ p. \nobreakspace 34 )
+}
+

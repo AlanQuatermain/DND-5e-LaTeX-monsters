@@ -1,0 +1,388 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Icewind Dale: Rime of the Frostmaiden
+
+\ProvideDocumentCommand { \DndAurilFirstForm } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Auril~(First~Form)#2} ~ }
+    { \textbf{auril~(first~form)#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 275 )
+}
+
+\ProvideDocumentCommand { \DndAurilSecondForm } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Auril~(Second~Form)#2} ~ }
+    { \textbf{auril~(second~form)#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 277 )
+}
+
+\ProvideDocumentCommand { \DndAurilThirdForm } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Auril~(Third~Form)#2} ~ }
+    { \textbf{auril~(third~form)#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 278 )
+}
+
+\ProvideDocumentCommand { \DndAvarice } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Avarice#2} ~ }
+    { \textbf{avarice#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 270 )
+}
+
+\ProvideDocumentCommand { \DndBjornhildSolvigsdottir } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bjornhild~Solvigsdottir#2} ~ }
+    { \textbf{bjornhild~solvigsdottir#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 306 )
+}
+
+\ProvideDocumentCommand { \DndChardalynBerserker } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Chardalyn~Berserker#2} ~ }
+    { \textbf{chardalyn~berserker#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 280 )
+}
+
+\ProvideDocumentCommand { \DndChardalynDragon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Chardalyn~Dragon#2} ~ }
+    { \textbf{chardalyn~dragon#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 281 )
+}
+
+\ProvideDocumentCommand { \DndChwinga } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Chwinga#2} ~ }
+    { \textbf{chwinga#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 282 )
+}
+
+\ProvideDocumentCommand { \DndColdlightWalker } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Coldlight~Walker#2} ~ }
+    { \textbf{coldlight~walker#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 284 )
+}
+
+\ProvideDocumentCommand { \DndCragCat } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Crag~Cat#2} ~ }
+    { \textbf{crag~cat#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 285 )
+}
+
+\ProvideDocumentCommand { \DndDemosMagen } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Demos~Magen#2} ~ }
+    { \textbf{demos~magen#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 300 )
+}
+
+\ProvideDocumentCommand { \DndDzaansSimulacrum } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dzaan's~Simulacrum#2} ~ }
+    { \textbf{dzaan's~simulacrum#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 270 )
+}
+
+\ProvideDocumentCommand { \DndFox } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fox#2} ~ }
+    { \textbf{fox#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 288 )
+}
+
+\ProvideDocumentCommand { \DndFrostDruid } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Frost~Druid#2} ~ }
+    { \textbf{frost~druid#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 288 )
+}
+
+\ProvideDocumentCommand { \DndFrostGiantSkeleton } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Frost~Giant~Skeleton#2} ~ }
+    { \textbf{frost~giant~skeleton#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 289 )
+}
+
+\ProvideDocumentCommand { \DndGalvanMagen } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Galvan~Magen#2} ~ }
+    { \textbf{galvan~magen#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 301 )
+}
+
+\ProvideDocumentCommand { \DndGiantWalrus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~Walrus#2} ~ }
+    { \textbf{giant~walrus#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 312 )
+}
+
+\ProvideDocumentCommand { \DndGnollVampire } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gnoll~Vampire#2} ~ }
+    { \textbf{gnoll~vampire#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 290 )
+}
+
+\ProvideDocumentCommand { \DndGnomeCeremorph } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gnome~Ceremorph#2} ~ }
+    { \textbf{gnome~ceremorph#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 303 )
+}
+
+\ProvideDocumentCommand { \DndGnomeSquidling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gnome~Squidling#2} ~ }
+    { \textbf{gnome~squidling#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 303 )
+}
+
+\ProvideDocumentCommand { \DndGoliathWarrior } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Goliath~Warrior#2} ~ }
+    { \textbf{goliath~warrior#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 292 )
+}
+
+\ProvideDocumentCommand { \DndGoliathWerebear } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Goliath~Werebear#2} ~ }
+    { \textbf{goliath~werebear#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 293 )
+}
+
+\ProvideDocumentCommand { \DndGunvaldHalraggson } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gunvald~Halraggson#2} ~ }
+    { \textbf{gunvald~halraggson#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 305 )
+}
+
+\ProvideDocumentCommand { \DndHare } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hare#2} ~ }
+    { \textbf{hare#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 294 )
+}
+
+\ProvideDocumentCommand { \DndHypnosMagen } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hypnos~Magen#2} ~ }
+    { \textbf{hypnos~magen#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 301 )
+}
+
+\ProvideDocumentCommand { \DndIceTroll } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ice~Troll#2} ~ }
+    { \textbf{ice~troll#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 295 )
+}
+
+\ProvideDocumentCommand { \DndIcewindKobold } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Icewind~Kobold#2} ~ }
+    { \textbf{icewind~kobold#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 296 )
+}
+
+\ProvideDocumentCommand { \DndIcewindKoboldZombie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Icewind~Kobold~Zombie#2} ~ }
+    { \textbf{icewind~kobold~zombie#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 297 )
+}
+
+\ProvideDocumentCommand { \DndIssarKronenstrom } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Issar~Kronenstrom#2} ~ }
+    { \textbf{issar~kronenstrom#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 307 )
+}
+
+\ProvideDocumentCommand { \DndJarundElkhardt } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Jarund~Elkhardt#2} ~ }
+    { \textbf{jarund~elkhardt#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 305 )
+}
+
+\ProvideDocumentCommand { \DndKnuckleheadTrout } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Knucklehead~Trout#2} ~ }
+    { \textbf{knucklehead~trout#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 295 )
+}
+
+\ProvideDocumentCommand { \DndKoboldVampireSpawn } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kobold~Vampire~Spawn#2} ~ }
+    { \textbf{kobold~vampire~spawn#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 297 )
+}
+
+\ProvideDocumentCommand { \DndLivingBigbysHand } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Living~Bigby's~Hand#2} ~ }
+    { \textbf{living~bigby's~hand#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 298 )
+}
+
+\ProvideDocumentCommand { \DndLivingBladeOfDisaster } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Living~Blade~of~Disaster#2} ~ }
+    { \textbf{living~blade~of~disaster#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 299 )
+}
+
+\ProvideDocumentCommand { \DndLivingDemiplane } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Living~Demiplane#2} ~ }
+    { \textbf{living~demiplane#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 299 )
+}
+
+\ProvideDocumentCommand { \DndMountainGoat } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mountain~Goat#2} ~ }
+    { \textbf{mountain~goat#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 304 )
+}
+
+\ProvideDocumentCommand { \DndNassLantomirsGhost } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Nass~Lantomir's~Ghost#2} ~ }
+    { \textbf{nass~lantomir's~ghost#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 272 )
+}
+
+\ProvideDocumentCommand { \DndSeal } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Seal#2} ~ }
+    { \textbf{seal#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 308 )
+}
+
+\ProvideDocumentCommand { \DndSnowGolem } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Snow~Golem#2} ~ }
+    { \textbf{snow~golem#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 308 )
+}
+
+\ProvideDocumentCommand { \DndSpermWhale } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sperm~Whale#2} ~ }
+    { \textbf{sperm~whale#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 309 )
+}
+
+\ProvideDocumentCommand { \DndSpittingMimic } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Spitting~Mimic#2} ~ }
+    { \textbf{spitting~mimic#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 302 )
+}
+
+\ProvideDocumentCommand { \DndTombTapper } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Tomb~Tapper#2} ~ }
+    { \textbf{tomb~tapper#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 310 )
+}
+
+\ProvideDocumentCommand { \DndVellyneHarpell } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Vellyne~Harpell#2} ~ }
+    { \textbf{vellyne~harpell#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 274 )
+}
+
+\ProvideDocumentCommand { \DndVerbeegLongstrider } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Verbeeg~Longstrider#2} ~ }
+    { \textbf{verbeeg~longstrider#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 311 )
+}
+
+\ProvideDocumentCommand { \DndVerbeegMarauder } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Verbeeg~Marauder#2} ~ }
+    { \textbf{verbeeg~marauder#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 311 )
+}
+
+\ProvideDocumentCommand { \DndWalrus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Walrus#2} ~ }
+    { \textbf{walrus#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 312 )
+}
+
+\ProvideDocumentCommand { \DndXardorokSunblight } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Xardorok~Sunblight#2} ~ }
+    { \textbf{xardorok~sunblight#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 287 )
+}
+
+\ProvideDocumentCommand { \DndYetiTyke } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Yeti~Tyke#2} ~ }
+    { \textbf{yeti~tyke#2} ~ }
+  ( \textit{ID:RotF} , ~ p. \nobreakspace 313 )
+}

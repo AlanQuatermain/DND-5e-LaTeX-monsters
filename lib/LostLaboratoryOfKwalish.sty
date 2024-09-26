@@ -1,0 +1,37 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Lost Laboratory of Kwalish
+
+\ProvideDocumentCommand { \DndClockworkKraken } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Clockwork~Kraken#2} ~ }
+    { \textbf{clockwork~kraken#2} ~ }
+  ( \textit{LLoK} , ~ p. \nobreakspace 38 )
+}
+
+\ProvideDocumentCommand { \DndGarretLevistusson } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Garret~Levistusson#2} ~ }
+    { \textbf{garret~levistusson#2} ~ }
+  ( \textit{LLoK} , ~ p. \nobreakspace 41 )
+}
+
+\ProvideDocumentCommand { \DndMaryGreymalkin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mary~Greymalkin#2} ~ }
+    { \textbf{mary~greymalkin#2} ~ }
+  ( \textit{LLoK} , ~ p. \nobreakspace 43 )
+}
+
+\ProvideDocumentCommand { \DndOozeFolk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ooze-Folk#2} ~ }
+    { \textbf{ooze-folk#2} ~ }
+  ( \textit{LLoK} , ~ p. \nobreakspace 46 )
+}
+

@@ -1,0 +1,13 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Tal'Dorei Campaign Setting
+
+\ProvideDocumentCommand { \DndGoatKnightSteed } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Goat-Knight~Steed#2} ~ }
+    { \textbf{goat-knight~steed#2} ~ }
+  ( \textit{TDCS} , ~ p. \nobreakspace 135 )
+}
+

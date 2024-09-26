@@ -1,29 +1,29 @@
 \ExplSyntaxOn
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Plane Shift: Kaladesh
+%% Planeshift: Kaladesh
 
-\NewDocumentCommand { \DndGremlin } { s O{} }
+\ProvideDocumentCommand { \DndGremlin } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Gremlin #2} ~ }
-    { \textbf{gremlin #2} ~ }
-  ( \textit{PS:K} , ~ p. \nobreakspace 26 )
+    { \textbf{Gremlin#2} ~ }
+    { \textbf{gremlin#2} ~ }
+  ( \textit{PS:Kal} , ~ p. \nobreakspace 26 )
 }
 
-\NewDocumentCommand { \DndServo } { s O{} }
+\ProvideDocumentCommand { \DndServo } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Servo #2} ~ }
-    { \textbf{servo #2} ~ }
-  ( \textit{PS:K} , ~ p. \nobreakspace 32 )
+    { \textbf{Servo#2} ~ }
+    { \textbf{servo#2} ~ }
+  ( \textit{PS:Kal} , ~ p. \nobreakspace 32 )
 }
 
-\NewDocumentCommand { \DndSkyLeviathan } { s O{} }
+\ProvideDocumentCommand { \DndSkyLeviathan } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Sky~leviathan #2} ~ }
-    { \textbf{sky~leviathan #2} ~ }
-  ( \textit{PS:K} , ~ p. \nobreakspace 28 )
+    { \textbf{Sky~Leviathan#2} ~ }
+    { \textbf{sky~leviathan#2} ~ }
+  ( \textit{PS:Kal} , ~ p. \nobreakspace 28 )
 }
 

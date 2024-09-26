@@ -1,0 +1,356 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Tal'Dorei Campaign Setting Reborn
+
+\ProvideDocumentCommand { \DndAdranach } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adranach#2} ~ }
+    { \textbf{adranach#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 224 )
+}
+
+\ProvideDocumentCommand { \DndAshariFiretamer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ashari~Firetamer#2} ~ }
+    { \textbf{ashari~firetamer#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 226 )
+}
+
+\ProvideDocumentCommand { \DndAshariSkydancer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ashari~Skydancer#2} ~ }
+    { \textbf{ashari~skydancer#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 129 )
+}
+
+\ProvideDocumentCommand { \DndAshariStoneguard } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ashari~Stoneguard#2} ~ }
+    { \textbf{ashari~stoneguard#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 128 )
+}
+
+\ProvideDocumentCommand { \DndAshariWaverider } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ashari~Waverider#2} ~ }
+    { \textbf{ashari~waverider#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 129 )
+}
+
+\ProvideDocumentCommand { \DndCentaurSkeleton } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Centaur~Skeleton#2} ~ }
+    { \textbf{centaur~skeleton#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 256 )
+}
+
+\ProvideDocumentCommand { \DndChampionOfRavens } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Champion~of~Ravens#2} ~ }
+    { \textbf{champion~of~ravens#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 275 )
+}
+
+\ProvideDocumentCommand { \DndCinderslagElemental } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cinderslag~Elemental#2} ~ }
+    { \textbf{cinderslag~elemental#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 231 )
+}
+
+\ProvideDocumentCommand { \DndClaspCutthroat } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Clasp~Cutthroat#2} ~ }
+    { \textbf{clasp~cutthroat#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 232 )
+}
+
+\ProvideDocumentCommand { \DndClaspEnforcer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Clasp~Enforcer#2} ~ }
+    { \textbf{clasp~enforcer#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 233 )
+}
+
+\ProvideDocumentCommand { \DndCobaltGolem } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cobalt~Golem#2} ~ }
+    { \textbf{cobalt~golem#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 240 )
+}
+
+\ProvideDocumentCommand { \DndColdSnapSpirit } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cold~Snap~Spirit#2} ~ }
+    { \textbf{cold~snap~spirit#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 234 )
+}
+
+\ProvideDocumentCommand { \DndCyclopsStormcaller } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cyclops~Stormcaller#2} ~ }
+    { \textbf{cyclops~stormcaller#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 235 )
+}
+
+\ProvideDocumentCommand { \DndDemonfeedSpider } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Demonfeed~Spider#2} ~ }
+    { \textbf{demonfeed~spider#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 237 )
+}
+
+\ProvideDocumentCommand { \DndDemonfeedSpiderling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Demonfeed~Spiderling#2} ~ }
+    { \textbf{demonfeed~spiderling#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 237 )
+}
+
+\ProvideDocumentCommand { \DndDotyX } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Doty~X#2} ~ }
+    { \textbf{doty~x#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 272 )
+}
+
+\ProvideDocumentCommand { \DndEmberRoc } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ember~Roc#2} ~ }
+    { \textbf{ember~roc#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 238 )
+}
+
+\ProvideDocumentCommand { \DndFlamingSkeleton } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Flaming~Skeleton#2} ~ }
+    { \textbf{flaming~skeleton#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 256 )
+}
+
+\ProvideDocumentCommand { \DndForgeGuardian } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Forge~Guardian#2} ~ }
+    { \textbf{forge~guardian#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 241 )
+}
+
+\ProvideDocumentCommand { \DndGrogStrongjaw } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Grog~Strongjaw#2} ~ }
+    { \textbf{grog~strongjaw#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 261 )
+}
+
+\ProvideDocumentCommand { \DndJourraelTheCaedogeist } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Jourrael,~the~Caedogeist#2} ~ }
+    { \textbf{jourrael,~the~caedogeist#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 245 )
+}
+
+\ProvideDocumentCommand { \DndKeylethVoiceOfTheTempest } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Keyleth,~Voice~of~the~Tempest#2} ~ }
+    { \textbf{keyleth,~voice~of~the~tempest#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 263 )
+}
+
+\ProvideDocumentCommand { \DndKraghammerGoatKnight } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kraghammer~Goat-Knight#2} ~ }
+    { \textbf{kraghammer~goat-knight#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 246 )
+}
+
+\ProvideDocumentCommand { \DndMageHunterGolem } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mage~Hunter~Golem#2} ~ }
+    { \textbf{mage~hunter~golem#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 242 )
+}
+
+\ProvideDocumentCommand { \DndMagmaLandshark } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Magma~Landshark#2} ~ }
+    { \textbf{magma~landshark#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 247 )
+}
+
+\ProvideDocumentCommand { \DndMasterAdranach } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Master~Adranach#2} ~ }
+    { \textbf{master~adranach#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 225 )
+}
+
+\ProvideDocumentCommand { \DndPercivalDeRolo } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Percival~De~Rolo#2} ~ }
+    { \textbf{percival~de~rolo#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 266 )
+}
+
+\ProvideDocumentCommand { \DndPikeTrickfoot } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Pike~Trickfoot#2} ~ }
+    { \textbf{pike~trickfoot#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 269 )
+}
+
+\ProvideDocumentCommand { \DndPlainscow } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Plainscow#2} ~ }
+    { \textbf{plainscow#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 248 )
+}
+
+\ProvideDocumentCommand { \DndPlatinumGolem } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Platinum~Golem#2} ~ }
+    { \textbf{platinum~golem#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 243 )
+}
+
+\ProvideDocumentCommand { \DndRavagerSlaughterLord } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ravager~Slaughter~Lord#2} ~ }
+    { \textbf{ravager~slaughter~lord#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 250 )
+}
+
+\ProvideDocumentCommand { \DndRavagerStabbyStabber } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ravager~Stabby-Stabber#2} ~ }
+    { \textbf{ravager~stabby-stabber#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 250 )
+}
+
+\ProvideDocumentCommand { \DndRemnantChosen } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Remnant~Chosen#2} ~ }
+    { \textbf{remnant~chosen#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 251 )
+}
+
+\ProvideDocumentCommand { \DndRemnantCultist } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Remnant~Cultist#2} ~ }
+    { \textbf{remnant~cultist#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 252 )
+}
+
+\ProvideDocumentCommand { \DndRivermawBrawler } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Rivermaw~Brawler#2} ~ }
+    { \textbf{rivermaw~brawler#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 254 )
+}
+
+\ProvideDocumentCommand { \DndRivermawStormborn } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Rivermaw~Stormborn#2} ~ }
+    { \textbf{rivermaw~stormborn#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 254 )
+}
+
+\ProvideDocumentCommand { \DndScanlanShorthalt } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Scanlan~Shorthalt#2} ~ }
+    { \textbf{scanlan~shorthalt#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 271 )
+}
+
+\ProvideDocumentCommand { \DndTaryonDarrington } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Taryon~Darrington#2} ~ }
+    { \textbf{taryon~darrington#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 273 )
+}
+
+\ProvideDocumentCommand { \DndTrinket } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Trinket#2} ~ }
+    { \textbf{trinket#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 266 )
+}
+
+\ProvideDocumentCommand { \DndVexahlia } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Vex'ahlia#2} ~ }
+    { \textbf{vex'ahlia#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 267 )
+}
+
+\ProvideDocumentCommand { \DndVosskyrissSerpentfolk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Vos'skyriss~Serpentfolk#2} ~ }
+    { \textbf{vos'skyriss~serpentfolk#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 258 )
+}
+
+\ProvideDocumentCommand { \DndVosskyrissSerpentfolkGhost } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Vos'skyriss~Serpentfolk~Ghost#2} ~ }
+    { \textbf{vos'skyriss~serpentfolk~ghost#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 258 )
+}
+
+\ProvideDocumentCommand { \DndWraithrootTree } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wraithroot~Tree#2} ~ }
+    { \textbf{wraithroot~tree#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 259 )
+}
+
+\ProvideDocumentCommand { \DndYoungMagmaLandshark } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~Magma~Landshark#2} ~ }
+    { \textbf{young~magma~landshark#2} ~ }
+  ( \textit{TDCS:R} , ~ p. \nobreakspace 248 )
+}

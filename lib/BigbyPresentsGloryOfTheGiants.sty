@@ -1,0 +1,572 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Bigby Presents: Glory of the Giants
+
+\ProvideDocumentCommand { \DndAerosaur } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Aerosaur#2} ~ }
+    { \textbf{aerosaur#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 128 )
+}
+
+\ProvideDocumentCommand { \DndAltisaur } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Altisaur#2} ~ }
+    { \textbf{altisaur#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 129 )
+}
+
+\ProvideDocumentCommand { \DndBagJelly } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bag~Jelly#2} ~ }
+    { \textbf{bag~jelly#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 120 )
+}
+
+\ProvideDocumentCommand { \DndBarrowghast } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Barrowghast#2} ~ }
+    { \textbf{barrowghast#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 121 )
+}
+
+\ProvideDocumentCommand { \DndCairnwright } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cairnwright#2} ~ }
+    { \textbf{cairnwright#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 122 )
+}
+
+\ProvideDocumentCommand { \DndCeratops } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ceratops#2} ~ }
+    { \textbf{ceratops#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 129 )
+}
+
+\ProvideDocumentCommand { \DndCinderHulk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cinder~Hulk#2} ~ }
+    { \textbf{cinder~hulk#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 123 )
+}
+
+\ProvideDocumentCommand { \DndCloudGiantDestinyGambler } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cloud~Giant~Destiny~Gambler#2} ~ }
+    { \textbf{cloud~giant~destiny~gambler#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 124 )
+}
+
+\ProvideDocumentCommand { \DndCloudGiantOfEvilAir } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cloud~Giant~of~Evil~Air#2} ~ }
+    { \textbf{cloud~giant~of~evil~air#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 125 )
+}
+
+\ProvideDocumentCommand { \DndCradleOfTheCloudScion } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cradle~of~the~Cloud~Scion#2} ~ }
+    { \textbf{cradle~of~the~cloud~scion#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 166 )
+}
+
+\ProvideDocumentCommand { \DndCradleOfTheFireScion } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cradle~of~the~Fire~Scion#2} ~ }
+    { \textbf{cradle~of~the~fire~scion#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 172 )
+}
+
+\ProvideDocumentCommand { \DndCradleOfTheFrostScion } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cradle~of~the~Frost~Scion#2} ~ }
+    { \textbf{cradle~of~the~frost~scion#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 174 )
+}
+
+\ProvideDocumentCommand { \DndCradleOfTheHillScion } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cradle~of~the~Hill~Scion#2} ~ }
+    { \textbf{cradle~of~the~hill~scion#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 164 )
+}
+
+\ProvideDocumentCommand { \DndCradleOfTheStoneScion } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cradle~of~the~Stone~Scion#2} ~ }
+    { \textbf{cradle~of~the~stone~scion#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 168 )
+}
+
+\ProvideDocumentCommand { \DndCradleOfTheStormScion } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cradle~of~the~Storm~Scion#2} ~ }
+    { \textbf{cradle~of~the~storm~scion#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 170 )
+}
+
+\ProvideDocumentCommand { \DndDeathGiantReaper } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Death~Giant~Reaper#2} ~ }
+    { \textbf{death~giant~reaper#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 126 )
+}
+
+\ProvideDocumentCommand { \DndDeathGiantShroudedOne } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Death~Giant~Shrouded~One#2} ~ }
+    { \textbf{death~giant~shrouded~one#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 127 )
+}
+
+\ProvideDocumentCommand { \DndDustHulk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dust~Hulk#2} ~ }
+    { \textbf{dust~hulk#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 131 )
+}
+
+\ProvideDocumentCommand { \DndEchoOfDemogorgon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Echo~of~Demogorgon#2} ~ }
+    { \textbf{echo~of~demogorgon#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 132 )
+}
+
+\ProvideDocumentCommand { \DndEttinCeremorph } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ettin~Ceremorph#2} ~ }
+    { \textbf{ettin~ceremorph#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 133 )
+}
+
+\ProvideDocumentCommand { \DndFensirDevourer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fensir~Devourer#2} ~ }
+    { \textbf{fensir~devourer#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 134 )
+}
+
+\ProvideDocumentCommand { \DndFensirSkirmisher } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fensir~Skirmisher#2} ~ }
+    { \textbf{fensir~skirmisher#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 135 )
+}
+
+\ProvideDocumentCommand { \DndFirbolgPrimevalWarden } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Firbolg~Primeval~Warden#2} ~ }
+    { \textbf{firbolg~primeval~warden#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 136 )
+}
+
+\ProvideDocumentCommand { \DndFirbolgWanderer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Firbolg~Wanderer#2} ~ }
+    { \textbf{firbolg~wanderer#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 137 )
+}
+
+\ProvideDocumentCommand { \DndFireGiantForgecaller } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fire~Giant~Forgecaller#2} ~ }
+    { \textbf{fire~giant~forgecaller#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 138 )
+}
+
+\ProvideDocumentCommand { \DndFireGiantOfEvilFire } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fire~Giant~of~Evil~Fire#2} ~ }
+    { \textbf{fire~giant~of~evil~fire#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 139 )
+}
+
+\ProvideDocumentCommand { \DndFireHellion } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fire~Hellion#2} ~ }
+    { \textbf{fire~hellion#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 140 )
+}
+
+\ProvideDocumentCommand { \DndFiregaunt } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Firegaunt#2} ~ }
+    { \textbf{firegaunt#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 137 )
+}
+
+\ProvideDocumentCommand { \DndFleshColossus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Flesh~Colossus#2} ~ }
+    { \textbf{flesh~colossus#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 141 )
+}
+
+\ProvideDocumentCommand { \DndFomorianDeepCrawler } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fomorian~Deep~Crawler#2} ~ }
+    { \textbf{fomorian~deep~crawler#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 142 )
+}
+
+\ProvideDocumentCommand { \DndFomorianNoble } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fomorian~Noble#2} ~ }
+    { \textbf{fomorian~noble#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 143 )
+}
+
+\ProvideDocumentCommand { \DndFomorianWarlockOfTheDark } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fomorian~Warlock~of~the~Dark#2} ~ }
+    { \textbf{fomorian~warlock~of~the~dark#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 144 )
+}
+
+\ProvideDocumentCommand { \DndFrostGiantIceShaper } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Frost~Giant~Ice~Shaper#2} ~ }
+    { \textbf{frost~giant~ice~shaper#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 145 )
+}
+
+\ProvideDocumentCommand { \DndFrostGiantOfEvilWater } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Frost~Giant~of~Evil~Water#2} ~ }
+    { \textbf{frost~giant~of~evil~water#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 146 )
+}
+
+\ProvideDocumentCommand { \DndFrostmourn } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Frostmourn#2} ~ }
+    { \textbf{frostmourn#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 147 )
+}
+
+\ProvideDocumentCommand { \DndFuryOfKostchtchie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fury~of~Kostchtchie#2} ~ }
+    { \textbf{fury~of~kostchtchie#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 148 )
+}
+
+\ProvideDocumentCommand { \DndGargantua } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gargantua#2} ~ }
+    { \textbf{gargantua#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 140 )
+}
+
+\ProvideDocumentCommand { \DndGiantGoose } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~Goose#2} ~ }
+    { \textbf{giant~goose#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 150 )
+}
+
+\ProvideDocumentCommand { \DndGiantLynx } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~Lynx#2} ~ }
+    { \textbf{giant~lynx#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 151 )
+}
+
+\ProvideDocumentCommand { \DndGiantOx } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~Ox#2} ~ }
+    { \textbf{giant~ox#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 152 )
+}
+
+\ProvideDocumentCommand { \DndGiantRam } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~Ram#2} ~ }
+    { \textbf{giant~ram#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 153 )
+}
+
+\ProvideDocumentCommand { \DndGiantTick } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Giant~Tick#2} ~ }
+    { \textbf{giant~tick#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 154 )
+}
+
+\ProvideDocumentCommand { \DndGigant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gigant#2} ~ }
+    { \textbf{gigant#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 154 )
+}
+
+\ProvideDocumentCommand { \DndGoliathGiantKin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Goliath~Giant-Kin#2} ~ }
+    { \textbf{goliath~giant-kin#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 155 )
+}
+
+\ProvideDocumentCommand { \DndGrinningCat } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Grinning~Cat#2} ~ }
+    { \textbf{grinning~cat#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 156 )
+}
+
+\ProvideDocumentCommand { \DndHillGiantAvalancher } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hill~Giant~Avalancher#2} ~ }
+    { \textbf{hill~giant~avalancher#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 157 )
+}
+
+\ProvideDocumentCommand { \DndLightningHulk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Lightning~Hulk#2} ~ }
+    { \textbf{lightning~hulk#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 158 )
+}
+
+\ProvideDocumentCommand { \DndMawOfYeenoghu } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Maw~of~Yeenoghu#2} ~ }
+    { \textbf{maw~of~yeenoghu#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 159 )
+}
+
+\ProvideDocumentCommand { \DndMistHulk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mist~Hulk#2} ~ }
+    { \textbf{mist~hulk#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 160 )
+}
+
+\ProvideDocumentCommand { \DndMudHulk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mud~Hulk#2} ~ }
+    { \textbf{mud~hulk#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 161 )
+}
+
+\ProvideDocumentCommand { \DndRegisaur } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Regisaur#2} ~ }
+    { \textbf{regisaur#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 130 )
+}
+
+\ProvideDocumentCommand { \DndRimeHulk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Rime~Hulk#2} ~ }
+    { \textbf{rime~hulk#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 162 )
+}
+
+\ProvideDocumentCommand { \DndRunicColossus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Runic~Colossus#2} ~ }
+    { \textbf{runic~colossus#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 163 )
+}
+
+\ProvideDocumentCommand { \DndScionOfGrolantor } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Scion~of~Grolantor#2} ~ }
+    { \textbf{scion~of~grolantor#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 165 )
+}
+
+\ProvideDocumentCommand { \DndScionOfMemnor } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Scion~of~Memnor#2} ~ }
+    { \textbf{scion~of~memnor#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 167 )
+}
+
+\ProvideDocumentCommand { \DndScionOfSkoraeus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Scion~of~Skoraeus#2} ~ }
+    { \textbf{scion~of~skoraeus#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 169 )
+}
+
+\ProvideDocumentCommand { \DndScionOfStronmaus } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Scion~of~Stronmaus#2} ~ }
+    { \textbf{scion~of~stronmaus#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 171 )
+}
+
+\ProvideDocumentCommand { \DndScionOfSurtur } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Scion~of~Surtur#2} ~ }
+    { \textbf{scion~of~surtur#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 173 )
+}
+
+\ProvideDocumentCommand { \DndScionOfThrym } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Scion~of~Thrym#2} ~ }
+    { \textbf{scion~of~thrym#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 175 )
+}
+
+\ProvideDocumentCommand { \DndSpectralCloud } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Spectral~Cloud#2} ~ }
+    { \textbf{spectral~cloud#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 176 )
+}
+
+\ProvideDocumentCommand { \DndSpottedLion } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Spotted~Lion#2} ~ }
+    { \textbf{spotted~lion#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 177 )
+}
+
+\ProvideDocumentCommand { \DndStalkerOfBaphomet } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Stalker~of~Baphomet#2} ~ }
+    { \textbf{stalker~of~baphomet#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 178 )
+}
+
+\ProvideDocumentCommand { \DndStoneGiantRockspeaker } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Stone~Giant~Rockspeaker#2} ~ }
+    { \textbf{stone~giant~rockspeaker#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 180 )
+}
+
+\ProvideDocumentCommand { \DndStoneGiantOfEvilEarth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Stone~Giant~of~Evil~Earth#2} ~ }
+    { \textbf{stone~giant~of~evil~earth#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 179 )
+}
+
+\ProvideDocumentCommand { \DndStormCrab } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Storm~Crab#2} ~ }
+    { \textbf{storm~crab#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 181 )
+}
+
+\ProvideDocumentCommand { \DndStormGiantTempestCaller } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Storm~Giant~Tempest~Caller#2} ~ }
+    { \textbf{storm~giant~tempest~caller#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 182 )
+}
+
+\ProvideDocumentCommand { \DndStormHerald } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Storm~Herald#2} ~ }
+    { \textbf{storm~herald#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 183 )
+}
+
+\ProvideDocumentCommand { \DndTempestSpirit } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Tempest~Spirit#2} ~ }
+    { \textbf{tempest~spirit#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 184 )
+}
+
+\ProvideDocumentCommand { \DndTitanothere } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Titanothere#2} ~ }
+    { \textbf{titanothere#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 185 )
+}
+
+\ProvideDocumentCommand { \DndTrollAmalgam } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Troll~Amalgam#2} ~ }
+    { \textbf{troll~amalgam#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 186 )
+}
+
+\ProvideDocumentCommand { \DndTrollMutate } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Troll~Mutate#2} ~ }
+    { \textbf{troll~mutate#2} ~ }
+  ( \textit{BP:GotG} , ~ p. \nobreakspace 187 )
+}

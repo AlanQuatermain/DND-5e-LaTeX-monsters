@@ -3,275 +3,282 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Tomb of Annihilation
 
-\NewDocumentCommand { \DndVolothampVoloGeddarm } { s O{} }
+\ProvideDocumentCommand { \DndAcererak } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{"volothamp~""volo""~geddarm" #2} ~ }
-    { \textbf{"volothamp~""volo""~geddarm" #2} ~ }
-  ( \textit{ToA} , ~ p. \nobreakspace 235 )
-}
-
-\NewDocumentCommand { \DndAcererak } { s O{} }
-{
-  \IfBooleanTF {#1}
-    { \textbf{Acererak #2} ~ }
-    { \textbf{acererak #2} ~ }
+    { \textbf{Acererak#2} ~ }
+    { \textbf{acererak#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 209 )
 }
 
-\NewDocumentCommand { \DndAlbinoDwarfWarrior } { s O{} }
+\ProvideDocumentCommand { \DndAlbinoDwarfWarrior } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Albino~dwarf~warrior #2} ~ }
-    { \textbf{albino~dwarf~warrior #2} ~ }
+    { \textbf{Albino~Dwarf~Warrior#2} ~ }
+    { \textbf{albino~dwarf~warrior#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 210 )
 }
 
-\NewDocumentCommand { \DndAldaniLobsterfolk } { s O{} }
+\ProvideDocumentCommand { \DndAldani } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Aldani~(lobsterfolk) #2} ~ }
-    { \textbf{aldani~(lobsterfolk) #2} ~ }
+    { \textbf{Aldani#2} ~ }
+    { \textbf{aldani#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 210 )
 }
 
-\NewDocumentCommand { \DndAlmiraj } { s O{} }
+\ProvideDocumentCommand { \DndAlmiraj } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Almiraj #2} ~ }
-    { \textbf{almiraj #2} ~ }
+    { \textbf{Almiraj#2} ~ }
+    { \textbf{almiraj#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 211 )
 }
 
-\NewDocumentCommand { \DndAnkylosaurusZombie } { s O{} }
+\ProvideDocumentCommand { \DndAnkylosaurusZombie } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Ankylosaurus~zombie #2} ~ }
-    { \textbf{ankylosaurus~zombie #2} ~ }
+    { \textbf{Ankylosaurus~Zombie#2} ~ }
+    { \textbf{ankylosaurus~zombie#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 240 )
 }
 
-\NewDocumentCommand { \DndArtusCimber } { s O{} }
+\ProvideDocumentCommand { \DndArtusCimber } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Artus~cimber #2} ~ }
-    { \textbf{artus~cimber #2} ~ }
+    { \textbf{Artus~Cimber#2} ~ }
+    { \textbf{artus~cimber#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 212 )
 }
 
-\NewDocumentCommand { \DndAssassinVine } { s O{} }
+\ProvideDocumentCommand { \DndAssassinVine } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Assassin~vine #2} ~ }
-    { \textbf{assassin~vine #2} ~ }
+    { \textbf{Assassin~Vine#2} ~ }
+    { \textbf{assassin~vine#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 213 )
 }
 
-\NewDocumentCommand { \DndAtropal } { s O{} }
+\ProvideDocumentCommand { \DndAstropal } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Atropal #2} ~ }
-    { \textbf{atropal #2} ~ }
+    { \textbf{Astropal#2} ~ }
+    { \textbf{astropal#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 214 )
 }
 
-\NewDocumentCommand { \DndChwinga } { s O{} }
+\ProvideDocumentCommand { \DndDragonbait } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Chwinga #2} ~ }
-    { \textbf{chwinga #2} ~ }
-  ( \textit{ToA} , ~ p. \nobreakspace 216 )
-}
-
-\NewDocumentCommand { \DndDragonbait } { s O{} }
-{
-  \IfBooleanTF {#1}
-    { \textbf{Dragonbait #2} ~ }
-    { \textbf{dragonbait #2} ~ }
+    { \textbf{Dragonbait#2} ~ }
+    { \textbf{dragonbait#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 218 )
 }
 
-\NewDocumentCommand { \DndEblis } { s O{} }
+\ProvideDocumentCommand { \DndEblis } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Eblis #2} ~ }
-    { \textbf{eblis #2} ~ }
+    { \textbf{Eblis#2} ~ }
+    { \textbf{eblis#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 219 )
 }
 
-\NewDocumentCommand { \DndFlyingMonkey } { s O{} }
+\ProvideDocumentCommand { \DndFlyingMonkey } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Flying~monkey #2} ~ }
-    { \textbf{flying~monkey #2} ~ }
+    { \textbf{Flying~Monkey#2} ~ }
+    { \textbf{flying~monkey#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 220 )
 }
 
-\NewDocumentCommand { \DndGiantFourArmedGargoyle } { s O{} }
+\ProvideDocumentCommand { \DndGiantFourArmedGargoyle } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Giant~four-armed~gargoyle #2} ~ }
-    { \textbf{giant~four-armed~gargoyle #2} ~ }
+    { \textbf{Giant~Four-Armed~Gargoyle#2} ~ }
+    { \textbf{giant~four-armed~gargoyle#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 221 )
 }
 
-\NewDocumentCommand { \DndGiantSnappingTurtle } { s O{} }
+\ProvideDocumentCommand { \DndGiantStrider } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Giant~snapping~turtle #2} ~ }
-    { \textbf{giant~snapping~turtle #2} ~ }
+    { \textbf{Giant~Strider#2} ~ }
+    { \textbf{giant~strider#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 222 )
 }
 
-\NewDocumentCommand { \DndGirallonZombie } { s O{} }
+\ProvideDocumentCommand { \DndGiatSnappingTurtle } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Girallon~zombie #2} ~ }
-    { \textbf{girallon~zombie #2} ~ }
+    { \textbf{Giat~Snapping~Turtle#2} ~ }
+    { \textbf{giat~snapping~turtle#2} ~ }
+  ( \textit{ToA} , ~ p. \nobreakspace 222 )
+}
+
+\ProvideDocumentCommand { \DndGirallonZombie } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Girallon~Zombie#2} ~ }
+    { \textbf{girallon~zombie#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 240 )
 }
 
-\NewDocumentCommand { \DndJaculi } { s O{} }
+\ProvideDocumentCommand { \DndJaculi } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Jaculi #2} ~ }
-    { \textbf{jaculi #2} ~ }
+    { \textbf{Jaculi#2} ~ }
+    { \textbf{jaculi#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 225 )
 }
 
-\NewDocumentCommand { \DndKamadan } { s O{} }
+\ProvideDocumentCommand { \DndKamadan } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Kamadan #2} ~ }
-    { \textbf{kamadan #2} ~ }
+    { \textbf{Kamadan#2} ~ }
+    { \textbf{kamadan#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 225 )
 }
 
-\NewDocumentCommand { \DndLiaraPortyr } { s O{} }
+\ProvideDocumentCommand { \DndKoboldInventer } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Liara~portyr #2} ~ }
-    { \textbf{liara~portyr #2} ~ }
+    { \textbf{Kobold~Inventer#2} ~ }
+    { \textbf{kobold~inventer#2} ~ }
+  ( \textit{ToA} , ~ p. \nobreakspace 226 )
+}
+
+\ProvideDocumentCommand { \DndKoboldScaleSorcerer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kobold~Scale~Sorcerer#2} ~ }
+    { \textbf{kobold~scale~sorcerer#2} ~ }
+  ( \textit{ToA} , ~ p. \nobreakspace 226 )
+}
+
+\ProvideDocumentCommand { \DndLiaraPortyr } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Liara~Portyr#2} ~ }
+    { \textbf{liara~portyr#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 227 )
 }
 
-\NewDocumentCommand { \DndMantrap } { s O{} }
+\ProvideDocumentCommand { \DndMantrap } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Mantrap #2} ~ }
-    { \textbf{mantrap #2} ~ }
+    { \textbf{Mantrap#2} ~ }
+    { \textbf{mantrap#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 227 )
 }
 
-\NewDocumentCommand { \DndMwaxanare } { s O{} }
+\ProvideDocumentCommand { \DndMwaxanare } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Mwaxanare #2} ~ }
-    { \textbf{mwaxanare #2} ~ }
+    { \textbf{Mwaxanaré#2} ~ }
+    { \textbf{mwaxanaré#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 228 )
 }
 
-\NewDocumentCommand { \DndPterafolk } { s O{} }
+\ProvideDocumentCommand { \DndPterafolk } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Pterafolk #2} ~ }
-    { \textbf{pterafolk #2} ~ }
+    { \textbf{Pterafolk#2} ~ }
+    { \textbf{pterafolk#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 229 )
 }
 
-\NewDocumentCommand { \DndRasNsi } { s O{} }
+\ProvideDocumentCommand { \DndRasNsi } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Ras~nsi #2} ~ }
-    { \textbf{ras~nsi #2} ~ }
+    { \textbf{Ras~Nsi#2} ~ }
+    { \textbf{ras~nsi#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 230 )
 }
 
-\NewDocumentCommand { \DndStoneJuggernaut } { s O{} }
+\ProvideDocumentCommand { \DndStoneJuggernaut } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Stone~juggernaut #2} ~ }
-    { \textbf{stone~juggernaut #2} ~ }
+    { \textbf{Stone~Juggernaut#2} ~ }
+    { \textbf{stone~juggernaut#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 231 )
 }
 
-\NewDocumentCommand { \DndSuMonster } { s O{} }
+\ProvideDocumentCommand { \DndSuMonster } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Su-monster #2} ~ }
-    { \textbf{su-monster #2} ~ }
+    { \textbf{Su-Monster#2} ~ }
+    { \textbf{su-monster#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 232 )
 }
 
-\NewDocumentCommand { \DndTabaxiHunter } { s O{} }
+\ProvideDocumentCommand { \DndTabaxiHunter } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Tabaxi~hunter #2} ~ }
-    { \textbf{tabaxi~hunter #2} ~ }
+    { \textbf{Tabaxi~Hunter#2} ~ }
+    { \textbf{tabaxi~hunter#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 232 )
 }
 
-\NewDocumentCommand { \DndTabaxiMinstrel } { s O{} }
+\ProvideDocumentCommand { \DndTabaxiMinstrel } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Tabaxi~minstrel #2} ~ }
-    { \textbf{tabaxi~minstrel #2} ~ }
+    { \textbf{Tabaxi~Minstrel#2} ~ }
+    { \textbf{tabaxi~minstrel#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 233 )
 }
 
-\NewDocumentCommand { \DndTriFlowerFrond } { s O{} }
+\ProvideDocumentCommand { \DndTriFlowerFrond } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Tri-flower~frond #2} ~ }
-    { \textbf{tri-flower~frond #2} ~ }
+    { \textbf{Tri-Flower~Frond#2} ~ }
+    { \textbf{tri-flower~frond#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 234 )
 }
 
-\NewDocumentCommand { \DndTyrannosaurusZombie } { s O{} }
+\ProvideDocumentCommand { \DndTyrannosaurusZombie } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Tyrannosaurus~zombie #2} ~ }
-    { \textbf{tyrannosaurus~zombie #2} ~ }
+    { \textbf{Tyrannosaurus~Zombie#2} ~ }
+    { \textbf{tyrannosaurus~zombie#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 241 )
 }
 
-\NewDocumentCommand { \DndXandala } { s O{} }
+\ProvideDocumentCommand { \DndXandala } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Xandala #2} ~ }
-    { \textbf{xandala #2} ~ }
+    { \textbf{Xandala#2} ~ }
+    { \textbf{xandala#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 236 )
 }
 
-\NewDocumentCommand { \DndYellowMuskCreeper } { s O{} }
+\ProvideDocumentCommand { \DndYellowMuskCreeper } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Yellow~musk~creeper #2} ~ }
-    { \textbf{yellow~musk~creeper #2} ~ }
+    { \textbf{Yellow~Musk~Creeper#2} ~ }
+    { \textbf{yellow~musk~creeper#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 237 )
 }
 
-\NewDocumentCommand { \DndYellowMuskZombie } { s O{} }
+\ProvideDocumentCommand { \DndYellowMuskZombie } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Yellow~musk~zombie #2} ~ }
-    { \textbf{yellow~musk~zombie #2} ~ }
+    { \textbf{Yellow~Musk~Zombie#2} ~ }
+    { \textbf{yellow~musk~zombie#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 237 )
 }
 
-\NewDocumentCommand { \DndZinder } { s O{} }
+\ProvideDocumentCommand { \DndZindar } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Zinder #2} ~ }
-    { \textbf{zinder #2} ~ }
+    { \textbf{Zindar#2} ~ }
+    { \textbf{zindar#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 239 )
 }
 
-\NewDocumentCommand { \DndZorbo } { s O{} }
+\ProvideDocumentCommand { \DndZorbo } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Zorbo #2} ~ }
-    { \textbf{zorbo #2} ~ }
+    { \textbf{Zorbo#2} ~ }
+    { \textbf{zorbo#2} ~ }
   ( \textit{ToA} , ~ p. \nobreakspace 241 )
 }
-

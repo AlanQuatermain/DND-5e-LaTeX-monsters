@@ -3,43 +3,27 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% The Tortle Package
 
-\NewDocumentCommand { \DndDecapus } { s O{} }
+\ProvideDocumentCommand { \DndDecapus } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Decapus #2} ~ }
-    { \textbf{decapus #2} ~ }
-  ( \textit{TtlPkg} , ~ p. \nobreakspace 21 )
+    { \textbf{Decapus#2} ~ }
+    { \textbf{decapus#2} ~ }
+  ( \textit{TTP} , ~ p. \nobreakspace 21 )
 }
 
-\NewDocumentCommand { \DndGeonid } { s O{} }
+\ProvideDocumentCommand { \DndGeonid } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Geonid #2} ~ }
-    { \textbf{geonid #2} ~ }
-  ( \textit{TtlPkg} , ~ p. \nobreakspace 22 )
+    { \textbf{Geonid#2} ~ }
+    { \textbf{geonid#2} ~ }
+  ( \textit{TTP} , ~ p. \nobreakspace 22 )
 }
 
-\NewDocumentCommand { \DndTopi } { s O{} }
+\ProvideDocumentCommand { \DndTopi } { s O{} }
 {
   \IfBooleanTF {#1}
-    { \textbf{Topi #2} ~ }
-    { \textbf{topi #2} ~ }
-  ( \textit{TtlPkg} , ~ p. \nobreakspace 22 )
-}
-
-\NewDocumentCommand { \DndTortle } { s O{} }
-{
-  \IfBooleanTF {#1}
-    { \textbf{Tortle #2} ~ }
-    { \textbf{tortle #2} ~ }
-  ( \textit{TtlPkg} , ~ p. \nobreakspace 23 )
-}
-
-\NewDocumentCommand { \DndTortleDruid } { s O{} }
-{
-  \IfBooleanTF {#1}
-    { \textbf{Tortle~druid #2} ~ }
-    { \textbf{tortle~druid #2} ~ }
-  ( \textit{TtlPkg} , ~ p. \nobreakspace 23 )
+    { \textbf{Topi#2} ~ }
+    { \textbf{topi#2} ~ }
+  ( \textit{TTP} , ~ p. \nobreakspace 22 )
 }
 

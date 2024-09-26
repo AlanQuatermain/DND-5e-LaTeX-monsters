@@ -1,0 +1,972 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Sandy Petersen's Cthulhu Mythos
+
+\ProvideDocumentCommand { \DndAbyssalCustodian } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Abyssal~Custodian#2} ~ }
+    { \textbf{abyssal~custodian#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 279 )
+}
+
+\ProvideDocumentCommand { \DndAdolescentDarkYoung } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adolescent~Dark~Young#2} ~ }
+    { \textbf{adolescent~dark~young#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 293 )
+}
+
+\ProvideDocumentCommand { \DndAdultBhole } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adult~Bhole#2} ~ }
+    { \textbf{adult~bhole#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 282 )
+}
+
+\ProvideDocumentCommand { \DndAdultDarkYoung } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Adult~Dark~Young#2} ~ }
+    { \textbf{adult~dark~young#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 294 )
+}
+
+\ProvideDocumentCommand { \DndAvatarOfAtlachNacha } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Avatar~of~Atlach-Nacha#2} ~ }
+    { \textbf{avatar~of~atlach-nacha#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 170 )
+}
+
+\ProvideDocumentCommand { \DndAvatarOfBokrug } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Avatar~of~Bokrug#2} ~ }
+    { \textbf{avatar~of~bokrug#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 177 )
+}
+
+\ProvideDocumentCommand { \DndAvatarOfByatis } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Avatar~of~Byatis#2} ~ }
+    { \textbf{avatar~of~byatis#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 180 )
+}
+
+\ProvideDocumentCommand { \DndAvatarOfChaugnarFaugn } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Avatar~of~Chaugnar~Faugn#2} ~ }
+    { \textbf{avatar~of~chaugnar~faugn#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 182 )
+}
+
+\ProvideDocumentCommand { \DndAvatarOfTsathoggua } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Avatar~of~Tsathoggua#2} ~ }
+    { \textbf{avatar~of~tsathoggua#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 261 )
+}
+
+\ProvideDocumentCommand { \DndAvatarOfYig } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Avatar~of~Yig#2} ~ }
+    { \textbf{avatar~of~yig#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 271 )
+}
+
+\ProvideDocumentCommand { \DndBholeHatchling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Bhole~Hatchling#2} ~ }
+    { \textbf{bhole~hatchling#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 281 )
+}
+
+\ProvideDocumentCommand { \DndBlessedBerserker } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Blessed~Berserker#2} ~ }
+    { \textbf{blessed~berserker#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 404 )
+}
+
+\ProvideDocumentCommand { \DndByakhee } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Byakhee#2} ~ }
+    { \textbf{byakhee#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 287 )
+}
+
+\ProvideDocumentCommand { \DndCharnelWhisperer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Charnel~Whisperer#2} ~ }
+    { \textbf{charnel~whisperer#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 326 )
+}
+
+\ProvideDocumentCommand { \DndColourOutOfSpace } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Colour~Out~of~Space#2} ~ }
+    { \textbf{colour~out~of~space#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 292 )
+}
+
+\ProvideDocumentCommand { \DndControlDrone } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Control~Drone#2} ~ }
+    { \textbf{control~drone#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 286 )
+}
+
+\ProvideDocumentCommand { \DndCryptLurker } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Crypt~Lurker#2} ~ }
+    { \textbf{crypt~lurker#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 325 )
+}
+
+\ProvideDocumentCommand { \DndCultKiller } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cult~Killer#2} ~ }
+    { \textbf{cult~killer#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 404 )
+}
+
+\ProvideDocumentCommand { \DndCultMastermind } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Cult~Mastermind#2} ~ }
+    { \textbf{cult~mastermind#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 405 )
+}
+
+\ProvideDocumentCommand { \DndDaughterOfSubNiggurath } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Daughter~of~Sub-Niggurath#2} ~ }
+    { \textbf{daughter~of~sub-niggurath#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 376 )
+}
+
+\ProvideDocumentCommand { \DndDeathlessWizard } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Deathless~Wizard#2} ~ }
+    { \textbf{deathless~wizard#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 389 )
+}
+
+\ProvideDocumentCommand { \DndDeepOne } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Deep~One#2} ~ }
+    { \textbf{deep~one#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 296 )
+}
+
+\ProvideDocumentCommand { \DndDeepOneBishop } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Deep~One~Bishop#2} ~ }
+    { \textbf{deep~one~bishop#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 297 )
+}
+
+\ProvideDocumentCommand { \DndDeepOneHybridCultist } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Deep~One~Hybrid~Cultist#2} ~ }
+    { \textbf{deep~one~hybrid~cultist#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 298 )
+}
+
+\ProvideDocumentCommand { \DndDeepOneScionPriestOfCthulhu } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Deep~One~Scion~Priest~of~Cthulhu#2} ~ }
+    { \textbf{deep~one~scion~priest~of~cthulhu#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 299 )
+}
+
+\ProvideDocumentCommand { \DndDholeAdult } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dhole~Adult#2} ~ }
+    { \textbf{dhole~adult#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 302 )
+}
+
+\ProvideDocumentCommand { \DndDholeHatchling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dhole~Hatchling#2} ~ }
+    { \textbf{dhole~hatchling#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 301 )
+}
+
+\ProvideDocumentCommand { \DndDimensionalShambler } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dimensional~Shambler#2} ~ }
+    { \textbf{dimensional~shambler#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 305 )
+}
+
+\ProvideDocumentCommand { \DndDracoformEremiteSymbiont } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dracoform~Eremite~Symbiont#2} ~ }
+    { \textbf{dracoform~eremite~symbiont#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 310 )
+}
+
+\ProvideDocumentCommand { \DndDracoformBoundEremite } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dracoform-Bound~Eremite#2} ~ }
+    { \textbf{dracoform-bound~eremite#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 311 )
+}
+
+\ProvideDocumentCommand { \DndDraconicAmalgam } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Draconic~Amalgam#2} ~ }
+    { \textbf{draconic~amalgam#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 402 )
+}
+
+\ProvideDocumentCommand { \DndDreamlandsCat } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dreamlands~Cat#2} ~ }
+    { \textbf{dreamlands~cat#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 289 )
+}
+
+\ProvideDocumentCommand { \DndDreamlandsCatSaturnian } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dreamlands~Cat,~Saturnian#2} ~ }
+    { \textbf{dreamlands~cat,~saturnian#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 288 )
+}
+
+\ProvideDocumentCommand { \DndDreamlandsCatUranian } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Dreamlands~Cat,~Uranian#2} ~ }
+    { \textbf{dreamlands~cat,~uranian#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 289 )
+}
+
+\ProvideDocumentCommand { \DndElderThing } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Elder~Thing#2} ~ }
+    { \textbf{elder~thing#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 307 )
+}
+
+\ProvideDocumentCommand { \DndEremite } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Eremite#2} ~ }
+    { \textbf{eremite#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 309 )
+}
+
+\ProvideDocumentCommand { \DndEremiteSymbiont } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Eremite~Symbiont#2} ~ }
+    { \textbf{eremite~symbiont#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 310 )
+}
+
+\ProvideDocumentCommand { \DndEyeOfTheWatcher } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Eye~of~the~Watcher#2} ~ }
+    { \textbf{eye~of~the~watcher#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 313 )
+}
+
+\ProvideDocumentCommand { \DndFatherDagon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Father~Dagon#2} ~ }
+    { \textbf{father~dagon#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 190 )
+}
+
+\ProvideDocumentCommand { \DndFavoredOneOfNyarlathotep } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Favored~One~of~Nyarlathotep#2} ~ }
+    { \textbf{favored~one~of~nyarlathotep#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 314 )
+}
+
+\ProvideDocumentCommand { \DndFireVampire } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fire~Vampire#2} ~ }
+    { \textbf{fire~vampire#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 316 )
+}
+
+\ProvideDocumentCommand { \DndFlyingPolypBody } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Flying~Polyp~Body#2} ~ }
+    { \textbf{flying~polyp~body#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 318 )
+}
+
+\ProvideDocumentCommand { \DndFormlessSpawn } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Formless~Spawn#2} ~ }
+    { \textbf{formless~spawn#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 321 )
+}
+
+\ProvideDocumentCommand { \DndFutureYithian } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Future~Yithian#2} ~ }
+    { \textbf{future~yithian#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 399 )
+}
+
+\ProvideDocumentCommand { \DndGhostOfIb } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ghost~of~Ib#2} ~ }
+    { \textbf{ghost~of~ib#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 176 )
+}
+
+\ProvideDocumentCommand { \DndGnophKeh } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gnoph-Keh#2} ~ }
+    { \textbf{gnoph-keh#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 329 )
+}
+
+\ProvideDocumentCommand { \DndGnorriHunter } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gnorri~Hunter#2} ~ }
+    { \textbf{gnorri~hunter#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 330 )
+}
+
+\ProvideDocumentCommand { \DndGraveSage } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Grave~Sage#2} ~ }
+    { \textbf{grave~sage#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 327 )
+}
+
+\ProvideDocumentCommand { \DndGug } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Gug#2} ~ }
+    { \textbf{gug#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 332 )
+}
+
+\ProvideDocumentCommand { \DndHighPriestOfShubNiggurath } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{High~Priest~of~Shub-Niggurath#2} ~ }
+    { \textbf{high~priest~of~shub-niggurath#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 362 )
+}
+
+\ProvideDocumentCommand { \DndHoundOfTindalos } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hound~of~Tindalos#2} ~ }
+    { \textbf{hound~of~tindalos#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 334 )
+}
+
+\ProvideDocumentCommand { \DndHuntingHorror } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Hunting~Horror#2} ~ }
+    { \textbf{hunting~horror#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 337 )
+}
+
+\ProvideDocumentCommand { \DndImmatureSlimeMold } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Immature~Slime~Mold#2} ~ }
+    { \textbf{immature~slime~mold#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 378 )
+}
+
+\ProvideDocumentCommand { \DndLarvalStarspawn } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Larval~Starspawn#2} ~ }
+    { \textbf{larval~starspawn#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 381 )
+}
+
+\ProvideDocumentCommand { \DndLengFolkThief } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Leng~Folk~Thief#2} ~ }
+    { \textbf{leng~folk~thief#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 339 )
+}
+
+\ProvideDocumentCommand { \DndLengNecromancer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Leng~Necromancer#2} ~ }
+    { \textbf{leng~necromancer#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 339 )
+}
+
+\ProvideDocumentCommand { \DndLengSpider } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Leng~Spider#2} ~ }
+    { \textbf{leng~spider#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 342 )
+}
+
+\ProvideDocumentCommand { \DndMaskedOkkator } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Masked~Okkator#2} ~ }
+    { \textbf{masked~okkator#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 385 )
+}
+
+\ProvideDocumentCommand { \DndMatureDarkYoung } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mature~Dark~Young#2} ~ }
+    { \textbf{mature~dark~young#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 295 )
+}
+
+\ProvideDocumentCommand { \DndMiGoDimensionWalker } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mi-Go~Dimension~Walker#2} ~ }
+    { \textbf{mi-go~dimension~walker#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 346 )
+}
+
+\ProvideDocumentCommand { \DndMiGoScout } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mi-Go~Scout#2} ~ }
+    { \textbf{mi-go~scout#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 345 )
+}
+
+\ProvideDocumentCommand { \DndMiGoWarrior } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mi-Go~Warrior#2} ~ }
+    { \textbf{mi-go~warrior#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 345 )
+}
+
+\ProvideDocumentCommand { \DndMoonBeast } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Moon-Beast#2} ~ }
+    { \textbf{moon-beast#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 348 )
+}
+
+\ProvideDocumentCommand { \DndMoonPriestOfNyarlathotep } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Moon-Priest~of~Nyarlathotep#2} ~ }
+    { \textbf{moon-priest~of~nyarlathotep#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 348 )
+}
+
+\ProvideDocumentCommand { \DndMoonVassalOfNyarlathotep } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Moon-Vassal~of~Nyarlathotep#2} ~ }
+    { \textbf{moon-vassal~of~nyarlathotep#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 349 )
+}
+
+\ProvideDocumentCommand { \DndMotherHydra } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mother~Hydra#2} ~ }
+    { \textbf{mother~hydra#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 227 )
+}
+
+\ProvideDocumentCommand { \DndMythosGhast } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mythos~Ghast#2} ~ }
+    { \textbf{mythos~ghast#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 323 )
+}
+
+\ProvideDocumentCommand { \DndMythosGhoul } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mythos~Ghoul#2} ~ }
+    { \textbf{mythos~ghoul#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 325 )
+}
+
+\ProvideDocumentCommand { \DndMythosSatyr } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Mythos~Satyr#2} ~ }
+    { \textbf{mythos~satyr#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 361 )
+}
+
+\ProvideDocumentCommand { \DndNightgaunt } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Nightgaunt#2} ~ }
+    { \textbf{nightgaunt#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 350 )
+}
+
+\ProvideDocumentCommand { \DndNyogthaBody } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Nyogtha~Body#2} ~ }
+    { \textbf{nyogtha~body#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 242 )
+}
+
+\ProvideDocumentCommand { \DndObsessedArtist } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Obsessed~Artist#2} ~ }
+    { \textbf{obsessed~artist#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 406 )
+}
+
+\ProvideDocumentCommand { \DndOkkatorAssassin } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Okkator~Assassin#2} ~ }
+    { \textbf{okkator~assassin#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 384 )
+}
+
+\ProvideDocumentCommand { \DndOldLengSpider } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Old~Leng~Spider#2} ~ }
+    { \textbf{old~leng~spider#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 343 )
+}
+
+\ProvideDocumentCommand { \DndOuterAbomination } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Outer~Abomination#2} ~ }
+    { \textbf{outer~abomination#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 354 )
+}
+
+\ProvideDocumentCommand { \DndOuterMutantPriestOfYogSothoth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Outer~Mutant~Priest~of~Yog-Sothoth#2} ~ }
+    { \textbf{outer~mutant~priest~of~yog-sothoth#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 353 )
+}
+
+\ProvideDocumentCommand { \DndOuterMutantScout } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Outer~Mutant~Scout#2} ~ }
+    { \textbf{outer~mutant~scout#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 352 )
+}
+
+\ProvideDocumentCommand { \DndOuterSpawn } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Outer~Spawn#2} ~ }
+    { \textbf{outer~spawn#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 356 )
+}
+
+\ProvideDocumentCommand { \DndPastYithian } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Past~Yithian#2} ~ }
+    { \textbf{past~yithian#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 398 )
+}
+
+\ProvideDocumentCommand { \DndProtoShoggoth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Proto-Shoggoth#2} ~ }
+    { \textbf{proto-shoggoth#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 372 )
+}
+
+\ProvideDocumentCommand { \DndRavenousWendigo } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ravenous~Wendigo#2} ~ }
+    { \textbf{ravenous~wendigo#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 394 )
+}
+
+\ProvideDocumentCommand { \DndReAnimatedGuard } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Re-Animated~Guard#2} ~ }
+    { \textbf{re-animated~guard#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 360 )
+}
+
+\ProvideDocumentCommand { \DndReAnimatedLaborer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Re-Animated~Laborer#2} ~ }
+    { \textbf{re-animated~laborer#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 359 )
+}
+
+\ProvideDocumentCommand { \DndReAnimatedSoldier } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Re-Animated~Soldier#2} ~ }
+    { \textbf{re-animated~soldier#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 360 )
+}
+
+\ProvideDocumentCommand { \DndRhanTegoth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Rhan-Tegoth#2} ~ }
+    { \textbf{rhan-tegoth#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 252 )
+}
+
+\ProvideDocumentCommand { \DndRisenWarlock } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Risen~Warlock#2} ~ }
+    { \textbf{risen~warlock#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 390 )
+}
+
+\ProvideDocumentCommand { \DndRootling } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Rootling#2} ~ }
+    { \textbf{rootling#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 195 )
+}
+
+\ProvideDocumentCommand { \DndScholarBrainCylinder } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Scholar~Brain~Cylinder#2} ~ }
+    { \textbf{scholar~brain~cylinder#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 284 )
+}
+
+\ProvideDocumentCommand { \DndScionOfChaugnarFaugn } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Scion~of~Chaugnar~Faugn#2} ~ }
+    { \textbf{scion~of~chaugnar~faugn#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 183 )
+}
+
+\ProvideDocumentCommand { \DndSerpentfolk } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Serpentfolk#2} ~ }
+    { \textbf{serpentfolk#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 365 )
+}
+
+\ProvideDocumentCommand { \DndSerpentfolkAlchemist } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Serpentfolk~Alchemist#2} ~ }
+    { \textbf{serpentfolk~alchemist#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 365 )
+}
+
+\ProvideDocumentCommand { \DndServitorOfTheOuterGods } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Servitor~of~the~Outer~Gods#2} ~ }
+    { \textbf{servitor~of~the~outer~gods#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 367 )
+}
+
+\ProvideDocumentCommand { \DndShantak } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Shantak#2} ~ }
+    { \textbf{shantak#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 368 )
+}
+
+\ProvideDocumentCommand { \DndShoggoth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Shoggoth#2} ~ }
+    { \textbf{shoggoth#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 371 )
+}
+
+\ProvideDocumentCommand { \DndSlimeMold } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Slime~Mold#2} ~ }
+    { \textbf{slime~mold#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 378 )
+}
+
+\ProvideDocumentCommand { \DndSorcererBrainCylinder } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Sorcerer~Brain~Cylinder#2} ~ }
+    { \textbf{sorcerer~brain~cylinder#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 284 )
+}
+
+\ProvideDocumentCommand { \DndStarVampire } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Star~Vampire#2} ~ }
+    { \textbf{star~vampire#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 379 )
+}
+
+\ProvideDocumentCommand { \DndStarspawn } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Starspawn#2} ~ }
+    { \textbf{starspawn#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 382 )
+}
+
+\ProvideDocumentCommand { \DndTheBloatedWoman } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{The~Bloated~Woman#2} ~ }
+    { \textbf{the~bloated~woman#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 230 )
+}
+
+\ProvideDocumentCommand { \DndTheDarkDemon } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{The~Dark~Demon#2} ~ }
+    { \textbf{the~dark~demon#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 232 )
+}
+
+\ProvideDocumentCommand { \DndTheFilth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{The~Filth#2} ~ }
+    { \textbf{the~filth#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 167 )
+}
+
+\ProvideDocumentCommand { \DndTheHaunter } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{The~Haunter#2} ~ }
+    { \textbf{the~haunter#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 234 )
+}
+
+\ProvideDocumentCommand { \DndTheHolwer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{The~Holwer#2} ~ }
+    { \textbf{the~holwer#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 237 )
+}
+
+\ProvideDocumentCommand { \DndTheKingInYellow } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{The~King~in~Yellow#2} ~ }
+    { \textbf{the~king~in~yellow#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 224 )
+}
+
+\ProvideDocumentCommand { \DndTheShadowPharaoh } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{The~Shadow~Pharaoh#2} ~ }
+    { \textbf{the~shadow~pharaoh#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 238 )
+}
+
+\ProvideDocumentCommand { \DndThoTcho } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Tho-Tcho#2} ~ }
+    { \textbf{tho-tcho#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 385 )
+}
+
+\ProvideDocumentCommand { \DndThrallOfYogSothoth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Thrall~of~Yog-Sothoth#2} ~ }
+    { \textbf{thrall~of~yog-sothoth#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 353 )
+}
+
+\ProvideDocumentCommand { \DndUltharChampion } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Ulthar~Champion#2} ~ }
+    { \textbf{ulthar~champion#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 290 )
+}
+
+\ProvideDocumentCommand { \DndUnMan } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Un-Man#2} ~ }
+    { \textbf{un-man#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 387 )
+}
+
+\ProvideDocumentCommand { \DndUrbaneMagician } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Urbane~Magician#2} ~ }
+    { \textbf{urbane~magician#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 406 )
+}
+
+\ProvideDocumentCommand { \DndVoonith } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Voonith#2} ~ }
+    { \textbf{voonith#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 391 )
+}
+
+\ProvideDocumentCommand { \DndWamp } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Wamp#2} ~ }
+    { \textbf{wamp#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 393 )
+}
+
+\ProvideDocumentCommand { \DndWindwalkerWendigo } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Windwalker~Wendigo#2} ~ }
+    { \textbf{windwalker~wendigo#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 396 )
+}
+
+\ProvideDocumentCommand { \DndWitchOfTheWoods } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Witch~of~the~Woods#2} ~ }
+    { \textbf{witch~of~the~woods#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 407 )
+}
+
+\ProvideDocumentCommand { \DndWormOfGhroth } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Worm~of~Ghroth#2} ~ }
+    { \textbf{worm~of~ghroth#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 199 )
+}
+
+\ProvideDocumentCommand { \DndYellowSignAttendant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Yellow~Sign~Attendant#2} ~ }
+    { \textbf{yellow~sign~attendant#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 389 )
+}
+
+\ProvideDocumentCommand { \DndYothanCommaner } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Yothan~Commaner#2} ~ }
+    { \textbf{yothan~commaner#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 402 )
+}
+
+\ProvideDocumentCommand { \DndYothanDesigner } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Yothan~Designer#2} ~ }
+    { \textbf{yothan~designer#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 401 )
+}
+
+\ProvideDocumentCommand { \DndYothanWarrior } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Yothan~Warrior#2} ~ }
+    { \textbf{yothan~warrior#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 401 )
+}
+
+\ProvideDocumentCommand { \DndZoogGroveKeeper } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Zoog~Grove~Keeper#2} ~ }
+    { \textbf{zoog~grove~keeper#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 403 )
+}
+
+\ProvideDocumentCommand { \DndZoogTrapper } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Zoog~Trapper#2} ~ }
+    { \textbf{zoog~trapper#2} ~ }
+  ( \textit{SPCM} , ~ p. \nobreakspace 403 )
+}

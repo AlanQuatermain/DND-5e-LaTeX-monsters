@@ -1,0 +1,29 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Planeshift: Amonkhet
+
+\ProvideDocumentCommand { \DndCriosphinx } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Criosphinx#2} ~ }
+    { \textbf{criosphinx#2} ~ }
+  ( \textit{PS:Amo} , ~ p. \nobreakspace 32 )
+}
+
+\ProvideDocumentCommand { \DndManticoreHeartPiercer } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Manticore,~Heart-Piercer#2} ~ }
+    { \textbf{manticore,~heart-piercer#2} ~ }
+  ( \textit{PS:Amo} , ~ p. \nobreakspace 36 )
+}
+
+\ProvideDocumentCommand { \DndSerpopard } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Serpopard#2} ~ }
+    { \textbf{serpopard#2} ~ }
+  ( \textit{PS:Amo} , ~ p. \nobreakspace 37 )
+}
+

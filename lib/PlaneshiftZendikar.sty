@@ -1,0 +1,28 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Planeshift: Zendikar
+
+\ProvideDocumentCommand { \DndArchonOfRedemption } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Archon~of~Redemption#2} ~ }
+    { \textbf{archon~of~redemption#2} ~ }
+  ( \textit{PS:Zen} , ~ p. \nobreakspace 22 )
+}
+
+\ProvideDocumentCommand { \DndFelidar } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Felidar#2} ~ }
+    { \textbf{felidar#2} ~ }
+  ( \textit{PS:Zen} , ~ p. \nobreakspace 23 )
+}
+
+\ProvideDocumentCommand { \DndKraken } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Kraken#2} ~ }
+    { \textbf{kraken#2} ~ }
+  ( \textit{PS:Zen} , ~ p. \nobreakspace 25 )
+}

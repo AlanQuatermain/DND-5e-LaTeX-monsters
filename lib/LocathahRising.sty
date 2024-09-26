@@ -1,0 +1,45 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Locathah Rising
+
+\ProvideDocumentCommand { \DndAmble } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Amble#2} ~ }
+    { \textbf{amble#2} ~ }
+  ( \textit{LocR} , ~ p. \nobreakspace 15 )
+}
+
+\ProvideDocumentCommand { \DndFhenimoreKrakenPriestVariant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Fhenimore~(Kraken~Priest~Variant)#2} ~ }
+    { \textbf{fhenimore~(kraken~priest~variant)#2} ~ }
+  ( \textit{LocR} , ~ p. \nobreakspace 20 )
+}
+
+\ProvideDocumentCommand { \DndShoalarQuaderil } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Shoalar~Quaderil#2} ~ }
+    { \textbf{shoalar~quaderil#2} ~ }
+  ( \textit{LocR} , ~ p. \nobreakspace 23 )
+}
+
+\ProvideDocumentCommand { \DndWhymseeKrakenPriestVariant } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Whymsee~(Kraken~Priest~Variant)#2} ~ }
+    { \textbf{whymsee~(kraken~priest~variant)#2} ~ }
+  ( \textit{LocR} , ~ p. \nobreakspace 20 )
+}
+
+\ProvideDocumentCommand { \DndYoungKraken } { s O{} }
+{
+  \IfBooleanTF {#1}
+    { \textbf{Young~Kraken#2} ~ }
+    { \textbf{young~kraken#2} ~ }
+  ( \textit{LocR} , ~ p. \nobreakspace 21 )
+}
+
